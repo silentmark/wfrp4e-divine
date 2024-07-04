@@ -1,0 +1,67 @@
+{
+  "id": "wfrp4e-divine-careers",
+  "name": "wfrp4e-divine-careers",
+  "title": "WFRP 4e - Divine Careers",
+  "description": "A module with homebrew WFRP 4e Divine Careers written by BigBoss#3259",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "12",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "12"
+  },
+  "author": "TuroTotoro",
+  "authors": [
+    {
+      "name": "TuroTotoro",
+      "discord": "turototoro#5673"
+    }
+  ],
+  "packs": [
+    {
+      "name": "da-actors",
+      "label": "Actors (Divine Careers)",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "wfrp4e"
+    },
+    {
+      "name": "da-items",
+      "label": "Items (Divine Careers)",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "wfrp4e"
+    },
+    {
+      "name": "da-journals",
+      "label": "Journals (Divine Careers)",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "da-rolltables",
+      "label": "Roll Tables (Divine Careers)",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Divine Careers",
+      "sorting": "a",
+      "packs": ["da-actors","da-items","da-journals","da-rolltables"],
+      "color":  "#FFD700"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
