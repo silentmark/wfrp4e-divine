@@ -1,7 +1,7 @@
-{
-  "id": "wfrp4e-divine-careers",
-  "name": "wfrp4e-divine-careers",
-  "title": "WFRP 4e - Divine Careers",
+ {
+  "id": "wfrp4e-warriors-of-salvation",
+  "name": "wfrp4e-warriors-of-salvation",
+  "title": "WFRP 4e - Warriors of Salvation",
   "description": "A module with homebrew WFRP 4e Divine Careers written by BigBoss#3259",
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.6",
@@ -15,35 +15,39 @@
     {
       "name": "TuroTotoro",
       "discord": "turototoro#5673"
+    },
+    {
+      "name": "BigBoss",
+      "discord": "BigBoss#3259"
     }
   ],
   "packs": [
     {
-      "name": "da-actors",
-      "label": "Actors (Divine Careers)",
+      "name": "wos-actors",
+      "label": "Actors (Warriors of Salvation)",
       "path": "/packs/actors.db",
       "entity": "Actor",
       "type": "Actor",
       "system": "wfrp4e"
     },
     {
-      "name": "da-items",
-      "label": "Items (Divine Careers)",
+      "name": "wos-items",
+      "label": "Items (Warriors of Salvation)",
       "path": "/packs/items.db",
       "entity": "Item",
       "type": "Item",
       "system": "wfrp4e"
     },
     {
-      "name": "da-journals",
-      "label": "Journals (Divine Careers)",
+      "name": "wos-journals",
+      "label": "Journals (Warriors of Salvation)",
       "path": "/packs/journals.db",
       "entity": "JournalEntry",
       "type": "JournalEntry"
     },
     {
-      "name": "da-rolltables",
-      "label": "Roll Tables (Divine Careers)",
+      "name": "wos-rolltables",
+      "label": "Roll Tables (Warriors of Salvation)",
       "path": "/packs/rolltables.db",
       "entity": "RollTable",
       "type": "RollTable"
@@ -51,10 +55,10 @@
   ],
   "packFolders": [
     {
-      "name": "Divine Careers",
+      "name": "Warriors of Salvation",
       "sorting": "a",
-      "packs": ["da-actors","da-items","da-journals","da-rolltables"],
-      "color":  "#FFD700"
+      "packs": ["wos-actors","wos-items","wos-journals","wos-rolltables"],
+      "color":  "#b39e29"
     }
   ],
   "esmodules": [
