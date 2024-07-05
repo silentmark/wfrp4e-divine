@@ -64,8 +64,8 @@
   "esmodules": [
     "./scripts/init.js"
   ],
-  "url": "",
-  "manifest": "",
+  "url": "https://github.com/artptz/wfrp4e-divine",
+  "manifest": "https://raw.githubusercontent.com/artptz/wfrp4e-divine/main/module.json",
   "download": "",
   "manifestPlusVersion": "1.2.0"
 }
