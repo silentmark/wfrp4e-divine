@@ -66,6 +66,6 @@
   ],
   "url": "https://github.com/artptz/wfrp4e-divine",
   "manifest": "https://raw.githubusercontent.com/artptz/wfrp4e-divine/main/module.json",
-  "download": "",
+  "download": "https://github.com/artptz/wfrp4e-divine/archive/main.zip",
   "manifestPlusVersion": "1.2.0"
 }
