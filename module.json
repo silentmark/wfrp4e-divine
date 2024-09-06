@@ -3,8 +3,9 @@
   "name": "wfrp4e-warriors-of-salvation",
   "title": "WFRP 4e - Warriors of Salvation",
   "description": "A module with homebrew WFRP 4e Divine Careers written by BigBoss#3259",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "compatibility": {
+    "minimum": "12",
     "verified": "12"
   },
   "author": "TuroTotoro",
