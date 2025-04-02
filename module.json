@@ -1,69 +1,90 @@
- {
+{
   "id": "wfrp4e-warriors-of-salvation",
-  "name": "wfrp4e-warriors-of-salvation",
   "title": "WFRP 4e - Warriors of Salvation",
   "description": "A module with homebrew WFRP 4e Divine Careers written by BigBoss#3259",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
-  "author": "TuroTotoro",
   "authors": [
     {
-      "name": "TuroTotoro",
-      "discord": "turototoro#5673"
+      "name": "artantares",
+      "discord": "artantares",
+      "flags": {}
     },
     {
       "name": "BigBoss",
-      "discord": "BigBoss#3259"
+      "discord": "BigBoss#3259",
+      "flags": {}
     }
   ],
   "packs": [
     {
       "name": "wos-actors",
       "label": "Actors (Warriors of Salvation)",
-      "path": "/packs/actors.db",
-      "entity": "Actor",
+      "path": "/packs/actors",
       "type": "Actor",
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "wos-items",
       "label": "Items (Warriors of Salvation)",
-      "path": "/packs/items.db",
-      "entity": "Item",
+      "path": "/packs/items",
       "type": "Item",
-      "system": "wfrp4e"
+      "system": "wfrp4e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "wos-journals",
       "label": "Journals (Warriors of Salvation)",
-      "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
+      "path": "/packs/journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     },
     {
       "name": "wos-rolltables",
       "label": "Roll Tables (Warriors of Salvation)",
-      "path": "/packs/rolltables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
+      "path": "/packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
     {
       "name": "Warriors of Salvation",
       "sorting": "a",
-      "packs": ["wos-actors","wos-items","wos-journals","wos-rolltables"],
-      "color":  "#b39e29"
+      "packs": [
+        "wos-actors",
+        "wos-items",
+        "wos-journals",
+        "wos-rolltables"
+      ],
+      "color": "#b39e29",
+      "folders": []
     }
   ],
   "esmodules": [
-    "./scripts/init.js"
+    "scripts/init.js"
   ],
   "url": "https://github.com/artptz/wfrp4e-divine",
   "manifest": "https://raw.githubusercontent.com/artptz/wfrp4e-divine/main/module.json",
-  "download": "https://github.com/artptz/wfrp4e-divine/archive/main.zip",
-  "manifestPlusVersion": "1.2.0"
+  "download": "https://github.com/artptz/wfrp4e-divine/archive/main.zip"
 }
