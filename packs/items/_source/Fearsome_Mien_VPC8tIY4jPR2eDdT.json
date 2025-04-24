@@ -1,0 +1,203 @@
+{
+  "folder": "DudR1AJV8bUmWJKT",
+  "name": "Fearsome Mien",
+  "type": "prayer",
+  "_id": "VPC8tIY4jPR2eDdT",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Gunndred works through you, melting the flesh off your face and exposing your bone-white skull, ablaze with flame like a roaring campfire. You suffer 10 Wounds modified by Toughness Bonus, but gain the @UUID[Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc]{Dark Vision} and @UUID[Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn]{Fear} (2) Creature Traits, and +2 AP on the Head Location. Your fiery skull illuminates up to 20 yards around you.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Gunndred"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Fearsome Mien",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "bf2mUiLX47jYGkfR",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Gain Traits",
+            "script": "let darkvision = await fromUuid(\"Compendium.wfrp4e-core.items.Item.JQa5DLnTs2SEzRrc\")\nlet fear = await fromUuid(\"Compendium.wfrp4e-core.items.Item.pTorrE0l3VybAbtn\")\nfear = fear.toObject();\nfear.system.specification.value = 2;\nthis.actor.createEmbeddedDocuments(\"Item\", [darkvision, fear], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "AP",
+            "script": "this.actor.status.addArmour(2, {source: this.effect, magical : true,  locations: ['head']})",
+            "trigger": "APCalc",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Receive damage",
+            "script": "this.actor.applyBasicDamage(10, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_AP})",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!VPC8tIY4jPR2eDdT.bf2mUiLX47jYGkfR"
+    }
+  ],
+  "sort": 300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.VPC8tIY4jPR2eDdT"
+    }
+  },
+  "_key": "!items!VPC8tIY4jPR2eDdT"
+}

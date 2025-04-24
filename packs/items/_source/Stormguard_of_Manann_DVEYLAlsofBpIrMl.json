@@ -1,0 +1,87 @@
+{
+  "name": "Stormguard of Manann",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/seaman-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PXW0QLlN2fHvYYif]{Stormguard of Manaan}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Stormguard of Manann"
+    },
+    "class": {
+      "value": "Seafarers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Swim",
+      "Row",
+      "Sail",
+      "Dodge",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Riverways or Oceans)",
+      "Melee (Polearm)"
+    ],
+    "talents": [
+      "Hatred (Pirates)",
+      "Invoke (Manann)",
+      "Sea Legs",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Breastplate",
+      "Trident"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "aToi40HyeHDogpHT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.DVEYLAlsofBpIrMl"
+    }
+  },
+  "_id": "DVEYLAlsofBpIrMl",
+  "sort": 300000,
+  "_key": "!items!DVEYLAlsofBpIrMl"
+}

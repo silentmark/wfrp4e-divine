@@ -1,0 +1,66 @@
+{
+  "name": "Predator's Prowess",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You call on the Tiger God to gift you with the extraordinary senses of an apex predator. Your eyes change to match those of a tiger and a faint tiger’s growl can be heard coming from your mouth. While the Miracle is in effect, you gain +1 @UUID[Compendium.wfrp4e-core.items.Item.9h82z72XGo9tfgQS]{Acute Sense} (Hearing, Sight, Smell, Taste) and the @UUID[Compendium.wfrp4e-core.items.Item.x0WMGwuQzReXcQrs]{Night Vision} Talent. If you succeed with +4 SL or more, you receive the @UUID[Compendium.wfrp4e-core.items.Item.ClOlztW6hH8rslbp]{Tracker} Creature Trait too.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus minutes",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.1YvJX16BfUbk3B5z"
+    }
+  },
+  "_id": "1YvJX16BfUbk3B5z",
+  "_key": "!items!1YvJX16BfUbk3B5z"
+}

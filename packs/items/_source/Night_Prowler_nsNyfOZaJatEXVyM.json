@@ -1,0 +1,88 @@
+{
+  "folder": "io9kxcrNMv8aLIUc",
+  "name": "Night Prowler",
+  "type": "career",
+  "_id": "nsNyfOZaJatEXVyM",
+  "img": "modules/wfrp4e-core/icons/careers/thief-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.5JPywH2zV6A4bfi1]{Night Prowler of Ranald}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Night Prowler of Ranald"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Perception",
+      "Pray",
+      "Stealth (Urban)",
+      "Evaluate",
+      "Gossip",
+      "Lore (Theology)",
+      "Pick Lock",
+      "Secret Signs (Thief)",
+      "Sleight of Hand",
+      "Melee (Basic or Brawling)",
+      "Language (Thieves' Tongue)"
+    ],
+    "talents": [
+      "Etiquette (Criminals)",
+      "Fast Hands",
+      "Invoke (Ranald)",
+      "Shadow"
+    ],
+    "trappings": [
+      "Dark Clothing",
+      "Trade Tools (Thief)",
+      "Rope"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nsNyfOZaJatEXVyM"
+    }
+  },
+  "_key": "!items!nsNyfOZaJatEXVyM"
+}

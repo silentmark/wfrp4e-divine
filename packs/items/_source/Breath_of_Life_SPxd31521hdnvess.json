@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Breath of Life",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You meditate intensely, inhale deeply then exhale your prayers out slowly as Ki heals your injuries. Choose one of the following effects:</p><ul><li><p>Heal your Willpower Bonus Wounds</p></li><li><p>Remove one @Condition[Fatigued] Condition</p></li></ul><p>For every + 2 SL, you may choose another effect, and may choose the same effect repeatedly. This Miracle is slow, with the effects taking at least 10 minutes to manifest. If interrupted, the Miracle will need to be attempted again.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.SPxd31521hdnvess"
+    }
+  },
+  "_id": "SPxd31521hdnvess",
+  "_key": "!items!SPxd31521hdnvess"
+}

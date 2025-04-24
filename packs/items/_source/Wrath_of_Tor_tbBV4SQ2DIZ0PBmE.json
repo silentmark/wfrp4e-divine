@@ -1,0 +1,182 @@
+{
+  "folder": "kxuBNpjGYFcMTe3p",
+  "name": "Wrath of Tor",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You call to Tor and he answers, hurling a bolt of lightning directly onto your weapon. If wielding an axe, energy crackles over the weapon, imbuing it with the favor of Tor. It counts as Magical, ignores Armour Points from metal armour, and any targets struck must make a <strong>Challenging (+0) Endurance Test </strong>or gain a @Condition[Stunned] Condition. In addition, your prayers change the quality of the air, fooling sensitive animals into believing a storm is coming. Animals with the @UUID[Compendium.wfrp4e-core.items.Item.IPKRMGry6WotuS1G]{Skittish} Creature Trait flee from you.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Tor"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Stunned",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Wrath of Tor",
+      "_id": "tU0B2JMtevrROkW3",
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "transfer": true,
+      "statuses": [],
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "tint": "#ffffff",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Item",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": true,
+          "filter": "return args.type == \"weapon\"",
+          "prompt": true,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Magical",
+            "trigger": "prepareOwned",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "script": "args.item.system.qualities.value.push({name : \"magical\"})\nargs.item.name += ` (${this.effect.name})`",
+            "async": false
+          },
+          {
+            "label": "Stunned",
+            "script": "if (args.totalWoundLoss > 0)\n{\n    let test = await args.actor.setupSkill(game.i18n.localize(\"NAME.Endurance\"), {skipTargets: true, appendTitle :  ` - ${this.effect.name}`});\n    await test.roll();\n    if (test.failed)\n\t    args.actor.addCondition(\"stunned\")\n}",
+            "trigger": "applyDamage",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!tbBV4SQ2DIZ0PBmE.tU0B2JMtevrROkW3"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.tbBV4SQ2DIZ0PBmE"
+    }
+  },
+  "_id": "tbBV4SQ2DIZ0PBmE",
+  "sort": 300000,
+  "_key": "!items!tbBV4SQ2DIZ0PBmE"
+}

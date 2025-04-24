@@ -1,0 +1,16 @@
+{
+  "name": "The Niō",
+  "sorting": "a",
+  "folder": "jS1d1qau7gnqt8YO",
+  "type": "Item",
+  "_id": "dvYc5DWcbiN27IJ7",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.dvYc5DWcbiN27IJ7"
+    }
+  },
+  "_key": "!folders!dvYc5DWcbiN27IJ7"
+}

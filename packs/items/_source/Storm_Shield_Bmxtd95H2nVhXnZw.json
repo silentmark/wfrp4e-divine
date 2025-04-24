@@ -1,0 +1,279 @@
+{
+  "folder": "kxuBNpjGYFcMTe3p",
+  "name": "Storm Shield",
+  "type": "prayer",
+  "_id": "Bmxtd95H2nVhXnZw",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You beseech Tor for protection in battle, and he answers by encasing you in a crackling cage of holy lightning. For the Miracle’s duration, you gain +1 AP on all locations against melee attacks. If attacked by metal weapons—such as daggers, swords, and spears with metal tips—your attacker takes +Fellowship Bonus Damage to the arm, ignoring metal armour.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "blessing"
+    },
+    "god": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "duration": {
+      "value": "",
+      "extendable": false
+    },
+    "target": {
+      "value": "",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "f0IW3DqWqk3dXZ0q",
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "apply",
+            "effectTrigger": "preOpposedDefender",
+            "preventDuplicateEffects": false,
+            "script": "if ((args.attackerTest.weapon && args.attackerTest.weapon.attackType == \"melee\") || (args.attackerTest.trait && !args.attackerTest.trait.name.includes(\"Ranged\")))\n{\n    let content = `<b>${args.attackerTest.actor.prototypeToken.name}</b> takes ${this.actor.characteristics.wp.bonus} Damage from Cerulean Shield if they used a metal weapon.`\n    args.opposedTest.result.other.push(content);\n}"
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.wTfoDOFOnvQykpdm.ActiveEffect.NKJv25t13M4KsYdE"
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "origin": null,
+      "name": "Storm Shield Damage",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Storm Shield Damage",
+            "trigger": "preOpposedDefender",
+            "script": "if ((args.attackerTest.weapon && args.attackerTest.weapon.attackType == \"melee\") || (args.attackerTest.trait && !args.attackerTest.trait.name.includes(\"Ranged\")))\n{\n    let content = `<b>${args.attackerTest.actor.prototypeToken.name}</b> takes ${this.actor.characteristics.fel.bonus} Damage from Cerulean Shield if they used a metal weapon.`\n    args.opposedTest.result.other.push(content);\n}",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!Bmxtd95H2nVhXnZw.f0IW3DqWqk3dXZ0q"
+    },
+    {
+      "_id": "vKMFN4ozvwXP82EG",
+      "flags": {
+        "wfrp4e": {
+          "_legacyData": {
+            "effectApplication": "apply",
+            "effectTrigger": "preTakeDamage",
+            "preventDuplicateEffects": false,
+            "script": "if ((args.opposedTest.attackerTest.item && args.opposedTest.attackerTest.item.attackType == \"melee\") || (args.opposedTest.attackerTest.item && !args.opposedTest.attackerTest.item.name.includes(\"Ranged\")))\n{\n    args.actor.status.armour[args.opposedTest.result.hitloc.value].value += {{SL}}\n}"
+          }
+        },
+        "core": {
+          "sourceId": "Compendium.wfrp4e-core.items.wTfoDOFOnvQykpdm.ActiveEffect.LLZJsIbfE5Y5fjYs"
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "origin": null,
+      "name": "Storm Shield",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Storm Shield",
+            "trigger": "preTakeDamage",
+            "script": "if ((args.opposedTest.attackerTest.item && args.opposedTest.attackerTest.item.attackType == \"melee\") || (args.opposedTest.attackerTest.item && !args.opposedTest.attackerTest.item.name.includes(\"Ranged\")))\n{\n    args.actor.status.armour[args.opposedTest.result.hitloc.value].value += 1\n}",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!Bmxtd95H2nVhXnZw.vKMFN4ozvwXP82EG"
+    }
+  ],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Bmxtd95H2nVhXnZw"
+    }
+  },
+  "_key": "!items!Bmxtd95H2nVhXnZw"
+}

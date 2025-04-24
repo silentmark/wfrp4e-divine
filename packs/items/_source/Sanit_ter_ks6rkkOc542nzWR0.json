@@ -1,0 +1,91 @@
+{
+  "folder": "cdFFqoNTFA5H8IWV",
+  "name": "Sanitäter",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/nun-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ODuc2t27Pe7Q4uSo]{Hospitaller of Shallya}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Hospitaller of Shallya"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Charm",
+      "Gossip",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Anatomy)",
+      "Lore (Medicine)",
+      "Trade (Herbalist)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Research"
+    ],
+    "talents": [
+      "Holy Visions",
+      "Pure Soul",
+      "Resistance (Disease)",
+      "Stout-hearted"
+    ],
+    "trappings": [
+      "Helm",
+      "Quality Robes"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ks6rkkOc542nzWR0"
+    }
+  },
+  "_id": "ks6rkkOc542nzWR0",
+  "sort": 0,
+  "_key": "!items!ks6rkkOc542nzWR0"
+}

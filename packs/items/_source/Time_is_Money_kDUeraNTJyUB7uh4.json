@@ -1,0 +1,66 @@
+{
+  "folder": "3k0pT5Fz3OD2XYp9",
+  "name": "Time is Money",
+  "type": "prayer",
+  "_id": "kDUeraNTJyUB7uh4",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You beg Handrich not to curse you for not paying your debt to him, reasoning that the longer you take to pay, the greater the sacrifice he will earn. With this Miracle, you are given an extra week to pay your debts to the Merchant God (<em>i.e. </em>to the next Marktag). If you fail to pay by your next deadline, your debts are doubled, and you are immediately cursed (see <em>Bought Loyalty</em>).<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Handrich"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.kDUeraNTJyUB7uh4"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!kDUeraNTJyUB7uh4"
+}

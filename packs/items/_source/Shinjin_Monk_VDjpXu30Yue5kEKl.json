@@ -1,0 +1,16 @@
+{
+  "name": "Shinjin Monk",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "VDjpXu30Yue5kEKl",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.VDjpXu30Yue5kEKl"
+    }
+  },
+  "_key": "!folders!VDjpXu30Yue5kEKl"
+}

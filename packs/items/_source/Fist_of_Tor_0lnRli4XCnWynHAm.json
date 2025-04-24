@@ -1,0 +1,175 @@
+{
+  "folder": "kxuBNpjGYFcMTe3p",
+  "name": "Fist of Tor",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Tor tosses you a bolt of thunder from the heavens. You wield the power of a storm in your clenched fist, then hurl the bolt at a single foe. <em>Fist of Tor! </em>works similar to a <em>magic missile </em>with Damage +4. The SL of the Pray Test is added to the Miracle’s listed Damage and your Willpower Bonus to determine the total inflicted Damage. <em>Fist of Tor! </em>ignores Armour Points from metal armour, and any targets Damaged must make a <strong>Challenging (+0) Endurance Test </strong>or gain a @Condition[Stunned]<em> </em>Condition. The bolt of thunder will then arc to all other targets wearing metal armour or wielding metal weapons within 2 yards of the target, inflicting hits with full Damage, handled like a <em>magical missile</em>.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Tor"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "Willpower Bonus +4",
+      "addSL": true
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Fist of Tor",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "6eUIWv3IU8xzYzN0",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Fist of Tor",
+            "script": "this.actor.setupSkill(game.i18n.localize(\"NAME.Endurance\"), {appendTitle : \" - \" + this.effect.name}).then(async test => {\n           await test.roll();\n           if(!test.succeeded)\n               this.actor.addCondition(\"stunned\")\n    })",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!0lnRli4XCnWynHAm.6eUIWv3IU8xzYzN0"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.0lnRli4XCnWynHAm"
+    }
+  },
+  "_id": "0lnRli4XCnWynHAm",
+  "sort": 900000,
+  "_key": "!items!0lnRli4XCnWynHAm"
+}

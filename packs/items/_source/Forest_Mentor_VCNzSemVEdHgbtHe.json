@@ -1,0 +1,94 @@
+{
+  "folder": "WylzxREzU97KjxOB",
+  "name": "Forest Mentor",
+  "type": "career",
+  "_id": "VCNzSemVEdHgbtHe",
+  "img": "modules/wfrp4e-core/icons/careers/hunter-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PGtfvf1MDin2i88f]{Horned Hunter of Taal}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Horned Hunter of Taal"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Climb",
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Pray",
+      "Stealth (Rural)",
+      "Ranged (Bow)",
+      "Athletics",
+      "Melee (Brawling or Two-handed or Polearm)",
+      "Ranged (Throwing)",
+      "Secret Signs (Hunter)",
+      "Perception",
+      "Track",
+      "Intuition",
+      "Swim",
+      "Trade (Bowyer or Fletcher or Tanner)",
+      "Set Trap"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Fearless (Mutants)",
+      "Holy Visions",
+      "Pure Soul"
+    ],
+    "trappings": [
+      "Backpack",
+      "Bedroll",
+      "Great Axe",
+      "Subordinate Novitiate",
+      "Tent"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.VCNzSemVEdHgbtHe"
+    }
+  },
+  "_key": "!items!VCNzSemVEdHgbtHe"
+}

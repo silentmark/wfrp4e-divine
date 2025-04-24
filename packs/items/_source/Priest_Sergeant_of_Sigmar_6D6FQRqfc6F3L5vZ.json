@@ -1,0 +1,90 @@
+{
+  "_id": "6D6FQRqfc6F3L5vZ",
+  "name": "Priest Sergeant of Sigmar",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-03.png",
+  "effects": [],
+  "folder": "p5sYq1WIT9RBWnGT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.6D6FQRqfc6F3L5vZ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.u7NfDIZDSm3eRzXY]{Warrior Priest of Sigmar}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Sigmar"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Melee (Any)",
+      "Lore (Local)",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Flail or Two-handed)",
+      "Ranged (Throwing)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Holy Visions",
+      "Pure Soul",
+      "Stout-hearted"
+    ],
+    "trappings": [
+      "Light Warhorse with Saddle and Tack"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "sort": 100000,
+  "_key": "!items!6D6FQRqfc6F3L5vZ"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "VG1zZj0QZUi4CmXi",
+  "name": "Gilded Saint",
+  "type": "career",
+  "_id": "nSMKKXu3NgdbpPbE",
+  "img": "modules/wfrp4e-core/icons/careers/racketeer-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ATtsdfwixelAW6oY]{Brother of Handrich}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Brother of Handrich"
+    },
+    "class": {
+      "value": "Couriers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Dodge",
+      "Evaluate",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Melee (Brawling)",
+      "Haggle",
+      "Charm",
+      "Cool",
+      "Gamble",
+      "Gossip",
+      "Lore (Taxes)",
+      "Melee (Any)",
+      "Endurance",
+      "Leadership",
+      "Lore (Heraldry)",
+      "Melee (Fencing)",
+      "Language (Any)",
+      "Lore (Law)"
+    ],
+    "talents": [
+      "Commanding Presence",
+      "Iron Will",
+      "Reaction Strike",
+      "Wealthy"
+    ],
+    "trappings": [
+      "Best Quality Clothing",
+      "Subordinate Auditors"
+    ],
+    "incomeSkill": [
+      2
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nSMKKXu3NgdbpPbE"
+    }
+  },
+  "_key": "!items!nSMKKXu3NgdbpPbE"
+}

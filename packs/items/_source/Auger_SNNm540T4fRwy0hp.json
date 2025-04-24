@@ -1,0 +1,93 @@
+{
+  "folder": "nMgfCYkGVcurhxp9",
+  "name": "Auger",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/protagonist-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.LIjarX1belK9Suwb]{Rustler of Gunndred}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rustler of Gunndred"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Cool",
+      "Endurance",
+      "Intimidate",
+      "Melee (Brawling)",
+      "Pray",
+      "Ranged (Entangling)",
+      "Stealth (Rural)",
+      "Haggle",
+      "Perception",
+      "Animal Care",
+      "Charm Animal",
+      "Lore (Animals)",
+      "Melee (Basic)",
+      "Lore (Torture)",
+      "Ride (Horse)",
+      "Intuition",
+      "Leadership",
+      "Melee (Flail)",
+      "Outdoor Survival",
+      "Charm",
+      "Lore (Theology)"
+    ],
+    "talents": [
+      "Deadeye Shot",
+      "Frightening",
+      "Hatred (Any)",
+      "Holy Hatred"
+    ],
+    "trappings": [
+      "Lair",
+      "Subordinate Range Bosses"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.SNNm540T4fRwy0hp"
+    }
+  },
+  "_id": "SNNm540T4fRwy0hp",
+  "sort": 300000,
+  "_key": "!items!SNNm540T4fRwy0hp"
+}

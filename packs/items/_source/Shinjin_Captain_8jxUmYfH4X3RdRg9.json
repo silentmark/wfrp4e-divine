@@ -1,0 +1,94 @@
+{
+  "name": "Shinjin Captain",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-04.png",
+  "effects": [],
+  "folder": "VDjpXu30Yue5kEKl",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.8jxUmYfH4X3RdRg9"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.FE3d4y5wblp4KHnC]{Shinjin Monk}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shinjin Monk"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Art (Engraving)",
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Builder)",
+      "Consume Alcohol",
+      "Entertain (Speeches)",
+      "Gossip",
+      "Melee (Brawling)",
+      "Outdoor Survival",
+      "Ranged (Bow)",
+      "Endurance",
+      "Intuition",
+      "Melee (Two-handed)",
+      "Perception",
+      "Art (Holy Scriptures)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Furious Assault",
+      "Impassioned Zeal",
+      "Public Speaking",
+      "War Leader"
+    ],
+    "trappings": [
+      "Quality Monk Robes",
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "_id": "8jxUmYfH4X3RdRg9",
+  "sort": 200000,
+  "_key": "!items!8jxUmYfH4X3RdRg9"
+}

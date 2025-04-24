@@ -1,0 +1,104 @@
+{
+  "folder": "JEO9JK5ProRZ4Mo3",
+  "name": "White Wolf Hammer",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/warhammer.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 4
+    },
+    "price": {
+      "gc": 20,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "exotic"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "value": "average"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "twohanded"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "impact",
+          "value": null
+        },
+        {
+          "name": "pummel",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.oxWRexUayb6cCSE7"
+    }
+  },
+  "_id": "oxWRexUayb6cCSE7",
+  "sort": 0,
+  "_key": "!items!oxWRexUayb6cCSE7"
+}

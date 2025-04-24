@@ -1,0 +1,16 @@
+{
+  "name": "Ursun",
+  "sorting": "a",
+  "folder": "jS1d1qau7gnqt8YO",
+  "type": "Item",
+  "_id": "LEVNVCHLKuI8Re6N",
+  "description": "",
+  "sort": 700000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.LEVNVCHLKuI8Re6N"
+    }
+  },
+  "_key": "!folders!LEVNVCHLKuI8Re6N"
+}

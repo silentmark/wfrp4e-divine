@@ -1,0 +1,83 @@
+{
+  "folder": "nMgfCYkGVcurhxp9",
+  "name": "Gunsel",
+  "type": "career",
+  "_id": "CTOIzAvlPP1kIJHs",
+  "img": "modules/wfrp4e-core/icons/careers/protagonist-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.LIjarX1belK9Suwb]{Rustler of Gunndred}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rustler of Gunndred"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": true,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Cool",
+      "Endurance",
+      "Intimidate",
+      "Melee (Brawling)",
+      "Pray",
+      "Ranged (Entangling)",
+      "Stealth (Rural)",
+      "Haggle",
+      "Outdoor Survival"
+    ],
+    "talents": [
+      "Bless (Gunndred)",
+      "Criminal",
+      "Dirty Fighting",
+      "Rover"
+    ],
+    "trappings": [
+      "Bedroll",
+      "Hand Weapon",
+      "Leather Jerkin",
+      "Tinderbox"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.CTOIzAvlPP1kIJHs"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!CTOIzAvlPP1kIJHs"
+}

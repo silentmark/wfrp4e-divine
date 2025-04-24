@@ -1,0 +1,175 @@
+{
+  "folder": "0yjfQbVOXbqUW0kC",
+  "name": "Rouse the Coals",
+  "type": "prayer",
+  "_id": "sw3CyPpaSD1BmNeh",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You utter a prayer celebrating Dazh awakening from his bed of coals in the east. Your target, if flammable (as determined by the GM), immediately bursts into flames taking Fellowship Bonus / 2 @Condition[Ablaze]<em> </em>Conditions, rounding up.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Dazh"
+    },
+    "range": {
+      "value": "Fellowship Bonus yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Rouse the Coals",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "HTE5cyMLEtU1FLGI",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Ablaze",
+            "script": "let value = Math.ceil(this.effect.sourceActor.system.characteristics.fel.bonus/2)\nargs.actor.addCondition(\"ablaze\", value)",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!sw3CyPpaSD1BmNeh.HTE5cyMLEtU1FLGI"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.sw3CyPpaSD1BmNeh"
+    }
+  },
+  "sort": 400000,
+  "_key": "!items!sw3CyPpaSD1BmNeh"
+}

@@ -1,0 +1,175 @@
+{
+  "folder": "LEVNVCHLKuI8Re6N",
+  "name": "Father Bear",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You roar for Ursun’s aid, and he sends a minor Divine Servant in the form of a @UUID[Compendium.wfrp4e-warriors-of-salvation.wos-actors.Actor.5qgXe2DhErhN5iUm]{White Bear}. It will not attack unless attacked and will answer any questions you pose it, drawing from its own knowledge (not Ursun’s). Its voice is sonorous and noble, and it speaks in your mother tongue. Once it has answered all of your questions, it will return to the forest. If required, it will fight by your side to the death and return to the forest once the battle has ended. However, Ursun’s children are sacred creatures and aren’t to be summoned for their wisdom, not just their strength. Should you seek their aid solely for combat, Ursun will find you weak and lacking in courage: you gain +1 Sin point and must immediately roll on <strong>The Wrath of the Gods </strong>table.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ursun"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Blessing of Ursun",
+      "img": "https://assets.forge-vtt.com/60b35692725bf7019fff834c/modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "ZY4NAdLUHnACj7Xx",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Blessing of Ursun",
+            "script": "args.fields.modifier += 20;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return args.skill?.name != \"Navigation\" && args.skill?.name != \"Outdoor Survival\";",
+              "activateScript": "return args.skill?.name == \"Navigation\" || args.skill?.name == \"Outdoor Survival\";",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!H2IpGCTFXgqt5PfV.ZY4NAdLUHnACj7Xx"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.H2IpGCTFXgqt5PfV"
+    }
+  },
+  "_id": "H2IpGCTFXgqt5PfV",
+  "sort": 500000,
+  "_key": "!items!H2IpGCTFXgqt5PfV"
+}

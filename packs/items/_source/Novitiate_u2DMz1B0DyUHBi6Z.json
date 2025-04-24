@@ -1,0 +1,85 @@
+{
+  "_id": "u2DMz1B0DyUHBi6Z",
+  "name": "Novitiate",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-01.png",
+  "effects": [],
+  "folder": "VDjpXu30Yue5kEKl",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.u2DMz1B0DyUHBi6Z"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.FE3d4y5wblp4KHnC]{Shinjin Monk}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shinjin Monk"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Art (Engraving)",
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Builder)"
+    ],
+    "talents": [
+      "Berserk Charge",
+      "Etiquette (Cultists)",
+      "Read/Write",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Monk Robes",
+      "Quarterstaff",
+      "Religious Symbol",
+      "Tantō (Dagger)",
+      "White Cowl"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "sort": -100000,
+  "_key": "!items!u2DMz1B0DyUHBi6Z"
+}

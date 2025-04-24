@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Palm of the Gods",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You call on Naraen Kongō’s strength to aid you in smiting your opponent. You thrust your palm out then an almighty concussive blast of Ki hits your target, inflicting 1d10+Strength Bonus Damage, ignoring AP</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "FellowshipBonus yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "1d10",
+      "value": "Strength Bonus",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.gWqGcDtmUt9duWUX"
+    }
+  },
+  "_id": "gWqGcDtmUt9duWUX",
+  "_key": "!items!gWqGcDtmUt9duWUX"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Novice",
+  "type": "career",
+  "_id": "YaE9pEScW3A6NVvd",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "type": "String",
+      "label": "Description",
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.oXJSAh1Ya8veOThi]{Knight of the Fiery Heart}</p>"
+    },
+    "gmdescription": {
+      "type": "String",
+      "label": "Description",
+      "value": ""
+    },
+    "careergroup": {
+      "type": "String",
+      "label": "Career Group",
+      "value": "Knight of the Fiery Heart"
+    },
+    "class": {
+      "type": "String",
+      "label": "Class",
+      "value": "Warriors"
+    },
+    "current": {
+      "type": "Boolean",
+      "value": false
+    },
+    "complete": {
+      "type": "Boolean",
+      "value": false
+    },
+    "level": {
+      "type": "String",
+      "label": "Career Level",
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Heal",
+      "Lore (Heraldry)",
+      "Lore (Sigmar)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride\n(Horse)",
+      "Trade (Farrier)"
+    ],
+    "talents": [
+      "Bless (Sigmar)",
+      "Read/Write",
+      "Roughrider",
+      "Warrior Born"
+    ],
+    "trappings": [
+      "Leather Jack",
+      "Mail Shirt",
+      "Religious Symbol (Sigmar)",
+      "Riding Horse with Saddle and Tack",
+      "Trade Tools (Farrier)",
+      "Warhammer (One-handed)"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "UdLjOCkFiYuFojb5",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.YaE9pEScW3A6NVvd"
+    }
+  },
+  "sort": 100000,
+  "_key": "!items!YaE9pEScW3A6NVvd"
+}

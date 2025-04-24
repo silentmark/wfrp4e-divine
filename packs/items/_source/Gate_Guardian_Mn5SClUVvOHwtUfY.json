@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Gate Guardian",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>As you intone a chant of honorable defiance, you feel the power of the Niō surge through your being, ready to stand your ground until your dying breath. This Miracle can be cast only when you are defending a besieged gate, door or similar entrance. You gain the @UUID[Compendium.wfrp4e-core.items.Item.IAWyzDfC286a9MPz]{Immunity to Psychology} and @UUID[Compendium.wfrp4e-core.items.Item.wMwSRDmgiF2IdCJr]{Painless} Traits, and +2 SL to Melee, Strength, and Willpower Tests.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Mn5SClUVvOHwtUfY"
+    }
+  },
+  "_id": "Mn5SClUVvOHwtUfY",
+  "_key": "!items!Mn5SClUVvOHwtUfY"
+}

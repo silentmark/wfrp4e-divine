@@ -1,0 +1,175 @@
+{
+  "folder": "ria64lUfS1CnZbYj",
+  "name": "Champion of the Eagle",
+  "type": "prayer",
+  "_id": "gvFHBV4MApTXOOj7",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You instill yourself with the martial skill of Myrmidia. If wielding a spear, you gain the @UUID[Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc]{Champion} Creature Trait when defending with the spear.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Myrmidia"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Champion of the Eagle",
+      "img": "https://assets.forge-vtt.com/60b35692725bf7019fff834c/modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "SBBijUFVvvq3cqjX",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Champion of the Eagle",
+            "script": "let champion = await fromUuid(\"Compendium.wfrp4e-core.items.Item.4mF5Sp3t09kZhBYc\")\nthis.actor.createEmbeddedDocuments(\"Item\", [champion], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!gvFHBV4MApTXOOj7.SBBijUFVvvq3cqjX"
+    }
+  ],
+  "sort": 200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.gvFHBV4MApTXOOj7"
+    }
+  },
+  "_key": "!items!gvFHBV4MApTXOOj7"
+}

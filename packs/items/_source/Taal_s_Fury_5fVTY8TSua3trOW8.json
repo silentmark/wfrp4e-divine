@@ -1,0 +1,171 @@
+{
+  "name": "Taal's Fury",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "effects": [
+    {
+      "_id": "qpp49hHsrz2VmP1E",
+      "flags": {
+        "wfrp4e": {
+          "hide": false,
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "origin": null,
+      "name": "Taal's Fury",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "area",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "filter": "return this.effect.sourceActor.uuid == this.actor.uuid;",
+          "prompt": false,
+          "area": {
+            "radius": "",
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "instantaneous"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Taal's Fury",
+            "trigger": "immediate",
+            "script": "let roll;\nroll = await new Roll(`1d10`).roll()\n\nroll.toMessage(this.script.getChatData())\nawait this.actor.applyBasicDamage(roll.total, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL, suppressMsg : true})",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!5fVTY8TSua3trOW8.qpp49hHsrz2VmP1E"
+    }
+  ],
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.5fVTY8TSua3trOW8"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify\">You pray to the King of the Gods to unleash his fury. Targets within the Area of Effect receive 1d10 Wounds ignoring Toughness Bonus and Armour Points. If the target is an uncorrupted animal or fellow worshipper of Taal, you suffer the effects instead and gain +1 Sin Point. The target location must be outdoors. Taal's Fury manifests according to the surroundings, but is most commonly lightning from the sky, the earth opening, river waters rising, or the forests themselves coming to life. For every +2 SL, you may increase the area of effect by +Fellowship Bonus yards, or cause an extra +2 Damage to any Beastmen or servants of the Ruinous Powers affected.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": true
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Extra Damage",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 2,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 0,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "_id": "5fVTY8TSua3trOW8",
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "sort": 600000,
+  "_key": "!items!5fVTY8TSua3trOW8"
+}

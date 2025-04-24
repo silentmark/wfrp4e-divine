@@ -1,0 +1,174 @@
+{
+  "folder": "ria64lUfS1CnZbYj",
+  "name": "Shieldmaiden's Devotion",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your chanted prayers fill your allies and any of Myrmidia’s children with the devotion of her bravest Shieldmaidens. All allies and Myrmidians affected gain +10 Weapon Skill and the @UUID[Compendium.wfrp4e-core.items.Item.8pVzgPkgWpTJvfhG]{Fearless (Any)} Talent while the Miracle is in effect. Myrmidians do not detract from the count of allies affected.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Myrmidia"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Intelligence Bonus allies",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "AOFktNt2NA8Pqney",
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.ws.modifier",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "origin": null,
+      "name": "Shieldmaiden's Devotion",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/prayers/blessings.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Shieldmaiden's Devotion",
+            "script": "let item = await fromUuid(\"Compendium.wfrp4e-core.items.Item.8pVzgPkgWpTJvfhG\")\nthis.actor.createEmbeddedDocuments(\"Item\", [item], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!dEz09t19fk2v2a6P.AOFktNt2NA8Pqney"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.dEz09t19fk2v2a6P"
+    }
+  },
+  "_id": "dEz09t19fk2v2a6P",
+  "sort": 300000,
+  "_key": "!items!dEz09t19fk2v2a6P"
+}

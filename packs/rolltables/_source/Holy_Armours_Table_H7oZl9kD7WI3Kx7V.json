@@ -1,0 +1,173 @@
+{
+  "name": "Holy Armours Table",
+  "_id": "H7oZl9kD7WI3Kx7V",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "_id": "vXiv4oIw73Ol98BW",
+      "text": "Armour of Righteous Fury: The Armour of Righteous Fury is a suit of armour (usually leather) that was often used by high ranking Witch Hunters for centuries, although its creation secrets have since been discovered and sold across the Old World. Opulent and well-known, its powers are twofold. The armour is inlaid with sigils that increase the wearer’s Toughness Bonus by +1 for the purposes of Damage reduction. In addition, it increases the wearer’s Movement Attribute by +1 and during combat you may immediately spend an Advantage to make an extra attack. Full suit required.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.vXiv4oIw73Ol98BW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "_id": "S6pgd8EineRyL5I6",
+      "text": "Dawn Armour: Dawn Armour is metal armour forged by Master Metal Wizards from the Gold Order at dawn. Enchantments and blessings are placed on it that allows the armour to repair itself immediately once Damaged. The first time each day that a piece of Dawn Armour suffers Damage, such as that inflicted by the Hack Quality or from Critical Deflection, the armour piece recovers 1 AP every 1d10 Rounds. The armour cannot be destroyed, even if it reaches or is Damaged below 0 AP. It weighs as light as leather. The Encumbrance of pieces of Dawn Armour are reduced by 2 to a minimum of 0. Additionally, with a full suit the wearer gains a bonus +1 SL for all Pray Tests, or Channelling and Casting tests for the Lore of Metal.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.S6pgd8EineRyL5I6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "i3kfZEugNdb3U6ft",
+      "text": "Meteoric Armour: Crafted by Dwarfs from a rare star-metal, the Meteoric Iron is said to be impervious to normal weapons. Meteoric Armour functions as any other plate armour but provides 3 AP, and has the Fine and Unbreakable Qualities on each piece. In addition to these effects the wearer is immune to any Critical Wounds inflicted on them. Critical strikes become normal blows. The only exception to this is Critical Wounds caused by damage inflicted after the Character has already been reduced to 0 Wounds.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.i3kfZEugNdb3U6ft"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "sPfiQMOigFc9WqjZ",
+      "text": "Obsidian Armour: Obsidian armour is bulky, but the sinister appearance it gives its wearer strikes fear into the hearts of all who face them in battle. Obsidian armour is always either Mail or Plate, and has the Fine 3 and Durable 3 Qualities for each piece. Since obsidian is the bane of magic, if an attack deals 40 Damage through magic to a struck piece of Obsidian Armour, reduce the Damage of that attack by 2. With a full set, the wearer counts as causing Fear (2).",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.sPfiQMOigFc9WqjZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "_id": "jjAaz2s1moL1VMlb",
+      "text": "Silver Plate: Silver Plate is a blessed suit of armour made of an alloy that includes silver, a metal with anti-undead qualities, and inscribed with holy runes. The runes give it combative, protective, and regenerative powers. A piece of Silver Plate reduces the Damage of all attacks made against the wearer from Undead by -2 to a minimum of 1. Undead opponents suffer a penalty of -10 to hit Silver Plate in melee combat as the enchanted silver’s anti-Undead properties distract and overwhelm them. With a full suit, the wearer benefits from the Regenerate Creature Trait. Silver Plate has the Fine and Durable Qualities for each piece. The infamous Witch Hunter Gustav Von Heldrak is said to have popularized the use of Silver Plate, having worn a set during his days hunting Undead in Sylvania.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.jjAaz2s1moL1VMlb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "_id": "nvd73nb2WVZmVOBq",
+      "text": "Vestments of Glory: The Vestments of Glory is a decorated suit of either mail or plate armour, with golden images of weapons and the heads of its god’s patron animal. Its holy enchantments sap the light and warmth out of the air around it, inducing lethargy in those attempting to strike its wearer. With a spoken command, the wearer gains the Distracting (Holy Aura) Creature Trait that affects everyone without the Bless or Invoke Talents. In addition, this effect causes the wearer to be extremely resistant to Magic, benefiting from the Resistance (Magic) Talent and Immunity (One Arcane Lore) Creature Trait. Choose one Lore of Magic, Dark Magic or Chaos Magic of your choice for Immunity. Full suit required.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.nvd73nb2WVZmVOBq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "_id": "ZLAVleDraklmRoiB",
+      "text": "Vestments of the Confessor: These golden vestments were made by High Priest-smiths devoted to warfare to assist warrior priests in striking fear into their enemies. The wearer counts as causing Fear (1). The wearer of the Vestments of the Confessor also benefits from a +20 bonus to Charm and Leadership Tests when interacting with fellow cultists and followers of their god. Full suit required.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.ZLAVleDraklmRoiB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_id": "TIyfFUYewPfvBx4Z",
+      "text": "Vestments of Protection: This armour is enchanted to protect the wearer from a particular sort of Creature. In order to determine what sort of Creature this is, roll on the Random Creature Table in Archives of the Empire Vol II on page 55. If an attack that would inflict Damage hits an area protected by this armour, halve any Wounds taken from a Creature of this type. If the armour used is plate, roll twice on the Random Creature Table.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.TIyfFUYewPfvBx4Z"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_id": "R6nGejdeq8aQ0mNA",
+      "text": "Vestments of Shadows: Made of a very dark grey fabric that conceals the wearer in shadow, these robes are often commissioned by Shadow Wizards with additional blessings added for good measure. They are viewed as ‘cowardly’ or ‘dishonorable’ by most Ulricans and some Sigmarites. However, Ranaldians adore them and Morrians find them equally as useful as they are fashionable. Vestments of Shadow function as a set of priest’s robes. Any sight-based Perception or Ballistic Skill Tests made against the wearer suffer from a -20 penalty.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.R6nGejdeq8aQ0mNA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "_id": "tNYLAopW3ex4PRnX",
+      "text": "Vestments of War: Many of these armour sets are produced in the forges of Nuln or Middenheim, as they’re almost exclusively used by Warrior Priests or Lectors. Vestments of War functions as a suit of plate armour, but does not include a helmet. While worn, the full set grants +1 AP to all locations and grants the following Creature Traits to the wearer: Immunity (One Element), Magic Resistance (2) and Ward (9+). For Immunity (One Element), choose one from the list: Cold, Fire, Electricity, or Poison.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!H7oZl9kD7WI3Kx7V.tNYLAopW3ex4PRnX"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "wfrp4e": {
+      "key": "holyarmour",
+      "column": ""
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.rolltables.H7oZl9kD7WI3Kx7V"
+    }
+  },
+  "formula": "",
+  "_key": "!tables!H7oZl9kD7WI3Kx7V"
+}

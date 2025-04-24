@@ -1,0 +1,66 @@
+{
+  "name": "Agni’s Golden Blade",
+  "type": "prayer",
+  "_id": "sLcqvgTzzpreV0v6",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>Sha’er Khan grants you the weapon <em>Agniastra</em> gifted to him by his brother-God, Agni, for defeating Eldrazor in honorable combat while protecting a foreign goddess; or so the legend claims, to the hatred of the Elves — especially the Dark Elves of Naggaroth. <em>Agniastra</em> is a celestial weapon that falls from the heavens into one of your open hands. It is a Magical sword that has a Damage equal to your Fellowship Bonus. The first time an enemy is struck by the sword they suffer +SL @Condition[Ablaze] Conditions. Further hits add no additional @Condition[Ablaze] Conditions to the same target. When discharged, it emits flames inextinguishable through normal means. Foes suffering from @Condition[Ablaze] Conditions caused by <em>Agniastra</em> cannot have them removed until the Miracle ends. You must be outdoors to perform this Miracle but may use the sword indoors once it is summoned.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.sLcqvgTzzpreV0v6"
+    }
+  },
+  "_key": "!items!sLcqvgTzzpreV0v6"
+}

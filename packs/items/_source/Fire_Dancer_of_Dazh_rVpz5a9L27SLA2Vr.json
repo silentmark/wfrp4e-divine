@@ -1,0 +1,16 @@
+{
+  "name": "Fire Dancer of Dazh",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "rVpz5a9L27SLA2Vr",
+  "description": "",
+  "sort": 1600000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.rVpz5a9L27SLA2Vr"
+    }
+  },
+  "_key": "!folders!rVpz5a9L27SLA2Vr"
+}

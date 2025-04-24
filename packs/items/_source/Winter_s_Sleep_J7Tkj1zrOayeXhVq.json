@@ -1,0 +1,176 @@
+{
+  "folder": "LEVNVCHLKuI8Re6N",
+  "name": "Winter's Sleep",
+  "type": "prayer",
+  "_id": "J7Tkj1zrOayeXhVq",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your prayers bring the deep sleep of winter upon your enemies. Targets affected must make an <strong>Average (+20) Willpower </strong>Test<strong> </strong>or fall asleep, suffering an @Condition[Unconscious]<em> </em>Condition that can't be removed while the prayer is in effect. Creatures with the <em>Bestial </em>Trait must make a <strong>Challenging (+0) Willpower </strong>Test<strong> </strong>instead. If any harm is perpetrated on an unconscious animal, Ursun will take great offense for such a dishonorable hunting method and you will suffer +1 Sin Point per animal harmed.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ursun"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Winter's Sleep",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "mxHqLLHi3R0MGpAF",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "this.actor.setupCharacteristic(\"wp\", {fields : {difficulty: \"average\"}, appendTitle : \" - \" + this.effect.name}).then(async test => {\n           await test.roll();\n           if(!test.succeeded){\n               this.actor.addCondition(\"unconscious\")\n          }\n    })",
+            "label": "Winter's Sleep",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!J7Tkj1zrOayeXhVq.mxHqLLHi3R0MGpAF"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.J7Tkj1zrOayeXhVq"
+    }
+  },
+  "_key": "!items!J7Tkj1zrOayeXhVq"
+}

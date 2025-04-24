@@ -1,0 +1,109 @@
+{
+  "folder": "W1H9l0RvLMqgOl5q",
+  "name": "Polished Shield",
+  "type": "weapon",
+  "_id": "w9It6bmBSqNb7kwP",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/shield-large.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Myrmidian Warrior Priests march to war armed with great polished bronze shields, used to reflect the glare of the sun and give the impression of a fiery horde going to battle. Ranged attacks made against bearers of the shield incur a -20 Ballistic Skill penalty if the attacker is facing the front of shield. This penalty increases to -30 in areas or during the time of day the sun is at its brightest, as the reflected light dazzles attackers; likewise, the penalty is reduced to -10 in low-light conditions, such as nighttime when the moon is out. The shield inflicts no penalty in fully darkened conditions without a light source. In addition, as an Action the wielder can actively use the shield to reflect sunlight at a nearby foe, dazzling and blinding them. The target must succeed a <strong>Difficult (-10) Initiative Test </strong>or gain +1 @Condition[Blinded]<em> </em>Condition. If the creature has no eyes this shield has no effect.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "price": {
+      "gc": 2,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "exotic"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+2"
+    },
+    "reach": {
+      "value": "vshort"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": false
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "basic"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "defensive",
+          "value": null
+        },
+        {
+          "name": "shield",
+          "value": 2
+        }
+      ]
+    },
+    "flaws": {
+      "value": [
+        {
+          "name": "undamaging",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "value": "Polished"
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.w9It6bmBSqNb7kwP"
+    }
+  },
+  "_key": "!items!w9It6bmBSqNb7kwP"
+}

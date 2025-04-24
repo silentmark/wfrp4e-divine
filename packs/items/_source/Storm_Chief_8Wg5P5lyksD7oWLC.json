@@ -1,0 +1,94 @@
+{
+  "name": "Storm Chief",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.aRsYxtv46KF4x91h]{Thunder Warrior}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Thunder Warrior"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Basic)",
+      "Pray",
+      "Outdoor Survival",
+      "Lore (Local)",
+      "Intuition",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Two-handed)",
+      "Perception",
+      "Ranged (Throwing)",
+      "Consume Alcohol",
+      "Gossip",
+      "Lore (Theology)",
+      "Navigation",
+      "Charm",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Fearless (Chaos)",
+      "Furious Assault",
+      "Pure Soul",
+      "Relentless"
+    ],
+    "trappings": [
+      "Barding",
+      "Religious Relic",
+      "Skull of an Enemy Champion"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "U5zYznVLjGMfeFdf",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.8Wg5P5lyksD7oWLC"
+    }
+  },
+  "_id": "8Wg5P5lyksD7oWLC",
+  "sort": 100000,
+  "_key": "!items!8Wg5P5lyksD7oWLC"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "KbmFqQrYaNWbwaDI",
+  "name": "Novitiate of the Sisterhood",
+  "type": "career",
+  "_id": "YlU80DNvft44vsJj",
+  "img": "modules/wfrp4e-core/icons/careers/nun-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.NhB4HLg7R0TAAjGv]{Sister of Sigmar}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Sister of Sigmar"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Research",
+      "Lore (Local)",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Bless (Sigmar)",
+      "Etiquette (Sigmarites)",
+      "Noble Blood",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Hammer Pendant",
+      "Leather Jerkin",
+      "Robes",
+      "Military Hammer",
+      "The Book of Sigmar"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": -100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.YlU80DNvft44vsJj"
+    }
+  },
+  "_key": "!items!YlU80DNvft44vsJj"
+}

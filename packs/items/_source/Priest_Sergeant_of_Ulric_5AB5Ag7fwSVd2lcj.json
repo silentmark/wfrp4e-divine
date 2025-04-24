@@ -1,0 +1,90 @@
+{
+  "name": "Priest Sergeant of Ulric",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.HKhZvumc0NmbFTat]{Warrior Priest of Ulric}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Ulric"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Melee (Any)",
+      "Lore (Local)",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Two-handed)",
+      "Ranged (Bow)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Holy Visions",
+      "Pure Soul",
+      "Stouthearted"
+    ],
+    "trappings": [
+      "Light Warhorse with Saddle and Tack"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "R1WBZb0jvWdBfc6f",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.5AB5Ag7fwSVd2lcj"
+    }
+  },
+  "_id": "5AB5Ag7fwSVd2lcj",
+  "sort": 100000,
+  "_key": "!items!5AB5Ag7fwSVd2lcj"
+}

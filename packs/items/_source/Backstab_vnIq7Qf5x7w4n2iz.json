@@ -1,0 +1,66 @@
+{
+  "folder": "CeJXdzt0r0QMyL7x",
+  "name": "Backstab",
+  "type": "prayer",
+  "_id": "vnIq7Qf5x7w4n2iz",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You call the power of Khaine to deliver a devastating blow to an unsuspecting victim from behind. The target weapon flickers red, and the smell of blood and iron lingers around it. The next time the target’s weapon strikes a foe from behind and deals Damage, it inflicts double the number of Wounds and a Critical Wound. The effect ends after the first successful hit.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Khaine"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 700000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.vnIq7Qf5x7w4n2iz"
+    }
+  },
+  "_key": "!items!vnIq7Qf5x7w4n2iz"
+}

@@ -1,0 +1,207 @@
+{
+  "folder": "LEVNVCHLKuI8Re6N",
+  "name": "Ursine Strength",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\">Your chant grants you some of Ursun’s overwhelming strength. Your muscles bulge as you gain a +20 bonus to <strong>Melee (Brawling)</strong> Tests when Grappling and +2 SL for all Strength Tests. The <em>Undamaging </em>Flaw is removed from your Unarmed attacks. Your strength matches that of a large bear’s, allowing you to Grapple with @UUID[Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q]{Size} (Large) creatures normally without requiring a Critical Success for Opposed Strength Tests.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ursun"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Ursine Strength",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "B2en5UlkUPJAEzbG",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "args.fields.modifier += 20;",
+            "label": "Melee (Brawling) tests to Grapple",
+            "trigger": "dialog",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "return args.skill?.name != game.i18n.localize(\"NAME.MeleeBrawling\") && args.weapon?.system?.weaponGroup?.value != \"brawling\"",
+              "activateScript": "return args.skill?.name == game.i18n.localize(\"NAME.MeleeBrawling\") || args.weapon?.system?.weaponGroup?.value == \"brawling\"",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "script": "const fists = foundry.utils.deepClone(game.wfrp4e.config.systemItems.unarmed);\n\nfists.system.flaws.value = [];\nfists.system.equipped = true;\nfists.img = this.effect.icon;\nfists.name = this.effect.name;\n\nItem.create(fists, {fromEffect : this.effect.id, parent: this.actor});",
+            "label": "Ursine Strength",
+            "trigger": "addItems",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "script": "args.fields.slBonus+=2;",
+            "label": "Ursine Strength",
+            "trigger": "dialog",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "return ![\"s\"].includes(args.characteristic)",
+              "activateScript": "return [\"s\"].includes(args.characteristic)",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": [
+            false,
+            false
+          ]
+        }
+      },
+      "_key": "!items.effects!XBD9QbkDcrYsLnL8.B2en5UlkUPJAEzbG"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.XBD9QbkDcrYsLnL8"
+    }
+  },
+  "_id": "XBD9QbkDcrYsLnL8",
+  "sort": 400000,
+  "_key": "!items!XBD9QbkDcrYsLnL8"
+}

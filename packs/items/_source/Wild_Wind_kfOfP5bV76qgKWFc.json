@@ -1,0 +1,195 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "Wild Wind",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p><span style=\"font-family: CaslonPro\">You call to the Lord of the Wild and in response he whips up the wind into a raging, swirling maelstrom. While you are not affected, all targets within the area of effect are buffeted by irresistible winds. Any Test they take against WS or Agi is reduced by -2SL and each round they must pass a <strong>Difficult (-10) Toughness</strong> Test to avoid a </span>@Condition[Prone]<span style=\"font-family: CaslonPro\"> condition. No ranged attacks can be used within the area of effect, and only gunpowder or artillery weapons can attack targets within the area of effect.</span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "Stunned Condition",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Wild Wind",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "EpwBYqGNPNItpJma",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "area",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "return this.effect.sourceActor.uuid == this.actor.uuid;",
+          "prompt": false,
+          "area": {
+            "radius": "",
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "this.actor.setupCharacteristic(\"t\", {appendTitle : \" - \" + this.effect.name, fields : {difficulty: \"difficult\"}}).then(async test => {\n           await test.roll();\n           if(!test.succeeded)\n           {\n               await this.actor.addCondition(\"prone\")\n            }\n    })",
+            "label": "Test Prone",
+            "trigger": "startTurn",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "script": "args.fields.slBonus-=2;",
+            "label": "Wild Wind",
+            "trigger": "dialog",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "return ![\"ws\", \"ag\"].includes(args.characteristic)",
+              "activateScript": "return [\"ws\", \"ag\"].includes(args.characteristic)",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": true
+        }
+      },
+      "_key": "!items.effects!kfOfP5bV76qgKWFc.EpwBYqGNPNItpJma"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "666a0529260f88879b202496f503df1ca3722e7c",
+      "sourceId": "Compendium.world.darto-items.Item.kfOfP5bV76qgKWFc",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.kfOfP5bV76qgKWFc"
+    }
+  },
+  "_id": "kfOfP5bV76qgKWFc",
+  "sort": 0,
+  "_key": "!items!kfOfP5bV76qgKWFc"
+}

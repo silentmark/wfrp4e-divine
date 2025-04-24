@@ -1,0 +1,16 @@
+{
+  "name": "Gunndred",
+  "sorting": "a",
+  "folder": "jS1d1qau7gnqt8YO",
+  "type": "Item",
+  "_id": "DudR1AJV8bUmWJKT",
+  "description": "",
+  "sort": 600000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.DudR1AJV8bUmWJKT"
+    }
+  },
+  "_key": "!folders!DudR1AJV8bUmWJKT"
+}

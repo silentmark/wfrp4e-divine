@@ -1,0 +1,185 @@
+{
+  "folder": "eIyOD71uJQQnVjN4",
+  "name": "Judgement",
+  "type": "prayer",
+  "_id": "t9zFf5bOFXyROs0B",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You call upon the Goddess of Wisdom for her judgement, so the guilty may justly be punished by the wrath of Verena. If your target is someone you know to be guilty of a crime, they lose 1d10 Wounds, ignoring Toughness Bonus and Armour. Furthermore, the target must pass a <strong>Challenging (+0) Willpower Test </strong>or suffer debilitating pains and gaining a @Condition[Stunned] Condition. If the target has the @UUID[Compendium.wfrp4e-core.items.Item.r180vP86SlwyJc8W]{Criminal} Talent the difficulty is changed to a <strong>Hard (-20) Willpower Test </strong>instead.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Verena"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "_id": "p5hBH3Ny2Tmm8C2T",
+      "flags": {
+        "wfrp4e": {
+          "hide": false,
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": false,
+      "origin": null,
+      "name": "Judgement",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": "",
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "instantaneous"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let roll;\nroll = await new Roll(`1d10`).roll()\n\nroll.toMessage(this.script.getChatData())\nawait this.actor.applyBasicDamage(roll.total, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL, suppressMsg : true})",
+            "label": "Judgement",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": true
+            },
+            "async": false
+          },
+          {
+            "script": "this.actor.setupCharacteristic(\"wp\"), {appendTitle : \" - \" + this.effect.name}).then(async test => {\n           await test.roll();\n           if(!test.succeeded){\n               this.actor.addCondition(\"stunned\")\n          }\n    })",
+            "label": "Stunned",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": true
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!t9zFf5bOFXyROs0B.p5hBH3Ny2Tmm8C2T"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.t9zFf5bOFXyROs0B"
+    }
+  },
+  "sort": 200000,
+  "_key": "!items!t9zFf5bOFXyROs0B"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Hospitaller of Shallya",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "cdFFqoNTFA5H8IWV",
+  "description": "",
+  "sort": 1200000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.cdFFqoNTFA5H8IWV"
+    }
+  },
+  "_key": "!folders!cdFFqoNTFA5H8IWV"
+}

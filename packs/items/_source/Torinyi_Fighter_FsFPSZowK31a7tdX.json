@@ -1,0 +1,81 @@
+{
+  "name": "Torinyi Fighter",
+  "type": "career",
+  "_id": "FsFPSZowK31a7tdX",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.aRsYxtv46KF4x91h]{Thunder Warrior}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Thunder Warrior"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Basic)",
+      "Pray",
+      "Outdoor Survival",
+      "Lore (Local)"
+    ],
+    "talents": [
+      "Bless (Tor)",
+      "Iron Jaw",
+      "Resistance (Electricity)",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Battle Axe",
+      "Religious Symbol"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "U5zYznVLjGMfeFdf",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.FsFPSZowK31a7tdX"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!FsFPSZowK31a7tdX"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Priest Captain of Morr",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.bwrxjlwziDQNqgHk]{Warrior Priest of Morr}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Morr"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intimidate",
+      "Leadership",
+      "Lore (Dreams)",
+      "Lore (Theology)",
+      "Melee (Polearm)",
+      "Pray",
+      "Augury",
+      "Charm",
+      "Entertain (Speeches)",
+      "Language (Battle)",
+      "Lore (Undead)",
+      "Melee (Any)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Ride (Horse)",
+      "Consume Alcohol",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Fearless (Undead)",
+      "Furious Assault",
+      "Holy Hatred",
+      "War Leader"
+    ],
+    "trappings": [
+      "Religious Relic",
+      "Saddle Bags",
+      "Subordinate Warriors Priests of Morr"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "CldCJ39jorgRODsv",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.k7tROknMqCL3B0O0"
+    }
+  },
+  "_id": "k7tROknMqCL3B0O0",
+  "sort": 500000,
+  "_key": "!items!k7tROknMqCL3B0O0"
+}

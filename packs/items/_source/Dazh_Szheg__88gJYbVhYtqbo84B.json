@@ -1,0 +1,176 @@
+{
+  "folder": "0yjfQbVOXbqUW0kC",
+  "name": "Dazh Szheg!",
+  "type": "prayer",
+  "_id": "88gJYbVhYtqbo84B",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You call upon Dazh to burn his enemies, and a beam of holy light engulfs your opponents. All non-Dazh worshippers within the Area of Effect take [[/r 1d10]] Damage, ignoring Toughness Bonus and Armour Points, and receive an @Condition[Ablaze]<em> </em>Condition. For every +2 SL you may add one extra @Condition[Ablaze]<em> </em>Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Dazh"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Ablaze",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Dazh Szheg!",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "r637G8fXwebHUyCE",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "area",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "return this.effect.sourceActor.uuid == this.actor.uuid;",
+          "prompt": false,
+          "area": {
+            "radius": "",
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Dazh Szheg",
+            "script": "let roll;\nroll = await new Roll(`1d10`).roll()\n\nroll.toMessage(this.script.getChatData())\nawait this.actor.applyBasicDamage(roll.total, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL, suppressMsg : true})\n\nlet value = foundry.utils.getProperty(this.effect.sourceTest, \"result.overcast.usage.other.current\") || 1\nthis.actor.addCondition(\"ablaze\", value)",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!88gJYbVhYtqbo84B.r637G8fXwebHUyCE"
+    }
+  ],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.88gJYbVhYtqbo84B"
+    }
+  },
+  "_key": "!items!88gJYbVhYtqbo84B"
+}

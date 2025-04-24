@@ -1,0 +1,66 @@
+{
+  "folder": "3k0pT5Fz3OD2XYp9",
+  "name": "Golden vestments",
+  "type": "prayer",
+  "_id": "faXHwBjrQkx926Tr",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">Your clothing glows with a golden light as Handrich blesses you with his armour—a Miracle that is as protective as it is fashionable. Your worn clothing looks rich and well crafted, gilded with a fine gold trim, and becomes harder. Cloth becomes as protective as mail, and leather armour grants the same protection as plate armour. Worn clothing and leather changed in this way gain all the Qualities and Flaws of a typical metal piece of armour of that sort. <em>Golden Vestments </em>does not affect metal armour.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Handrich"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.faXHwBjrQkx926Tr"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!faXHwBjrQkx926Tr"
+}

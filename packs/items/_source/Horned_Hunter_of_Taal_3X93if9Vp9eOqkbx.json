@@ -1,0 +1,88 @@
+{
+  "folder": "WylzxREzU97KjxOB",
+  "name": "Horned Hunter of Taal",
+  "type": "career",
+  "_id": "3X93if9Vp9eOqkbx",
+  "img": "modules/wfrp4e-core/icons/careers/hunter-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PGtfvf1MDin2i88f]{Horned Hunter of Taal}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Horned Hunter of Taal"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "b",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Climb",
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Pray",
+      "Stealth (Rural)",
+      "Ranged (Bow)",
+      "Athletics",
+      "Melee (Brawling or Two-handed or Polearm)",
+      "Ranged (Throwing)",
+      "Secret Signs (Hunter)",
+      "Perception",
+      "Track"
+    ],
+    "talents": [
+      "Accurate Shot",
+      "Hunter’s Eye",
+      "Invoke (Taal)",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Bear Pelt",
+      "Bow or Longbow with 10 Arrows",
+      "Leather Breastplate"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.3X93if9Vp9eOqkbx"
+    }
+  },
+  "_key": "!items!3X93if9Vp9eOqkbx"
+}

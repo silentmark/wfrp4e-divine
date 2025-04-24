@@ -1,0 +1,113 @@
+{
+  "folder": "uk0DHQ0kuB50NXX5",
+  "name": "Cat O’ Nine Tails",
+  "type": "weapon",
+  "_id": "cFhawFkGVHEmWcU7",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/whip.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "price": {
+      "gc": 0,
+      "ss": 10,
+      "bp": 0
+    },
+    "availability": {
+      "value": "scarce"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+3"
+    },
+    "reach": {
+      "value": "short"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": false
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "flail"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "distract",
+          "value": null
+        },
+        {
+          "name": "wrap",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": [
+        {
+          "name": "imprecise",
+          "value": null
+        },
+        {
+          "name": "undamaging",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.cFhawFkGVHEmWcU7"
+    }
+  },
+  "_key": "!items!cFhawFkGVHEmWcU7"
+}

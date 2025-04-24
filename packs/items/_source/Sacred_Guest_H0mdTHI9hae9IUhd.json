@@ -1,0 +1,66 @@
+{
+  "folder": "0yjfQbVOXbqUW0kC",
+  "name": "Sacred Guest",
+  "type": "prayer",
+  "_id": "H0mdTHI9hae9IUhd",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You invoke Dazh to bless your time as a guest in another’s home. If your host abuses his position or is a poor host, Dazh curses them. The curse, which is decided by the GM, could include: fires failing to light, fires giving no heat, or fuel burning at quadruple its normal rate. The curse lasts until the host apologizes to you or prays for forgiveness at a Temple of Dazh.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Dazh"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.H0mdTHI9hae9IUhd"
+    }
+  },
+  "_key": "!items!H0mdTHI9hae9IUhd"
+}

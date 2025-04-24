@@ -1,0 +1,66 @@
+{
+  "name": "Primal Stalkers",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>Your prayers imbue your chosen allies with the skill and prowess of a tiger on the hunt. All allies affected receive the @UUID[Compendium.wfrp4e-core.items.Item.rOV2s6PQBBrhpMOv]{Arboreal} Creature Trait.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus minutes",
+      "extendable": false
+    },
+    "target": {
+      "value": "Willpower Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ftqJKktQDs7VJiDU"
+    }
+  },
+  "_id": "ftqJKktQDs7VJiDU",
+  "_key": "!items!ftqJKktQDs7VJiDU"
+}

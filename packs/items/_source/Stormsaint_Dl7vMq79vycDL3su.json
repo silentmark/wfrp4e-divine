@@ -1,0 +1,93 @@
+{
+  "name": "Stormsaint",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/seaman-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PXW0QLlN2fHvYYif]{Stormguard of Manaan}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Stormguard of Manann"
+    },
+    "class": {
+      "value": "Seafarers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Swim",
+      "Row",
+      "Sail",
+      "Dodge",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Riverways)",
+      "Melee (Polearm)",
+      "Charm",
+      "Intuition",
+      "Navigation",
+      "Perception",
+      "Consume Alcohol",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Fearless (Pirates)",
+      "Furious Assault",
+      "Holy Hatred",
+      "War Leader"
+    ],
+    "trappings": [
+      "Religious Relic",
+      "Subordinate Stormguard"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "aToi40HyeHDogpHT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Dl7vMq79vycDL3su"
+    }
+  },
+  "_id": "Dl7vMq79vycDL3su",
+  "sort": 500000,
+  "_key": "!items!Dl7vMq79vycDL3su"
+}

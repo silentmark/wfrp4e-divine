@@ -1,0 +1,93 @@
+{
+  "name": "Shinjin Monk",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-02.png",
+  "effects": [],
+  "folder": "VDjpXu30Yue5kEKl",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.gr9u01Pk7ADOJBCS"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.FE3d4y5wblp4KHnC]{Shinjin Monk}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shinjin Monk"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Art (Engraving)",
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Builder)",
+      "Consume Alcohol",
+      "Entertain (Speeches)",
+      "Gossip",
+      "Melee (Brawling)",
+      "Outdoor Survival",
+      "Ranged (Bow)"
+    ],
+    "talents": [
+      "Enclosed Fighter",
+      "Flagellant",
+      "Hatred (Skaven)",
+      "Martial Artist"
+    ],
+    "trappings": [
+      "Breastplate",
+      "Naginata",
+      "Prayer Beads",
+      "Scripture of the Orange SimcaBreastplate",
+      "Naginata",
+      "Prayer Beads",
+      "Scripture of the Orange Simca"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "_id": "gr9u01Pk7ADOJBCS",
+  "sort": 0,
+  "_key": "!items!gr9u01Pk7ADOJBCS"
+}

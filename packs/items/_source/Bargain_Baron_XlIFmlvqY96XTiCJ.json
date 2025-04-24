@@ -1,0 +1,196 @@
+{
+  "folder": "x8YrkiJLl8W8e4mC",
+  "name": "Bargain Baron",
+  "type": "prayer",
+  "_id": "XlIFmlvqY96XTiCJ",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Crossing your fingers, you attempt to solve Ranald’s puzzle, for what is an item’s true worth? You gain +10 Fellowship, +10 Haggle, and +1 @UUID[Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG]{Dealmaker}<em> </em>Talent for the duration of the Miracle. Additionally, all goods have their Availability reduced by one tier for the duration, with the exception of Exotic items. You automatically know if any goods you are looking for are available or unavailable, and as such you need not waste time searching for them. If you roll +4 SLs or more on your Pray Test, you automatically locate any non-Exotic item worth 20 GC or less, regardless of the Availability roll, and can purchase it at a 50% discount.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ranald"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Bargain Baron",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "j7Dx5771ap71wVWp",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Bargain Baron",
+            "script": "let dealmaker = await fromUuid(\"Compendium.wfrp4e-core.items.Item.epPBu7x6BRWp2PHG\")\nthis.actor.createEmbeddedDocuments(\"Item\", [dealmaker], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Haggle tests",
+            "script": "args.fields.modifier += 10;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "args.skill?.name != game.i18n.localize(\"NAME.Haggle\")",
+              "activateScript": "args.skill?.name == game.i18n.localize(\"NAME.Haggle\")",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.fel.modifier",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!XlIFmlvqY96XTiCJ.j7Dx5771ap71wVWp"
+    }
+  ],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.XlIFmlvqY96XTiCJ"
+    }
+  },
+  "_key": "!items!XlIFmlvqY96XTiCJ"
+}

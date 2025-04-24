@@ -1,0 +1,94 @@
+{
+  "name": "Naik",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/noble-04.png",
+  "effects": [],
+  "folder": "2rm006QkMdj4lKn4",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.QOutDDTLkmClPtL1"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.tFMi1oAIkxoO79M4]{Rajput}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rajput"
+    },
+    "class": {
+      "value": "Courtiers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Lore (Animals)",
+      "Lore (Sha’er Khan)",
+      "Melee (Basic)",
+      "Perception",
+      "Perform (Dance)",
+      "Pray",
+      "Ranged (Throwing)",
+      "Animal Training (Tiger)",
+      "Entertain (Speeches)",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Play (Sitar)",
+      "Track",
+      "Animal Care",
+      "Charm",
+      "Haggle",
+      "Ride (Tiger)",
+      "Leadership",
+      "Lore (Ind)"
+    ],
+    "talents": [
+      "Commanding Presence",
+      "Inspiring",
+      "Pure Soul",
+      "War Leader"
+    ],
+    "trappings": [
+      "Jewelry (Worth 100 GC)",
+      "Best Quality Tulwar"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "_id": "QOutDDTLkmClPtL1",
+  "sort": 0,
+  "_key": "!items!QOutDDTLkmClPtL1"
+}

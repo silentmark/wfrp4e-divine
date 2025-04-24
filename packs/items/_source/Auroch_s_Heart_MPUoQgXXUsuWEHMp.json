@@ -1,0 +1,188 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "Auroch's Heart",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p1\">You pray to Taal to suffuse a character with the constitution of a wild oxen. The target gains +Fellowship Bonus SL to all Toughness Tests until the end of the miracle.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "duration": {
+      "value": "Fellowship Bonus+3 Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Auroch's Heart",
+      "img": "https://assets.forge-vtt.com/60b35692725bf7019fff834c/modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "BFCQjTTtUKKIOnJL",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let bonus = this.effect.sourceActor.system.characteristics.fel.bonus\nargs.fields.slBonus += bonus;",
+            "label": "Auroch's Heart",
+            "trigger": "dialog",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "return ![\"t\"].includes(args.characteristic)",
+              "activateScript": "return [\"t\"].includes(args.characteristic)",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.t.modifier",
+          "mode": 2,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!MPUoQgXXUsuWEHMp.BFCQjTTtUKKIOnJL"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "f494ead2969828a11769f86de1d845648da339d0",
+      "sourceId": "Compendium.world.darto-items.Item.MPUoQgXXUsuWEHMp",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.MPUoQgXXUsuWEHMp"
+    }
+  },
+  "_id": "MPUoQgXXUsuWEHMp",
+  "sort": 200000,
+  "_key": "!items!MPUoQgXXUsuWEHMp"
+}

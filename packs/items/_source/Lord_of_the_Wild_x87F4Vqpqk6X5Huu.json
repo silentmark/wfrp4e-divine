@@ -1,0 +1,71 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "Lord of the Wild",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify;\">You command a best with the authority of Taal, and it complies. Choose one animal within Range. You may control its next Move and Action. Taal will not allow you to abuse his subjects, so you cannot command any animal to do anything obviously suicidal, such as attacking a significantly larger creature or jumping over a cliff edge.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "1 Round",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "6dcca3613aad46bbc42957baa7a3e41ce764ef81",
+      "sourceId": "Compendium.world.darto-items.Item.x87F4Vqpqk6X5Huu",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.x87F4Vqpqk6X5Huu"
+    }
+  },
+  "_id": "x87F4Vqpqk6X5Huu",
+  "sort": 0,
+  "_key": "!items!x87F4Vqpqk6X5Huu"
+}

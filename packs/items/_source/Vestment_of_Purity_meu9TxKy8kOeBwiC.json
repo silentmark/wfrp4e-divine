@@ -1,0 +1,66 @@
+{
+  "folder": "ikRcclDdwNLgSO5o",
+  "name": "Vestment of Purity",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You prayers to Shallya to grant you protection from the Plague Lord’s children and his foul concoctions. While the Miracle is in effect, you are immune to all poisons and diseases, mundane or magical. In addition, whilst under the effects of this miracle, Daemons and followers of Nurgle must pass a <strong>Hard (-20) Willpower Test </strong>to attack you. If they fail, their Action is wasted for the Round as they shrivel before the unyielding purity of Shallya.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Shallya"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "Healed Wounds",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.meu9TxKy8kOeBwiC"
+    }
+  },
+  "_id": "meu9TxKy8kOeBwiC",
+  "sort": 0,
+  "_key": "!items!meu9TxKy8kOeBwiC"
+}

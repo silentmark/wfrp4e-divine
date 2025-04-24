@@ -1,0 +1,66 @@
+{
+  "name": "Tiger God's Gada",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You sing prayers concerning Kaumodaki, Sha’er Khan’s glistening black mace believed to have once struck down Eldrazor — the Elven God of Battle. If you are wielding a mace, it turns black and sparkles brightly like starlight while vicious spikes jut outwards from the mace’s head. It becomes a Magical weapon with +6 Damage and gains the <em>Impale</em> and <em>Penetrating</em> Qualities. Any Chaos worshippers, Elves or Daemons struck by the mace suffer a @Condition[Blinded] Condition.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.JLL5iaBXrvMAXvKH"
+    }
+  },
+  "_id": "JLL5iaBXrvMAXvKH",
+  "_key": "!items!JLL5iaBXrvMAXvKH"
+}

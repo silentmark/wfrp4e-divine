@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Divine Wind",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>The Niō bestow upon you the power of their divine striking speed. If wielding a katana, nagamaki, naginata or nodachi, it is wreathed in heavenly wind and gains the <em>Fast</em>, <em>Hack</em>, <em>Precise</em> and <em>Slash (1A)</em> Qualities, and counts as Magical. As an Action you may strike a single target up to your Fellowship Bonus in yards away with the Divine Wind acting as a <em>magic missile</em> with a Damage of +4 that inflicts a @Condition[Bleeding] Condition for every +2 SL from the Pray Test. If used in this manner the Miracle ends.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Ngo1lWcTJH04pGml"
+    }
+  },
+  "_id": "Ngo1lWcTJH04pGml",
+  "_key": "!items!Ngo1lWcTJH04pGml"
+}

@@ -1,0 +1,104 @@
+{
+  "folder": "BFTf1WhYtKMPzs9g",
+  "name": "Great Scythe",
+  "type": "weapon",
+  "_id": "nOOW3bYrqaP585ST",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "price": {
+      "gc": 2,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "scarce"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+4"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "polearm"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        },
+        {
+          "name": "hack",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nOOW3bYrqaP585ST"
+    }
+  },
+  "sort": 100000,
+  "_key": "!items!nOOW3bYrqaP585ST"
+}

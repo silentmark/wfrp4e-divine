@@ -1,0 +1,83 @@
+{
+  "name": "Killer",
+  "type": "career",
+  "_id": "7OXr5r3fF8JYSIGD",
+  "img": "modules/wfrp4e-core/icons/careers/spy-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.evPyGVU0r2D1MJVa]{Priest of Khaine}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Priest of Khaine"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Entertain (Acting)",
+      "Intuition",
+      "Lore (Khaine)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Secret Signs (Khainites)",
+      "Stealth (Urban)",
+      "Dodge",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Alley Cat",
+      "Beneath Notice",
+      "Bless (Khaine)",
+      "Secret Identity"
+    ],
+    "trappings": [
+      "Cult Insignia",
+      "Ritual Vestments",
+      "Secret Tattoo",
+      "Someone’s Blood on Your Hands"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "avdi9tfJ5YRT4KjH",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.7OXr5r3fF8JYSIGD"
+    }
+  },
+  "sort": 100000,
+  "_key": "!items!7OXr5r3fF8JYSIGD"
+}

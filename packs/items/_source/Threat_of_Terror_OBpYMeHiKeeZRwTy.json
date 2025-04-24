@@ -1,0 +1,189 @@
+{
+  "folder": "DudR1AJV8bUmWJKT",
+  "name": "Threat of Terror",
+  "type": "prayer",
+  "_id": "OBpYMeHiKeeZRwTy",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your prayers threaten a group so effectively that they become overwhelmed with fear, and they injure themselves in their mad attempt to get away. Everyone within the Area of Effect suffers 1d10 Damage, ignoring Toughness Bonus and Armour Points, and must pass a <strong>Challenging (+0)</strong> <strong>Cool</strong> Test or gain a @Condition[Broken]<em> </em>Condition. If a target successfully removes their @Condition[Broken]<em> </em>Condition, they are immune to the effects of <em>Threats of Terror </em>until next sunrise.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Gunndred"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Threat of Terror",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "ZYyxnvrQuEDaI3TU",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "area",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": "",
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Damage",
+            "script": "let roll;\nroll = await new Roll(`1d10`).roll()\n\nroll.toMessage(this.script.getChatData())\nawait this.actor.applyBasicDamage(roll.total, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL, suppressMsg : true})",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Broken",
+            "script": "this.actor.setupSkill(game.i18n.localize(\"NAME.Cool\"), {appendTitle : \" - \" + this.effect.name}).then(async test => {\n           await test.roll();\n           if(!test.succeeded)\n               this.actor.addCondition(\"broken\")\n    })",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!OBpYMeHiKeeZRwTy.ZYyxnvrQuEDaI3TU"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.OBpYMeHiKeeZRwTy"
+    }
+  },
+  "_key": "!items!OBpYMeHiKeeZRwTy"
+}

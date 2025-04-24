@@ -1,0 +1,84 @@
+{
+  "folder": "WylzxREzU97KjxOB",
+  "name": "Initiate of the Hunt",
+  "type": "career",
+  "_id": "VXVkg3rBccTWCVm8",
+  "img": "modules/wfrp4e-core/icons/careers/hunter-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PGtfvf1MDin2i88f]{Horned Hunter of Taal}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Horned Hunter of Taal"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "",
+      "Climb",
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Pray",
+      "Stealth (Rural)"
+    ],
+    "talents": [
+      "Bless (Taal)",
+      "Hardy",
+      "Rover",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Animal Skin Robes",
+      "Hand Weapon (Axe)",
+      "Leather Jack",
+      "Religious Symbol"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.VXVkg3rBccTWCVm8"
+    }
+  },
+  "_key": "!items!VXVkg3rBccTWCVm8"
+}

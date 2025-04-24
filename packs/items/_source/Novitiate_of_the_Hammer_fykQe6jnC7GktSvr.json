@@ -1,0 +1,84 @@
+{
+  "name": "Novitiate of the Hammer",
+  "type": "career",
+  "_id": "fykQe6jnC7GktSvr",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.u7NfDIZDSm3eRzXY]{Warrior Priest of Sigmar}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Sigmar"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Melee (Any)",
+      "Lore (Local)"
+    ],
+    "talents": [
+      "Bless (Sigmar)",
+      "Etiquette (Sigmarites)",
+      "Read/Write",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Leather Jerkin",
+      "Robes",
+      "Religious Symbol",
+      "Skull-Splitter Warhammer",
+      "The Book of Sigmar"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "p5sYq1WIT9RBWnGT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.fykQe6jnC7GktSvr"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!fykQe6jnC7GktSvr"
+}

@@ -1,0 +1,94 @@
+{
+  "folder": "KbmFqQrYaNWbwaDI",
+  "name": "Sigmarite Matriarch",
+  "type": "career",
+  "_id": "Bf3dJl2hI4qxY2Ms",
+  "img": "modules/wfrp4e-core/icons/careers/nun-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.NhB4HLg7R0TAAjGv]{Sister of Sigmar}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Sister of Sigmar"
+    },
+    "class": {
+      "value": "Warrrios"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Lore (Local)",
+      "Melee (Any)",
+      "Research",
+      "Charm",
+      "Entertain (Speeches)",
+      "Evaluate",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Two-handed)",
+      "Intuition",
+      "Leadership",
+      "Lore (Heraldry)",
+      "Perception",
+      "Lore (Mordheim)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Holy Hatred",
+      "Iron Will",
+      "Strong-Minded",
+      "War Leader"
+    ],
+    "trappings": [
+      "Religious Relic",
+      "Small Unit of Sisters of Sigmar",
+      "Subordinate Sister Superior"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Bf3dJl2hI4qxY2Ms"
+    }
+  },
+  "_key": "!items!Bf3dJl2hI4qxY2Ms"
+}

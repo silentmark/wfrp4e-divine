@@ -1,0 +1,66 @@
+{
+  "folder": "D4lQKBfCpR6n7gFq",
+  "name": "Fury of the Ocean",
+  "type": "prayer",
+  "_id": "UAQgwu5qJ30c7CRV",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You summon the might and rage of Manann to smite a boat or ship that you can see, sending it to the cold depths into a watery grave. All Tests to control that vessel suffer a -20 penalty. The crew of the vessel must succeed an <strong>Extended Sail or Row Test </strong>requiring 10 SL by the end of the Miracle’s duration. If failed, the ship begins to sink over the course of the following Round, stranding or drowning its crew—leaving their fate to the cruel ocean. If the target vessel is crewed by worshippers of Stromfels the penalty is -40 instead.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Manaan"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.UAQgwu5qJ30c7CRV"
+    }
+  },
+  "_key": "!items!UAQgwu5qJ30c7CRV"
+}

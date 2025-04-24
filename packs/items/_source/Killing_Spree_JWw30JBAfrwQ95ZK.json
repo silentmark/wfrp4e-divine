@@ -1,0 +1,175 @@
+{
+  "folder": "CeJXdzt0r0QMyL7x",
+  "name": "Killing Spree",
+  "type": "prayer",
+  "_id": "JWw30JBAfrwQ95ZK",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your dark prayers to Khaine instill his killing prowess and cold-hearted cruelty within you and your allies. Targets gain the benefits from the following Talents: @UUID[Compendium.wfrp4e-core.items.Item.GU1KpgY3MeFIaDaq]{Careful Strike}, @UUID[Compendium.wfrp4e-core.items.Item.RWJrupj9seau0w31]{Strike to Injure}, @UUID[Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW]{Strike Mighty Blow}. If the target wishes to reject your gift, they may attempt an <strong>Average (+20) Cool Test </strong>to ignore its effects. All non-Khainites affected must pass a <strong>Difficult (-10) Cool Test </strong>or lose themselves and attempt to kill the first creature in their Line of Sight until the duration ends.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Khaine"
+    },
+    "range": {
+      "value": "Fellowship yard"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Killing Spree",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "rLDdJsPQ33gPo8N5",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Killing Spree",
+            "script": "let cs = await fromUuid(\"Compendium.wfrp4e-core.items.Item.GU1KpgY3MeFIaDaq\")\nlet smb = await fromUuid(\"Compendium.wfrp4e-core.items.Item.4MJJCiOKPkBByYwW\")\nlet sti = await fromUuid(\"Compendium.wfrp4e-core.items.Item.RWJrupj9seau0w31\")\nthis.actor.createEmbeddedDocuments(\"Item\", [cs, smb, sti], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!JWw30JBAfrwQ95ZK.rLDdJsPQ33gPo8N5"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.JWw30JBAfrwQ95ZK"
+    }
+  },
+  "sort": 400000,
+  "_key": "!items!JWw30JBAfrwQ95ZK"
+}

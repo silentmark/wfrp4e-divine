@@ -1,0 +1,16 @@
+{
+  "name": "Knight of the Fiery Heart",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "UdLjOCkFiYuFojb5",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.UdLjOCkFiYuFojb5"
+    }
+  },
+  "_key": "!folders!UdLjOCkFiYuFojb5"
+}

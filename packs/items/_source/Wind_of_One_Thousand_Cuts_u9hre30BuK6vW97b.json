@@ -1,0 +1,66 @@
+{
+  "name": "Wind of One-Thousand Cuts",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You offer the Tiger God the fresh blood of your enemies for a mere fraction of his ferocity. A barbed war fan, opulent and stylized with the tiger stripe pattern of Sha’er Khan, appears in your hands. You wave the fan as the wind slices through your foes like a thousand tiny knives. All within Fellowship Bonus yards receive a number of @Condition[Bleeding] Conditions equal to your Fellowship Bonus. The cutting wind also acts as a <em>magic missile</em> with a Damage of +2 on all it hits.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "Fellowship Bonus yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.u9hre30BuK6vW97b"
+    }
+  },
+  "_id": "u9hre30BuK6vW97b",
+  "_key": "!items!u9hre30BuK6vW97b"
+}

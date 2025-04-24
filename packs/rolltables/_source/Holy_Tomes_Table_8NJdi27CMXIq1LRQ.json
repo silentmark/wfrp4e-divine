@@ -1,0 +1,173 @@
+{
+  "name": "Holy Tomes Table",
+  "_id": "8NJdi27CMXIq1LRQ",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_id": "IqAJX3bGKN9hDbsO",
+      "text": "Ancient Tome: This tome was written and blessed centuries ago by a powerful Lector. Every Miracle from a given deity is recorded in this tome, allowing the wielder to Invoke any Miracle from that god with a Pray Test as if they had purchased the Miracle themselves. To Invoke a Miracle the user must first brandish the tome and read the words written in Classical by passing an Average (+20) Language (Classical) Test, then attempt their Pray Test. The tome may be used by followers of a different god. However, they gain +1 Sin Point from their primary deity for doing so, even if they fail the Test.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.IqAJX3bGKN9hDbsO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        15
+      ],
+      "drawn": false,
+      "_id": "0UZX6kt5yYjZjB79",
+      "text": "Battle Tome: The wielder of this tome may use its power to cast a single Miracle that causes Damage, including Miracles that affect weapons. The wielder does not need to make a Pray Test. The tome can only be used once every 24-hour period. Battle Tomes are rare in the Empire, and to the frustration of priests who know better, all are inevitably called Tomes of ‘Sigmar’ or ‘Ulric’ as the two gods are known to have the highest number of Warrior Priests who make use of these artifacts.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.0UZX6kt5yYjZjB79"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "_id": "PL8lyN3xcruRo7gM",
+      "text": "Blasphemous Tome: These dangerous tomes assist priests in harnessing their god’s power by leeching directly from the deity itself. If a priest is attempting to cast a Blessing or Miracle, they may choose to gain up to three Sin Points, adding +1 SL to the Pray Test for each Sin Point. After using this ability, a Blasphemous Tome cannot be used for 24 hours.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.PL8lyN3xcruRo7gM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "j59UacNpTf12RIoF",
+      "text": "Canonized Tome: This tome once belonged to a venerated saint and is blessed with a fragment of their soul. For each successfully casted Blessing or Miracle, the wielder recovers their Fellowship Bonus in Wounds. However, the tome is somewhat sentient and will not hesitate to lecture or criticize its owner if it feels they’re not following their god’s Strictures adequately enough. If the tome is offended by the owner or believes they’re unworthy of its power, the tome will deny its Ability to the wielder.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.j59UacNpTf12RIoF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "4i55afS8jmGw9WWN",
+      "text": "Martyr’s Tome: The tome helps lessen the punishment received by the wielder. When using the tome, a priest may ignore one Wrath of the Gods after Fumbling a Pray Test, or when the units die of a Pray Test is equal or lower than your current Sin points. The anger and displeasure of the offended god is faded, instead recorded in the tome for the next 24-hours to remind its bearer of their misdeeds. During this time, the tome cannot be used to ignore another Wrath of the Gods. Additionally, all Wrath of the Gods results towards the bearer are reduced by -10.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.4i55afS8jmGw9WWN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        55
+      ],
+      "drawn": false,
+      "_id": "cdNwBEXyjBmQkcrA",
+      "text": "Purity Tome: These tomes are often crafted and blessed by Arch Lectors near the end of their lives, and are beloved by nuns, priests, templars and warrior priests. Those who carry them may ignore the first three Corruption Points they receive each day. If the wielder receives Corruption Points, they may attempt one Hard (-20) Pray Test to resist gaining them.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.cdNwBEXyjBmQkcrA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        56,
+        60
+      ],
+      "drawn": false,
+      "_id": "kgKMwmayOMyT40R2",
+      "text": "Sacred Tome: These tomes are blessed to disrupt hostile magics targeting the wielder. The wielder may use the Pray Skill to attempt to dispel any spell that targets them. If the wielder is on Holy Ground (such as a temple, abbey, burial site, etc.) they gain a +20 bonus when attempting to dispel.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.kgKMwmayOMyT40R2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        78
+      ],
+      "drawn": false,
+      "_id": "CjDMcXd6aHwkbFeZ",
+      "text": "Tome of Blessing: This tome increases the range of Blessings. Double the standard range of any Blessing cast while holding a Tome of Blessing from 6 yards to 12 yards. If the Blessing in question has a Range of ‘Touch’, it is increased to 6 yards. For every +2 SL you score in a Pray Test when attempting a Blessing, you still may only increase the range by +6 yards.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.CjDMcXd6aHwkbFeZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        95
+      ],
+      "drawn": false,
+      "_id": "10Wv1eitZ5zrJgb5",
+      "text": "Tome of Invoking: This tome is used by priests to increase the duration of their Miracles. A Miracle cast with the aid of a Tome of Invoking has its duration doubled. If the Miracle in question has a Duration of ‘Instant’, it counts as having a bonus of +2 SL for its Miracle effect (does not apply to Range and Target).",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.10Wv1eitZ5zrJgb5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "_id": "fUcP7B1Ls1hHhNuZ",
+      "text": "Thrice-Blessed Tome: This tome reduces the Damage of all attacks by followers of Chaos against the bearer by -2. The bearer of such a tome also receives a +30 bonus to Endurance and Cool Tests made to resist Chaos related Corruption Points. The tome also glows in the presence of Chaos.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!8NJdi27CMXIq1LRQ.fUcP7B1Ls1hHhNuZ"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "wfrp4e": {
+      "key": "holytomes",
+      "column": ""
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.rolltables.8NJdi27CMXIq1LRQ"
+    }
+  },
+  "formula": "",
+  "_key": "!tables!8NJdi27CMXIq1LRQ"
+}

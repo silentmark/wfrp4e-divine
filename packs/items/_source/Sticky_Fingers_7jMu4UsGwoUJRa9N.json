@@ -1,0 +1,198 @@
+{
+  "folder": "x8YrkiJLl8W8e4mC",
+  "name": "Sticky Fingers",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Holding out your open palm, you ponder to yourself Ranald’s conundrum if what was hidden was ever, truly, real? You gain +10 Dexterity, +10 Pick Lock, and +1 @UUID[Compendium.wfrp4e-core.items.Item.9sMAf0xmehjEmUao]{Fast Hands}<em> </em>Talent for the duration of the Miracle.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ranald"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Sticky Fingers",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "YbOCBiOP0bylGqig",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Sticky Fingers",
+            "script": "let fasthands = await fromUuid(\"Compendium.wfrp4e-core.items.Item.9sMAf0xmehjEmUao\")\nthis.actor.createEmbeddedDocuments(\"Item\", [fasthands], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Pick Lock tests",
+            "script": "args.fields.modifier += 10;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return args.skill?.name != \"Pick Lock\"",
+              "activateScript": "return args.skill?.name == \"Pick Lock\"",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "item": "Actor.cfKvYVMI3iKpBIXn.Item.MLdApgA9dPCAq2Kk",
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.dex.modifier",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": 2,
+        "turns": null,
+        "startRound": 25,
+        "startTurn": 0
+      },
+      "description": "",
+      "origin": "Actor.cfKvYVMI3iKpBIXn",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "sourceItem": "Actor.cfKvYVMI3iKpBIXn.Item.MLdApgA9dPCAq2Kk",
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!7jMu4UsGwoUJRa9N.YbOCBiOP0bylGqig"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.7jMu4UsGwoUJRa9N"
+    }
+  },
+  "_id": "7jMu4UsGwoUJRa9N",
+  "sort": 300000,
+  "_key": "!items!7jMu4UsGwoUJRa9N"
+}

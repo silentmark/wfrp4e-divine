@@ -1,0 +1,16 @@
+{
+  "name": "Scalebearer of Verena",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "YWOTU7eNLbwy9M8B",
+  "description": "",
+  "sort": 900000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.YWOTU7eNLbwy9M8B"
+    }
+  },
+  "_key": "!folders!YWOTU7eNLbwy9M8B"
+}

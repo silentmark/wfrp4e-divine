@@ -1,0 +1,16 @@
+{
+  "name": "Thunder Warrior",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "U5zYznVLjGMfeFdf",
+  "description": "",
+  "sort": 600000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.U5zYznVLjGMfeFdf"
+    }
+  },
+  "_key": "!folders!U5zYznVLjGMfeFdf"
+}

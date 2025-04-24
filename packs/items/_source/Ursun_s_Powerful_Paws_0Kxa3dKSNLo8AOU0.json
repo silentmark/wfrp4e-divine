@@ -1,0 +1,176 @@
+{
+  "folder": "LEVNVCHLKuI8Re6N",
+  "name": "Ursun's Powerful Paws",
+  "type": "prayer",
+  "_id": "0Kxa3dKSNLo8AOU0",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You chant benedictions of Ursun’s ferocity. Your Unarmed fists count as Magical, remove the <em>Undamaging </em>Flaw, deal +Fellowship Bonus Damage, and inflict a penalty of -2 SL when opponents use Melee to defend in an Opposed Test.<span class=\"Apple-converted-space\"> If you use the @UUID[Compendium.wfrp4e-core.items.Item.2Nzqsc9aclP6rpnl]{Dirty Fighting} Talent while this Prayer is in effect, the Miracle will terminate immediately and Ursun will punish you with 1 Sin Point.</span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ursun"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Ursun's Powerful Paws",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "Gc2Yub1eibYYw4H8",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": true,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "const fists = foundry.utils.deepClone(game.wfrp4e.config.systemItems.unarmed);\n\nfists.system.flaws.value = [];\nfists.system.qualities.value.push({name : \"magical\"});\nfists.system.damage.value += ` + ${parseInt(this.effect.sourceActor.system.characteristics.fel.bonus)}`;\nfists.system.equipped = true;\nfists.img = this.effect.icon;\nfists.name = this.effect.name;\n\nItem.create(fists, {fromEffect : this.effect.id, parent: this.actor});",
+            "label": "Ursun's Powerful Paws",
+            "trigger": "addItems",
+            "options": {
+              "targeter": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!0Kxa3dKSNLo8AOU0.Gc2Yub1eibYYw4H8"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.0Kxa3dKSNLo8AOU0"
+    }
+  },
+  "_key": "!items!0Kxa3dKSNLo8AOU0"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "High Priest of Khaine",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/spy-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.evPyGVU0r2D1MJVa]{Priest of Khaine}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Priest of Khaine"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Entertain (Acting)",
+      "Intuition",
+      "Lore (Khaine)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Secret Signs (Khainites)",
+      "Stealth (Urban)",
+      "Dodge",
+      "Melee (Any)",
+      "Charm",
+      "Cool",
+      "Endurance",
+      "Lore (Anatomy)",
+      "Ranged (Throwing)",
+      "Trade (Poisoner)",
+      "Entertain (Storytelling)",
+      "Intimidate",
+      "Leadership",
+      "Research"
+    ],
+    "talents": [
+      "Master of Disguise",
+      "Master Orator",
+      "Strike Mighty Blow",
+      "Strike to Injure"
+    ],
+    "trappings": [
+      "Cell of Cultists",
+      "Magic Item",
+      "Secret Shrine to Khaine"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "avdi9tfJ5YRT4KjH",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.IN2vWH6j5K1dU2Wh"
+    }
+  },
+  "_id": "IN2vWH6j5K1dU2Wh",
+  "sort": 400000,
+  "_key": "!items!IN2vWH6j5K1dU2Wh"
+}

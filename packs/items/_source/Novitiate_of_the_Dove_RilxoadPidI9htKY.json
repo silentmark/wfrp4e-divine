@@ -1,0 +1,84 @@
+{
+  "folder": "cdFFqoNTFA5H8IWV",
+  "name": "Novitiate of the Dove",
+  "type": "career",
+  "_id": "RilxoadPidI9htKY",
+  "img": "modules/wfrp4e-core/icons/careers/nun-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ODuc2t27Pe7Q4uSo]{Hospitaller of Shallya}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Hospitaller of Shallya"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Charm",
+      "Gossip"
+    ],
+    "talents": [
+      "Bless (Shallya)",
+      "Etiquette (Commoners)",
+      "Read/Write",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Healing Drought",
+      "Leather Jerkin",
+      "Robes",
+      "Religious Symbol",
+      "The Book of Suffering"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.RilxoadPidI9htKY"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!RilxoadPidI9htKY"
+}

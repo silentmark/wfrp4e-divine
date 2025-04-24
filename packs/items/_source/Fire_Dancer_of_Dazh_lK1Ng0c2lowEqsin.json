@@ -1,0 +1,88 @@
+{
+  "folder": "rVpz5a9L27SLA2Vr",
+  "name": "Fire Dancer of Dazh",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BpBslga31TG8x3BZ]{Fire Dancer of Dazh}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Fire Dancer of Dazh"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Entertain (Sing)",
+      "Gossip",
+      "Lore (Astronomy)",
+      "Melee (Basic)",
+      "Perform (Dance)",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Navigation",
+      "Perform (Acrobatics)",
+      "Ranged (Throwing)",
+      "Trade (Cook)",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Contortionist",
+      "Dual Wielder",
+      "Invoke (Dazh)",
+      "Step Aside"
+    ],
+    "trappings": [
+      "Embroidered Vestments",
+      "Hat (Ushanka)",
+      "2 Shashkas"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.lK1Ng0c2lowEqsin"
+    }
+  },
+  "_id": "lK1Ng0c2lowEqsin",
+  "sort": 0,
+  "_key": "!items!lK1Ng0c2lowEqsin"
+}

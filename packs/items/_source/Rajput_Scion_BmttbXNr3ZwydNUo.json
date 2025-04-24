@@ -1,0 +1,84 @@
+{
+  "_id": "BmttbXNr3ZwydNUo",
+  "name": "Rajput Scion",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/noble-01.png",
+  "effects": [],
+  "folder": "2rm006QkMdj4lKn4",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.BmttbXNr3ZwydNUo"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.tFMi1oAIkxoO79M4]{Rajput}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rajput"
+    },
+    "class": {
+      "value": "Courtiers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Lore (Animals)",
+      "Lore (Sha’er Khan)",
+      "Melee (Basic)",
+      "Perception",
+      "Perform (Dance)",
+      "Pray",
+      "Ranged (Throwing)"
+    ],
+    "talents": [
+      "Bless (Sha’er Khan)",
+      "Noble Blood",
+      "Read/Write",
+      "Step Aside"
+    ],
+    "trappings": [
+      "Breastplate",
+      "Courtly Garb",
+      "Katar",
+      "3 Chakrams"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "sort": 0,
+  "_key": "!items!BmttbXNr3ZwydNUo"
+}

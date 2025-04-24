@@ -1,0 +1,90 @@
+{
+  "name": "Crusader",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BwSVq0AsMrQSkAoO]{Crusader}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Crusader"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Heal",
+      "Language (Arabyan or Bretonnian)",
+      "Language (Estalian or Tilean)",
+      "Lore (Heraldry)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Ride (Horse)",
+      "Cool",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee\n(Flail or Two-handed)",
+      "Navigation"
+    ],
+    "talents": [
+      "Hatred (Any)",
+      "Linguistics",
+      "Seasoned Traveller",
+      "Strike Mighty Blow"
+    ],
+    "trappings": [
+      "Bedroll",
+      "Light War Horse with Saddle and Tack",
+      "Melee Weapon (Any)",
+      "Plate Armour and Helm",
+      "Tent"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "moh0RdKHe31W0YNB",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.KXzErcKOKtxpmSqg"
+    }
+  },
+  "_id": "KXzErcKOKtxpmSqg",
+  "sort": 0,
+  "_key": "!items!KXzErcKOKtxpmSqg"
+}

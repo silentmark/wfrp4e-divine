@@ -1,0 +1,94 @@
+{
+  "folder": "io9kxcrNMv8aLIUc",
+  "name": "Black Cat Burglar",
+  "type": "career",
+  "_id": "zCnzNd3cNUMZzBs2",
+  "img": "modules/wfrp4e-core/icons/careers/thief-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.5JPywH2zV6A4bfi1]{Night Prowler of Ranald}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Night Prowler of Ranald"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Perception",
+      "Pray",
+      "Stealth (Urban)",
+      "Melee (Basic or Brawling)",
+      "Language (Thieves' Tongue)",
+      "Evaluate",
+      "Gossip",
+      "Lore (Theology)",
+      "Pick Lock",
+      "Secret Signs (Thief)",
+      "Sleight of Hand",
+      "Charm",
+      "Entertain (Acting)",
+      "Gamble",
+      "Ranged (Crossbow or Throwing)",
+      "Intuition",
+      "Set Trap"
+    ],
+    "talents": [
+      "Fearless (Law Enforcement)",
+      "Luck",
+      "Mimic",
+      "Scale Sheer Surface"
+    ],
+    "trappings": [
+      "Grappling Hook",
+      "Religious Relic",
+      "Subordinate Night Prowlers"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.zCnzNd3cNUMZzBs2"
+    }
+  },
+  "_key": "!items!zCnzNd3cNUMZzBs2"
+}

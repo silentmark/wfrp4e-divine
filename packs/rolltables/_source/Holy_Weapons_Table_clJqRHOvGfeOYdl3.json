@@ -1,0 +1,323 @@
+{
+  "name": "Holy Weapons Table",
+  "_id": "clJqRHOvGfeOYdl3",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_id": "1RycEhtn66tHydzO",
+      "text": "Aspersion: These weapons are forged by priest-smiths and cooled in holy water as part of their creation. On a spoken command blessed holy water drips off of the weapon for 2d10 Rounds, and is highly acidic to followers of Chaos and Undead. Every time the weapon strikes a target or is used to defend in an Opposed Melee Test, holy water splashes free, and all followers of Chaos or Undead Engaged with the wielder take 1d10 Wounds modified by Toughness Bonus and Armour Points, to a minimum of 1. The weapon must be soaked in holy water before the wielder can use its ability again.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.1RycEhtn66tHydzO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false,
+      "_id": "IzCXxU0GbihzaAGN",
+      "text": "Bane of the Corrupt: A weapon forged by a master craftsmen with the weapon’s name engraved on its side. These weapons are blessed by groups of wizards and clerics. Against followers of Chaos the weapon increases its Damage by +1. This ability can be taken multiple times up to a maximum cumulative Damage increase of +5.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.IzCXxU0GbihzaAGN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        15
+      ],
+      "drawn": false,
+      "_id": "Rw1Ii7NJk0QHUVPZ",
+      "text": "Banisher: These weapons are often made by Light Wizard artificers with the aid of Blessed priests. The weapon sheens with a blindingly bright light in the presence of evil, while the same effect lingers on the string of a bow or crossbow, and is conferred to any ammunition the weapon fires. Any Daemon or Undead hit by the weapon receives no benefit from armour or Toughness Bonus.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.Rw1Ii7NJk0QHUVPZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        20
+      ],
+      "drawn": false,
+      "_id": "GfriXoNMwteLDLll",
+      "text": "Chains of Penitence: Chains made from precious metals and engraved with images of skulls and holy symbols are wrapped around the weapon. On a spoken command the chains come to life, whirring and grinding—sparks flying as the chains radiate a golden aura. Instead of causing Damage, a successful attack with the weapon can Damage the opponent’s weapon or struck piece of armour by 1+SL by which the wielder wins the Opposed Test. The weapon has the Hack and Trap Blade Qualities. Ranged weapons cannot receive Chains of Penitence.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.GfriXoNMwteLDLll"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        25
+      ],
+      "drawn": false,
+      "_id": "sNu0sQrqlWDTx1BR",
+      "text": "Divine Punishment: A platinum skull and cross is fastened to the weapon with golden rivets - made from metals enchanted by the Alchemists of the Gold Order. Add +20 to the score of any Critical Hits made with this weapon. Ignore Critical Deflection from enemies of mankind, such as: Dark Elves, followers of Chaos, Greenskins, Skaven and Undead.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.sNu0sQrqlWDTx1BR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        26,
+        30
+      ],
+      "drawn": false,
+      "_id": "G0apeKmLcjRWeHD3",
+      "text": "Faith and Flight: The hilt or grip of this weapon is made from the blessed wing bones of a griffin. The weapon may be thrown and treated as if it’s a Ranged (Throwing) weapon. The weapon has a Range of SBx3 yards, and the thrower gains a +30 bonus to Ballistic Skill Tests on such attacks with this weapon. The weapon returns to the thrower’s hand at the end of their Turn. For ranged weapons, only the +30 bonus to Ballistic Skill Tests is conferred. The weapon has the Lightweight Quality.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.G0apeKmLcjRWeHD3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        35
+      ],
+      "drawn": false,
+      "_id": "AfEK8QzNjHn9RKaA",
+      "text": "Heretic’s Repentance: This rune-encrusted obsidian weapon is the bane of heretics and witches the world over. This weapon can absorb holy power and disperse it in a violent fashion. As an Action, the wielder may make a Challenging (+0) Pray Test, charging the weapon with divine energy for +Fellowship Bonus Rounds. The next time you hit a target within the duration, all creatures without the Bless or Invoke Talent within 2 yards of the struck target point take SL+Weapon Damage, and suffer any Conditions, Critical Hits or Qualities the weapon inflicts. For every +SL you may increase the radius by 1 yard. Once a target is struck the effect ends, and the weapon must be charged again with a Pray Test.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.AfEK8QzNjHn9RKaA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        36,
+        40
+      ],
+      "drawn": false,
+      "_id": "H78EE6Z26zOwwCxR",
+      "text": "Hero’s Legacy: This weapon once belonged to a mighty mortal warrior and contains part of their undying spirit. When using the weapon to defend, the wielder gains the Champion Creature Trait. The wielder must be a true hero and have no Corruption Points, Sin Points or Mutations to gain this effect. Ranged weapons cannot receive Hero’s Legacy.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.H78EE6Z26zOwwCxR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        45
+      ],
+      "drawn": false,
+      "_id": "dUCwXMMUsID2Tb5M",
+      "text": "Holy Force: Pulses of radiant energy thrum in this weapon. If wielded with intent by a Blessed follower of its god, a special roll may be attempted to temporarily increase the weapon’s power. As an Action, the wielder may make a Challenging (+0) Pray Test with each +SL increasing the Damage of the weapon by +1. This effect lasts +Fellowship Bonus Rounds and may not be attempted again until the duration ends.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.dUCwXMMUsID2Tb5M"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        46,
+        50
+      ],
+      "drawn": false,
+      "_id": "nqAQgZVe1ZiGfIu4",
+      "text": "Masterfully Silvered: These weapons are silvered using ingots blessed by priests of Morr. Against Undead the weapon increases its Damage by +2. Any Undead destroyed by this weapon can never be raised 37 with Necromancy again under normal conditions. For ranged weapons, the same effect is conferred to 12 ammunition the weapon fires.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.nqAQgZVe1ZiGfIu4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        55
+      ],
+      "drawn": false,
+      "_id": "prrHTOEK5W9MJMRI",
+      "text": "Metalmorph: This weapon is made from living metal, and cunningly wrought into the patron animal of whichever god it is depicting: For instance Sigmar would be represented by a griffin, Myrmidia by an eagle and Ulric by a wolf. When the weapon is wielded with intent by a Blessed follower of its god, as an Action the wielder may make a Challenging (+0) Pray Test. For every +SL they achieve they may choose one of the following Weapon Qualities: Damaging, Impact, Impale, or Penetrating. This ability lasts for 2d10 Rounds and may be used once every 24-hours. For ranged weapons, the same effect is conferred to the ammunition the weapon fires.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.prrHTOEK5W9MJMRI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        56,
+        60
+      ],
+      "drawn": false,
+      "_id": "95IHkRnPLBi9aGq3",
+      "text": "Meteoric Metal: Forged from a hunk of skyfallen steel, there is a belief within all religious Orders that these weapons strike with the force of a comet. The weapon has the Impact and Unbreakable Qualities. For ranged weapons, the Impact Quality is conferred to the ammunition the weapon fires while the weapon receives the Unbreakable Quality. The wielder must be ‘Blessed’ to receive the Impact Quality.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.95IHkRnPLBi9aGq3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        65
+      ],
+      "drawn": false,
+      "_id": "jomUNCjLVkGMaDKL",
+      "text": "Purifying Flame: These weapons are mighty artefacts, masterworks of priest-smiths, wrought in beautiful golden copper. On a spoken command this weapon erupts into white and orange flames—holy runes illuminating across its sides. The flame grants the same amount of light as a torch; moreover, it cannot be quenched, snuffed, or otherwise put out, even if it is fully submerged in water. If the wielder hits a flammable target with the weapon, the target suffers one Ablaze Condition. Followers of Chaos and Undead gain +SL Ablaze Conditions.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.jomUNCjLVkGMaDKL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        66,
+        70
+      ],
+      "drawn": false,
+      "_id": "ZdyFcNCgFz5Rof6t",
+      "text": "Radiant Nimbus: This holy artefact is made from a beautiful goldenrod steel, enticing to all that behold it, and glows with holy power. Creatures with the Unstable Trait engaged with the bearer lose 3 Wounds at the end of each turn.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.ZdyFcNCgFz5Rof6t"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        75
+      ],
+      "drawn": false,
+      "_id": "zcoBMjrKaPPxkkq3",
+      "text": "Relic of Command: Shortly after this weapon was completed, its maker washed it in a mixture of holy water and the tears of nuns and priests, causing it to whiten. While carrying the weapon, the wielder benefits from a permanent Blessing that modifies an Attribute by +10. The GM chooses from one of the six Blessings available to the cult who forged the weapon (Core Book, page 220).",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.zcoBMjrKaPPxkkq3"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        76,
+        80
+      ],
+      "drawn": false,
+      "_id": "jLyJ1vrDDAWxSwII",
+      "text": "Righteous Zealotry: This weapon is forged from living light and the skull of a Flagellant. This weapon grants the wielder the Slayer Talent. When you slay a Size (Large) or larger creature in melee, you gain a bonus +10 to your Weapon Skill and Strength for 1d10 Rounds. This effect is cumulative. Ranged weapons cannot receive Righteous Zealotry.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.jLyJ1vrDDAWxSwII"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        85
+      ],
+      "drawn": false,
+      "_id": "FJMIjj3kJK7OdEED",
+      "text": "Smite: Heavy and strong, covered in a radiant sheen, the Smite weapon seems to have a rhythmic pulse akin to a beating heart. As an Action, the wielder may point this weapon at an enemy and ask their god to smite them. This can come in the form of a thunder bolt, ring of fire, a comet falling, or similarly thematic sign from your god. One target is reduced to 0 Wounds and gains the Ablaze condition. This ability can only be used once every 24-hour period. The weapon has the Unbreakable Quality.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.FJMIjj3kJK7OdEED"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        86,
+        90
+      ],
+      "drawn": false,
+      "_id": "QtozoY7dguXUpaZM",
+      "text": "Witch Scourge: Ancient wards of magic defense are engraved across this weapon. The wielder may Oppose incoming magic missiles in their Line of Sight by rolling an Opposed Melee Test against the magic missile’s casted SL, striking it in mid-air. If successful, the magical missile is hurled back at its caster dealing the full Damage it would have inflicted on the wielder. If failed, the wielder is hit by the magic missile as normal. Magic missiles with an Area of Effect may also be Opposed.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.QtozoY7dguXUpaZM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        95
+      ],
+      "drawn": false,
+      "_id": "fTEjM0Mkg1U8gI8c",
+      "text": "Wound the Wicked: These brutally designed weapons are forged from a fallen Warrior Priest’s armour, heated in a holy flame kindled from their bones, and then quenched in a pool of the fallen priest’s blood until it shines red. Anyone wounded by the weapon gains the Bleeding Condition. Enemies of mankind gain three Bleeding Conditions, such as: Dark Elves, followers of Chaos, Greenskins, Skaven and Undead.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.fTEjM0Mkg1U8gI8c"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "_id": "C2YCIZvPmR04YcuA",
+      "text": "Legendary Weapon: Roll twice more on this table. If you roll this result multiple times, a holy weapon has a maximum of five abilities. Duplicate abilities are not cumulative, except for Bane of Corruption.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!clJqRHOvGfeOYdl3.C2YCIZvPmR04YcuA"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "wfrp4e": {
+      "key": "holyweapons",
+      "column": ""
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.rolltables.clJqRHOvGfeOYdl3"
+    }
+  },
+  "formula": "",
+  "_key": "!tables!clJqRHOvGfeOYdl3"
+}

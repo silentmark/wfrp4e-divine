@@ -1,0 +1,88 @@
+{
+  "name": "Bear Tamer of Ursun",
+  "type": "career",
+  "_id": "f0pgtOnnQWPgcLry",
+  "img": "modules/wfrp4e-core/icons/careers/wrecker-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.D5Q8ftn5ULIk8xKn]{Bear Tamer of Ursun}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Bear Tamer of Ursun"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Consume Alcohol",
+      "Dodge",
+      "Endurance",
+      "Melee (Brawling)",
+      "Pray",
+      "Set Trap",
+      "Stealth (Rural)",
+      "Cool",
+      "Heal",
+      "Animal Care",
+      "Animal Training (Bears)",
+      "Charm Animal",
+      "Lore (Beasts)",
+      "Melee (Basic)",
+      "Perform (Dance)"
+    ],
+    "talents": [
+      "Invoke (Ursun)",
+      "Stout-hearted",
+      "Sturdy",
+      "Roughrider"
+    ],
+    "trappings": [
+      "Mail Shirt",
+      "Trained Bear",
+      "10 yards of Chain and Collar"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "NtcfXaIgYe66gCWj",
+  "sort": 253125,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.f0pgtOnnQWPgcLry"
+    }
+  },
+  "_key": "!items!f0pgtOnnQWPgcLry"
+}

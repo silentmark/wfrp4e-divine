@@ -1,0 +1,91 @@
+{
+  "folder": "nMgfCYkGVcurhxp9",
+  "name": "Range Boss",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/protagonist-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.LIjarX1belK9Suwb]{Rustler of Gunndred}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rustler of Gunndred"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "b",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Consume Alcohol",
+      "Cool",
+      "Endurance",
+      "Intimidate",
+      "Melee (Brawling)",
+      "Pray",
+      "Ranged (Entangling)",
+      "Stealth (Rural)",
+      "Haggle",
+      "Perception",
+      "Animal Care",
+      "Charm Animal",
+      "Lore (Animals)",
+      "Melee (Basic)",
+      "Perception",
+      "Ride (Horse) Intuition",
+      "Leadership",
+      "Lore (Torture)",
+      "Melee (Flail)"
+    ],
+    "talents": [
+      "Fearless (Law Enforcement)",
+      "Furious Assault",
+      "Iron Will",
+      "Robust"
+    ],
+    "trappings": [
+      "Ball and Chain",
+      "Gang of Outlaws and Rustlers",
+      "Mail Coat"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.9BhwosElEYbxBIL2"
+    }
+  },
+  "_id": "9BhwosElEYbxBIL2",
+  "sort": 200000,
+  "_key": "!items!9BhwosElEYbxBIL2"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "D4lQKBfCpR6n7gFq",
+  "name": "Curse of the Albatross",
+  "type": "prayer",
+  "_id": "rE80YUDuDipF8bAg",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">The wrath of the God of the Seas is nothing to trifle with as you call down doom and misery on the enemies of Manann. Targets affected by the <em>Curse of the Albatross </em>add +10 to the severity roll for any Critical Wounds they receive. If the target is a pirate, wrecker or worshipper of Stromfels, +20 is added to the severity roll instead.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Manaan"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.rE80YUDuDipF8bAg"
+    }
+  },
+  "_key": "!items!rE80YUDuDipF8bAg"
+}

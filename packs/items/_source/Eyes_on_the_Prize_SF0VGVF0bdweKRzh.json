@@ -1,0 +1,196 @@
+{
+  "folder": "x8YrkiJLl8W8e4mC",
+  "name": "Eyes on the Prize",
+  "type": "prayer",
+  "_id": "SF0VGVF0bdweKRzh",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You spin one of Ranald’s riddles concerning the value of commodities, and whether they hold any real worth at all. Ranald blesses you with a fine eye for the value of things. You gain +10 Intuition, +10 Evaluate, +1 @UUID[Compendium.wfrp4e-core.items.Item.g3y373FnWJEAxgEB]{Detect Artefact} and +1 @UUID[Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79]{Numismatics} Talent for the duration of the Miracle. Additionally, you can mark a single item within your Line of Sight and know exactly where it, even if it is moved, for the duration of the Miracle.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ranald"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Eyes on the Prize",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "j7Dx5771ap71wVWp",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Eyes on the Prize",
+            "script": "let detectart = await fromUuid(\"Compendium.wfrp4e-core.items.Item.g3y373FnWJEAxgEB\")\nlet numismatics = await fromUuid(\"Compendium.wfrp4e-core.items.Item.5QcrpLQWWrsbKR79\")\nthis.actor.createEmbeddedDocuments(\"Item\", [detectart, numismatics], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Evaluate tests",
+            "script": "args.fields.modifier += 10;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "args.skill?.name != game.i18n.localize(\"NAME.Evaluate\")",
+              "activateScript": "args.skill?.name == game.i18n.localize(\"NAME.Evaluate\")",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.i.modifier",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!SF0VGVF0bdweKRzh.j7Dx5771ap71wVWp"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.SF0VGVF0bdweKRzh"
+    }
+  },
+  "sort": 400000,
+  "_key": "!items!SF0VGVF0bdweKRzh"
+}

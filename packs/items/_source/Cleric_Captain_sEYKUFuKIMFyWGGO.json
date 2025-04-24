@@ -1,0 +1,95 @@
+{
+  "name": "Cleric Captain",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.oXJSAh1Ya8veOThi]{Knight of the Fiery Heart}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Knight of the Fiery Heart"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Heal",
+      "Lore (Heraldry)",
+      "Lore (Sigmar)",
+      "Melee (Basic)",
+      "Melee (Cavalry)",
+      "Ride\n(Horse)",
+      "Trade (Farrier)",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Pray",
+      "Charm",
+      "Leadership",
+      "Lore (Warfare)",
+      "Perception",
+      "Lore (Theology)",
+      "Secret Signs (Fiery Heart)"
+    ],
+    "talents": [
+      "Holy Hatred",
+      "Inspiring",
+      "Pure Soul",
+      "Stout-hearted"
+    ],
+    "trappings": [
+      "Company of Fiery Heart Knights",
+      "Great Helm with Civic Crown and Horns",
+      "Novice"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "UdLjOCkFiYuFojb5",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.sEYKUFuKIMFyWGGO"
+    }
+  },
+  "_id": "sEYKUFuKIMFyWGGO",
+  "sort": 300000,
+  "_key": "!items!sEYKUFuKIMFyWGGO"
+}

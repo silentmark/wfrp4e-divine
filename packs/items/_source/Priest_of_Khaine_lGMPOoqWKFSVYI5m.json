@@ -1,0 +1,87 @@
+{
+  "name": "Priest of Khaine",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/spy-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.evPyGVU0r2D1MJVa]{Priest of Khaine}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Priest of Khaine"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Entertain (Acting)",
+      "Intuition",
+      "Lore (Khaine)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Secret Signs (Khainites)",
+      "Stealth (Urban)",
+      "Dodge",
+      "Melee (Any)",
+      "Charm",
+      "Cool",
+      "Endurance",
+      "Lore (Anatomy)",
+      "Ranged (Throwing)",
+      "Trade (Poisoner)"
+    ],
+    "talents": [
+      "Cat-tongued",
+      "Double Life",
+      "Invoke (Khaine)",
+      "Public Speaking"
+    ],
+    "trappings": [
+      "Good Quality Ritual Vestments",
+      "Sacrificial Dagger"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "avdi9tfJ5YRT4KjH",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.lGMPOoqWKFSVYI5m"
+    }
+  },
+  "_id": "lGMPOoqWKFSVYI5m",
+  "sort": 300000,
+  "_key": "!items!lGMPOoqWKFSVYI5m"
+}

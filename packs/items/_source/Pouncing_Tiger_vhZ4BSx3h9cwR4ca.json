@@ -1,0 +1,66 @@
+{
+  "name": "Pouncing Tiger",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You chant to the father of all tigers, and he grants you his favour, imbuing you with his leaping and climbing power. You gain the @UUID[Compendium.wfrp4e-core.items.Item.pLW9SVX0TVTYPiPv]{Bite} (SB+2), @UUID[Compendium.wfrp4e-core.items.Item.j6v78dnOOdCB6c3d]{Bounce} and @UUID[Compendium.wfrp4e-core.items.Item.KII1gWnxIZ8HzmU5]{Wallcrawler} Creature Traits.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "3 Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.vhZ4BSx3h9cwR4ca"
+    }
+  },
+  "_id": "vhZ4BSx3h9cwR4ca",
+  "_key": "!items!vhZ4BSx3h9cwR4ca"
+}

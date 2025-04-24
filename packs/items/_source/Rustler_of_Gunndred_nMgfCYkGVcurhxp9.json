@@ -1,0 +1,16 @@
+{
+  "name": "Rustler of Gunndred",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "nMgfCYkGVcurhxp9",
+  "description": "",
+  "sort": 1400000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nMgfCYkGVcurhxp9"
+    }
+  },
+  "_key": "!folders!nMgfCYkGVcurhxp9"
+}

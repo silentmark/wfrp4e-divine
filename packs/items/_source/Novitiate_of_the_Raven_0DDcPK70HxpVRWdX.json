@@ -1,0 +1,84 @@
+{
+  "name": "Novitiate of the Raven",
+  "type": "career",
+  "_id": "0DDcPK70HxpVRWdX",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.bwrxjlwziDQNqgHk]{Warrior Priest of Morr}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Morr"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intimidate",
+      "Leadership",
+      "Lore (Dreams)",
+      "Lore (Theology)",
+      "Melee (Polearm)",
+      "Pray"
+    ],
+    "talents": [
+      "Bless (Morr)",
+      "Etiquette (Morrians)",
+      "Read/Write",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Book (Libro Dei Morti)",
+      "Leather Jerkin",
+      "Robes",
+      "Religious Symbol",
+      "Scythe"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "CldCJ39jorgRODsv",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.0DDcPK70HxpVRWdX"
+    }
+  },
+  "sort": 100000,
+  "_key": "!items!0DDcPK70HxpVRWdX"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Chosen of Khaine",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/spy-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.evPyGVU0r2D1MJVa]{Priest of Khaine}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Priest of Khaine"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Entertain (Acting)",
+      "Intuition",
+      "Lore (Khaine)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Secret Signs (Khainites)",
+      "Stealth (Urban)",
+      "Dodge",
+      "Melee (Any)",
+      "Charm",
+      "Cool",
+      "Endurance",
+      "Lore (Anatomy)",
+      "Ranged (Throwing)",
+      "Trade (Poisoner)",
+      "Entertain (Storytelling)",
+      "Intimidate",
+      "Leadership",
+      "Research",
+      "Language (Any)",
+      "Lore (Any)"
+    ],
+    "talents": [
+      "Commanding Presence",
+      "Frightening",
+      "Impassioned Zeal",
+      "Savant (Khaine)"
+    ],
+    "trappings": [
+      "Favor of Khaine",
+      "Khainite Coven"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "avdi9tfJ5YRT4KjH",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Emg2bjmM8d6LlKwd"
+    }
+  },
+  "_id": "Emg2bjmM8d6LlKwd",
+  "sort": 500000,
+  "_key": "!items!Emg2bjmM8d6LlKwd"
+}

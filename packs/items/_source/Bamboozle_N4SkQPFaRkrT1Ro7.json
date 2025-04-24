@@ -1,0 +1,66 @@
+{
+  "folder": "x8YrkiJLl8W8e4mC",
+  "name": "Bamboozle",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p1\">You pose a quandary about the nature of free will in a universe ruled by gods. You fool one Human-sized creature into doing your bidding unless it can pass a <strong>Hard (-20) Cool</strong> Test. You can determine what it does the following round, providing it doesn’t directly harm itself — indirectly is another matter. Creatures with the Undead or Daemonic Traits cannot be bamboozled.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ranald"
+    },
+    "range": {
+      "value": "24 yards"
+    },
+    "duration": {
+      "value": "1 Round",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.N4SkQPFaRkrT1Ro7"
+    }
+  },
+  "_id": "N4SkQPFaRkrT1Ro7",
+  "sort": 200000,
+  "_key": "!items!N4SkQPFaRkrT1Ro7"
+}

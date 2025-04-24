@@ -1,0 +1,16 @@
+{
+  "name": "Trappings",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "2m0sSTHyNvJyjq5D",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.2m0sSTHyNvJyjq5D"
+    }
+  },
+  "_key": "!folders!2m0sSTHyNvJyjq5D"
+}

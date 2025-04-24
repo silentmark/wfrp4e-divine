@@ -1,0 +1,100 @@
+{
+  "folder": "W1H9l0RvLMqgOl5q",
+  "name": "Shashka",
+  "type": "weapon",
+  "_id": "cRwkwcMOX79HL67p",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/dagger.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "price": {
+      "gc": 2,
+      "ss": 10,
+      "bp": 0
+    },
+    "availability": {
+      "value": "exotic"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+3"
+    },
+    "reach": {
+      "value": "short"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": false
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "basic"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "fast",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.cRwkwcMOX79HL67p"
+    }
+  },
+  "_key": "!items!cRwkwcMOX79HL67p"
+}

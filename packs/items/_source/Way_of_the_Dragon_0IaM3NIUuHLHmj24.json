@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Way of the Dragon",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You call upon the Divine Dragon, Shenron, ally and companion of the Niō, to channel through you and reduce your foes to ash as black and white fire spews from your mouth. You immediately make a Breath attack, as if you had spent 2 Advantage to activate the @UUID[Compendium.wfrp4e-core.items.Item.uqGxFOEqeurwkAO3]{Breath} +5 (Fire) Creature Trait. All characters within Fellowship Bonus yards of that target are struck, as are all characters between the creature and the target. Perform an Opposed <strong>Pray/Dodge</strong> Test against all affected targets (adding the SLs from the initial Pray Test to your result). All targets that fail take Damage equal to the attack’s Rating. For every +2 SL you increase the Breath Rating by +1.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "20 yards (can't be extended)"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Breath",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 5,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.0IaM3NIUuHLHmj24"
+    }
+  },
+  "_id": "0IaM3NIUuHLHmj24",
+  "_key": "!items!0IaM3NIUuHLHmj24"
+}

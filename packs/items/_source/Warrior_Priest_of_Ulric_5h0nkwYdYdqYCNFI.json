@@ -1,0 +1,88 @@
+{
+  "name": "Warrior Priest of Ulric",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.HKhZvumc0NmbFTat]{Warrior Priest of Ulric}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Ulric"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Melee (Any)",
+      "Lore (Local)",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Two-handed)",
+      "Ranged (Bow)"
+    ],
+    "talents": [
+      "Dual Wielder",
+      "Frenzy",
+      "Invoke (Ulric)",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Great Axe",
+      "Plate Armour",
+      "Wolf’s Pelt"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "R1WBZb0jvWdBfc6f",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.5h0nkwYdYdqYCNFI"
+    }
+  },
+  "_id": "5h0nkwYdYdqYCNFI",
+  "sort": 0,
+  "_key": "!items!5h0nkwYdYdqYCNFI"
+}

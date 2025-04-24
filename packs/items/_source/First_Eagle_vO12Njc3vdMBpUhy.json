@@ -1,0 +1,84 @@
+{
+  "name": "First Eagle",
+  "type": "career",
+  "_id": "vO12Njc3vdMBpUhy",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.2LYfPZ8t4n3Ii7g8]{Shieldmaiden of Myrmidia}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shieldmaiden of Myrmidia"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Lore (Warfare)",
+      "Melee (Basic)",
+      "Pray",
+      "Perception",
+      "Melee (Polarm)"
+    ],
+    "talents": [
+      "Bless (Myrmidia)",
+      "Drilled",
+      "Etiquette (Myrmidians)",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Hand Spear",
+      "Leather Breastplate",
+      "Robes",
+      "Religious Symbol",
+      "The Book of War"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "5Qs9IwqHXaBPww88",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.vO12Njc3vdMBpUhy"
+    }
+  },
+  "sort": 200000,
+  "_key": "!items!vO12Njc3vdMBpUhy"
+}

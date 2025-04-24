@@ -1,0 +1,104 @@
+{
+  "folder": "BFTf1WhYtKMPzs9g",
+  "name": "Trident",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "price": {
+      "gc": 1,
+      "ss": 10,
+      "bp": 0
+    },
+    "availability": {
+      "value": "scarce"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "value": "vLong"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "polearm"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        },
+        {
+          "name": "impale",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.lvH9UCdSuPxGis5s"
+    }
+  },
+  "_id": "lvH9UCdSuPxGis5s",
+  "sort": 0,
+  "_key": "!items!lvH9UCdSuPxGis5s"
+}

@@ -1,0 +1,113 @@
+{
+  "folder": "uk0DHQ0kuB50NXX5",
+  "name": "Great Comet Flail",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/flail.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">A peculiar, if devastating, weapon used by the most fanatical members of the Cult of Sigmar, the comet flail consists of two hollow iron balls attached by a long chain to a heavy stock, much like a normal flail. The balls are filled with pitch or oil and set alight, flames and burning oil pouring from them through holes in the metal. Flagellants and Warrior Priests of Sigmar charge into battle with these flails, swinging them about their heads to give themselves the appearance of being surrounded by a pair of flaming comets. In addition to any damage caused as normal by the weapon, when a Comet Flail hits a Critical, it gives a struck target an @Condition[Ablaze]<em> </em>Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "price": {
+      "gc": 3,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "exotic"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+5"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "flail"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "distract",
+          "value": null
+        },
+        {
+          "name": "impact",
+          "value": null
+        },
+        {
+          "name": "wrap",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": [
+        {
+          "name": "tiring",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "value": "Flaming"
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nGjsoNk76aJ4sBEL"
+    }
+  },
+  "_id": "nGjsoNk76aJ4sBEL",
+  "sort": 400000,
+  "_key": "!items!nGjsoNk76aJ4sBEL"
+}

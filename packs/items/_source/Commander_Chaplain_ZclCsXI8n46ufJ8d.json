@@ -1,0 +1,94 @@
+{
+  "name": "Commander Chaplain",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BwSVq0AsMrQSkAoO]{Crusader}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Crusader"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Animal Care",
+      "Charm Animal",
+      "Heal",
+      "Language (Arabyan or Bretonnian)",
+      "Language (Estalian or Tilean)",
+      "Lore (Heraldry)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Ride (Horse)",
+      "Cool",
+      "Endurance",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee\n(Flail or Two-handed)",
+      "Navigation",
+      "Charm",
+      "Intimidate",
+      "Language (Classical)",
+      "Leadership",
+      "Pray",
+      "Secret Signs (Any Cult)"
+    ],
+    "talents": [
+      "Bless (Any)",
+      "Furious Assault",
+      "Read/Write",
+      "Stout-hearted"
+    ],
+    "trappings": [
+      "Novice",
+      "Small Unit of Crusaders",
+      "Subordinate Priest or Warrior Priest"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "moh0RdKHe31W0YNB",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ZclCsXI8n46ufJ8d"
+    }
+  },
+  "_id": "ZclCsXI8n46ufJ8d",
+  "sort": 100000,
+  "_key": "!items!ZclCsXI8n46ufJ8d"
+}

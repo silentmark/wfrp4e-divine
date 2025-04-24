@@ -1,0 +1,107 @@
+{
+  "folder": "JEO9JK5ProRZ4Mo3",
+  "name": "Hammer-Axe",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/warhammer.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "price": {
+      "gc": 7,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "rare"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "twohanded"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "hack",
+          "value": null,
+          "group": 1,
+          "active": true
+        },
+        {
+          "name": "pummel",
+          "value": null,
+          "group": 1
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.euc35etHRbkkhivY"
+    }
+  },
+  "_id": "euc35etHRbkkhivY",
+  "sort": 0,
+  "_key": "!items!euc35etHRbkkhivY"
+}

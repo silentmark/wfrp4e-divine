@@ -1,0 +1,66 @@
+{
+  "name": "Almighty Roar",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You intone prayers of Sha’er Khan’s fearsome war cry. You violently roar at your prey. The targets must contest your SL with a <strong>Challenging (+0) Cool</strong> Test. If successful, they defiantly stand their ground. If they fail, they are shaken to their core falling @Condition[Prone] and suffer a @Condition[Broken] Condition. Skaven specifically fall @Condition[Unconscious] from freight if they fail by 6 SL or more.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "Fellowship Bonus yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Strength Bonus enemies",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.tSgFASa6SHpfYHTP"
+    }
+  },
+  "_id": "tSgFASa6SHpfYHTP",
+  "_key": "!items!tSgFASa6SHpfYHTP"
+}

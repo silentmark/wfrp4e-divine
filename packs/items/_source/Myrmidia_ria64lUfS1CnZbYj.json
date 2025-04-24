@@ -1,0 +1,16 @@
+{
+  "name": "Myrmidia",
+  "sorting": "a",
+  "folder": "jS1d1qau7gnqt8YO",
+  "type": "Item",
+  "_id": "ria64lUfS1CnZbYj",
+  "description": "",
+  "sort": 1400000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ria64lUfS1CnZbYj"
+    }
+  },
+  "_key": "!folders!ria64lUfS1CnZbYj"
+}

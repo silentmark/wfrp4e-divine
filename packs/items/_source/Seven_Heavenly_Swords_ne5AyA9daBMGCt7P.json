@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Seven Heavenly Swords",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>After a prayer of protection, you are surrounded by seven Ki-infused katanas. Melee opponents suffer 1 hit of 8 Damage, with an extra hit for every +2 SL, on random hit locations, rolled every Round on your opponent’s turn. These hits cannot be dodged or parried. Very Long or Massive weapons can outreach the blades. Long weapons attack simultaneously with the blades. Any opponent wielding a shorter weapon must absorb the hits before attacking.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "1 Round",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Hits",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ne5AyA9daBMGCt7P"
+    }
+  },
+  "_id": "ne5AyA9daBMGCt7P",
+  "_key": "!items!ne5AyA9daBMGCt7P"
+}

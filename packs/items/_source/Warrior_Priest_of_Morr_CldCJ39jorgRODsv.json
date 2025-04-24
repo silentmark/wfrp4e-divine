@@ -1,0 +1,16 @@
+{
+  "name": "Warrior Priest of Morr",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "CldCJ39jorgRODsv",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.CldCJ39jorgRODsv"
+    }
+  },
+  "_key": "!folders!CldCJ39jorgRODsv"
+}

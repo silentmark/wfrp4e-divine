@@ -1,0 +1,89 @@
+{
+  "folder": "cdFFqoNTFA5H8IWV",
+  "name": "Hospitaller of Shallya",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/nun-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ODuc2t27Pe7Q4uSo]{Hospitaller of Shallya}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Hospitaller of Shallya"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Charm",
+      "Gossip",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Anatomy)",
+      "Lore (Medicine)",
+      "Trade (Herbalist)"
+    ],
+    "talents": [
+      "Field Dressing",
+      "Invoke (Shallya)",
+      "Seasoned Traveller",
+      "Surgery"
+    ],
+    "trappings": [
+      "Book (Medicine)",
+      "Breastplate",
+      "Melee Weapon (Any)",
+      "Trade Tools (Medicine)"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.RzMbidI7vSltbORM"
+    }
+  },
+  "_id": "RzMbidI7vSltbORM",
+  "sort": 0,
+  "_key": "!items!RzMbidI7vSltbORM"
+}

@@ -1,0 +1,180 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "Snarling Rage",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You growl and howl wild prayers to Taal., and they fill you with wild rage. You immediately receive the @UUID[Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q]{Frenzy} Psychology and gain +1 @UUID[Compendium.wfrp4e-core.items.Item.mqo51ORnxijcqNNu]{Frightening} Talent as you roar wildly.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "Fear",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 0.66,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Wild Rage",
+      "img": "https://assets.forge-vtt.com/60b35692725bf7019fff834c/modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "cVIfUnDnjxyRG7GV",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Wild Rage",
+            "script": "let frenzy = await fromUuid(\"Compendium.wfrp4e-core.items.Item.yRhhOlt18COq4e1q\")\nlet frightening = await fromUuid(\"Compendium.wfrp4e-core.items.Item.mqo51ORnxijcqNNu\")\nthis.actor.createEmbeddedDocuments(\"Item\", [frenzy, frightening], {fromEffect : this.effect.id})",
+            "trigger": "addItems",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!ZjpLaBO60rH7Kabm.cVIfUnDnjxyRG7GV"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "f55d6baa8a00394b920cc4419b0d847a298aac8f",
+      "sourceId": "Compendium.world.darto-items.Item.ZjpLaBO60rH7Kabm",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ZjpLaBO60rH7Kabm"
+    }
+  },
+  "_id": "ZjpLaBO60rH7Kabm",
+  "sort": 500000,
+  "_key": "!items!ZjpLaBO60rH7Kabm"
+}

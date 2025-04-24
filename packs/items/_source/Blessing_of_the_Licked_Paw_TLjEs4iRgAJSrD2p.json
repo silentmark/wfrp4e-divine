@@ -1,0 +1,190 @@
+{
+  "name": "Blessing of the Licked Paw",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/blessings.png",
+  "effects": [
+    {
+      "name": "Blessing of the Licked Paw",
+      "img": "modules/wfrp4e-core/icons/prayers/blessings.png",
+      "_id": "pPFUNySreN0Fz8N2",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Blessing of the Licked Paw",
+            "script": "let healed=  parseInt(this.effect.sourceTest.result.SL);\nthis.actor.modifyWounds(healed);\nthis.script.scriptMessage(`<strong>${this.actor.prototypeToken.name}</strong> regains ${healed} Wounds`);",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Remove Bleeding",
+            "script": "this.actor.hasCondition(\"bleeding\")?.delete();",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!TLjEs4iRgAJSrD2p.pPFUNySreN0Fz8N2"
+    }
+  ],
+  "flags": {
+    "_sheetTab": "description",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.TLjEs4iRgAJSrD2p"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\">You growl a plea to Ursun to lessen a wound’s pain. You lick your wounds and watch as they rapidly stitch themselves back together, leaving only faint scars. You heal Fellowship Bonus + SL Wounds and remove all @Condition[Bleeding]<em> </em>Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Ursun"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Range (yds.)",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 6,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 0,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "_id": "TLjEs4iRgAJSrD2p",
+  "folder": "LEVNVCHLKuI8Re6N",
+  "sort": 200000,
+  "_key": "!items!TLjEs4iRgAJSrD2p"
+}

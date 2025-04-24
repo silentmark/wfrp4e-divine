@@ -1,0 +1,93 @@
+{
+  "folder": "io9kxcrNMv8aLIUc",
+  "name": "Gentleman Thief",
+  "type": "career",
+  "_id": "x2y3vr32w7PpCWFc",
+  "img": "modules/wfrp4e-core/icons/careers/thief-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.5JPywH2zV6A4bfi1]{Night Prowler of Ranald}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Night Prowler of Ranald"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": true,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Perception",
+      "Pray",
+      "Stealth (Urban)",
+      "Melee (Basic or Brawling)",
+      "Language (Thieves' Tongue)",
+      "Evaluate",
+      "Gossip",
+      "Lore (Theology)",
+      "Pick Lock",
+      "Secret Signs (Thief)",
+      "Sleight of Hand",
+      "Charm",
+      "Entertain (Acting)",
+      "Gamble",
+      "Ranged (Crossbow or Throwing)"
+    ],
+    "talents": [
+      "Holy Visions",
+      "Secret Identity",
+      "Step Aside",
+      "Trapper"
+    ],
+    "trappings": [
+      "Calling Card",
+      "Disguise Kit",
+      "Elegant Mask",
+      "Writing Kit"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.x2y3vr32w7PpCWFc"
+    }
+  },
+  "_key": "!items!x2y3vr32w7PpCWFc"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Bear Breaker",
+  "type": "career",
+  "_id": "Rsnu2z3GSm7OW4E4",
+  "img": "modules/wfrp4e-core/icons/careers/wrecker-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.D5Q8ftn5ULIk8xKn]{Bear Tamer of Ursun}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Bear Tamer of Ursun"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Consume Alcohol",
+      "Dodge",
+      "Endurance",
+      "Melee (Brawling)",
+      "Pray",
+      "Set Trap",
+      "Stealth (Rural)",
+      "Cool",
+      "Heal",
+      "Animal Care",
+      "Animal Training (Bears)",
+      "Charm Animal",
+      "Lore (Beasts)",
+      "Melee (Basic)",
+      "Ride (Bear)",
+      "Intimidate",
+      "Perform (Dance)",
+      "Outdoor Survival",
+      "Perception"
+    ],
+    "talents": [
+      "Animal Affinity",
+      "Fearless (Beasts)",
+      "Resolute",
+      "Trick Riding"
+    ],
+    "trappings": [
+      "Kislev Warbear with Saddle and Tack",
+      "Saddle Bags",
+      "Shield"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "NtcfXaIgYe66gCWj",
+  "sort": 260938,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Rsnu2z3GSm7OW4E4"
+    }
+  },
+  "_key": "!items!Rsnu2z3GSm7OW4E4"
+}

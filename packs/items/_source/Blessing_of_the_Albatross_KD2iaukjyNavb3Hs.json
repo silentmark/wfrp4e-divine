@@ -1,0 +1,66 @@
+{
+  "folder": "D4lQKBfCpR6n7gFq",
+  "name": "Blessing of the Albatross",
+  "type": "prayer",
+  "_id": "KD2iaukjyNavb3Hs",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You pray to Manann whilst standing on the deck of a ship that is afloat. A Divine Servant of Manann, an albatross, descends from the heavens and follows the ship for the duration of the Miracle. The albatross stays with the ship until killed, or the ship makes port, but the ship must make sail within one hour of the albatross’ arrival or else it will fly away, and the priest will gain 1 Sin Point. While the albatross is present, the ship will not sink, no matter how much Damage it takes or how devastating a storm it might face. Its sails will still function no matter how torn, burned or ruined they are, and the ship will be pilotable even if crucial parts of the ship have been destroyed, such as its rudders. The ship will also never take on water regardless of the Damage the hull of the ship may sustain. This Miracle does not extend to the crew, however, as they’re not protected from falling overboard, through holes in the hull or other similar hazards. Use the stats for the Pigeon to represent the albatross. The albatross also gains the following Creature Traits: <em>Clever</em>, <em>Ethereal</em>, <em>Immunity to Psychology</em>, <em>Magical</em>, <em>Painless</em>, <em>Stealthy</em>, <em>Tracker </em>and <em>Ward (+7) </em>.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Manaan"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Until next landfall",
+      "extendable": false
+    },
+    "target": {
+      "value": "1 Ship",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.KD2iaukjyNavb3Hs"
+    }
+  },
+  "_key": "!items!KD2iaukjyNavb3Hs"
+}

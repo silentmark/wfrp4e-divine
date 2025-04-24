@@ -1,0 +1,16 @@
+{
+  "name": "Priest of Khaine",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "avdi9tfJ5YRT4KjH",
+  "description": "",
+  "sort": 1100000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.avdi9tfJ5YRT4KjH"
+    }
+  },
+  "_key": "!folders!avdi9tfJ5YRT4KjH"
+}

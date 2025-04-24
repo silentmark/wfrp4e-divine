@@ -1,0 +1,188 @@
+{
+  "name": "Holy Trinkets Table",
+  "_id": "jwgwpf7PcLPLF09K",
+  "img": "systems/wfrp4e/ui/buttons/d10.webp",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        10
+      ],
+      "drawn": false,
+      "_id": "YNepYdpRLyYAwApO",
+      "text": "Blessed Purity Seal: For the religious or fearful, the Gods offer some consolation in the face of death. Some paint religious phrases on armour or shields, while many others pour sealing wax onto their armour and stamp it with a holy symbol to show their faith. For warriors without plate components, they incorporate such Purity Seals into the rune-inscribed plates they wear around their necks. These seals are blessed by High Priests and grant a bonus +5 to all Tests to resist Corruption and Mutation. This effect is cumulative for every Blessed Purity Seal, and bearers may have one Blessed Purity Seal for each Location.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.YNepYdpRLyYAwApO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "_id": "YBCkv6jMv1NZTkWX",
+      "text": "Belt of Veneration: A Belt of Veneration is a powerful religious relic - often worn by priests during social engagements or for diplomatic purposes. When activated with a command phrase, the wearer gains the benefits of the Etiquette (Cultists, Scholars, Soldiers or Nobles) Talent for as long as the belt remains around their waist. If they wish, they may speak the phrase again to change which version of the Talent they receive the benefit of.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.YBCkv6jMv1NZTkWX"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "sCdrx8BiQROFPkZZ",
+      "text": "Brass Wreath: This wreath made of golden brass is blessed with a Radiant Nimbus, lessened due to the 39 wreath’s size. The wreath gives off a faint glow of holy power. Creatures with the Unstable Creature Trait engaged with the bearer lose 1 Wound at the end of each turn. Additionally, the wearer gains a bonus +10 for all Pray Tests.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.sCdrx8BiQROFPkZZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "EzlLRRZjV1sUv3XY",
+      "text": "Circlet of Purity: Iron circlets are common amongst traveling monks and warrior priests. However, while this piece of jewelry may seem ornamental, it is actually engraved with powerful protective wards providing a defensive holy aura. The wearer of the circlet benefits from the following Creature Traits: Armour 1 (Holy Aura) and Magic Resistance (2).",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.EzlLRRZjV1sUv3XY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "_id": "5OtlVWm5yTxrXzhw",
+      "text": "Jade Amulet: This amulet is a wide carving of deep-green stone in the shape of a god’s patron animal. It may be affixed to a metal breastplate, a belt buckle or worn on a necklace. It is reputed these artefacts are blessed by Arch Lectors. A Jade Amulet grants its wearer the Regenerate Creature Trait.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.5OtlVWm5yTxrXzhw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "_id": "qbxhOzqclNkfAsLv",
+      "text": "Leaping Boots of Faith: These sturdy boots are made from the hide of a griffin and empowered with divine energy. Wearers of the Leaping Boots of Faith benefit from the Bounce Creature Trait.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.qbxhOzqclNkfAsLv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "_id": "rvtnlo2aQGxZndlx",
+      "text": "Penitent’s Band: These bands of lead and brass were made long ago by means since forgotten. The few that remain are said to be highly valued by religious Orders since they are highly susceptible to holy enhancements. The wearer of the Penitent’s Band benefits from a +20 bonus to all Willpower Tests.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.rvtnlo2aQGxZndlx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_id": "tEDVr5O7DbW3Epsj",
+      "text": "Prayer Ring: Prayer Rings are special types of artefacts which can be used to enhance the wearer’s ability to call upon their cult’s deity for aid. If a priest is attempting to cast a Blessing or Miracle, they may choose to gain a bonus of +20 to the Pray Test. A Prayer Ring can be used three times during any 24-hour period.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.tEDVr5O7DbW3Epsj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_id": "fejozrKqWEVMawoQ",
+      "text": "Redemptor’s Patch: Often decorated with religious iconography, these blessed eyepatches grant any who wear them the ability to see the Winds of Magic (as per the Second Sight Talent) and spot potential witches (as per the Magical Sense Talent).",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.fejozrKqWEVMawoQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        95
+      ],
+      "drawn": false,
+      "_id": "OLJnNO4DlgEqKHsL",
+      "text": "Ring of Wrath: Made from star-metal and engraved with ancient prayers of vengeance and retribution, these exceptionally rare rings are worn by powerful priests devoted to wiping out the enemies of mankind and its allies. When casting a Damaging Miracle the wearer may deal +3 bonus Damage. A Ring of Wrath must be charged with a Challenging (+0) Pray Test after every use in order to be used again.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.OLJnNO4DlgEqKHsL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "_id": "5vSqwSJBzpOB2knG",
+      "text": "Star-Metal Circlet: Like all other artefacts made of Meteoric Iron, Star-Metal Circlets are exceptionally rare and reserved for proven heroes. Only a handful have ever been recorded across the Old World, but history tells of mighty warriors, honored saints and tireless champions who used these potent relics to channel the will of their gods onto the mortal realm. The Star-Metal Circlet confers several abilities to a Lector, Priest Captain or Prioress General who wears it. The wearer gains a bonus +2 SL for all Pray Tests and +2 Damage for Miracles. If the wearer of the Star-Metal Circlet suffers Wrath of the Gods, they can make a Difficult (-10) Fellowship Test: if the test succeeds, Wrath of the Gods does not occur.",
+      "img": "icons/svg/d10-grey.svg",
+      "documentId": null,
+      "flags": {},
+      "_key": "!tables.results!jwgwpf7PcLPLF09K.5vSqwSJBzpOB2knG"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "wfrp4e": {
+      "key": "holytrinkets",
+      "column": ""
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.rolltables.jwgwpf7PcLPLF09K"
+    }
+  },
+  "formula": "",
+  "_key": "!tables!jwgwpf7PcLPLF09K"
+}

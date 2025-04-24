@@ -1,0 +1,66 @@
+{
+  "folder": "CeJXdzt0r0QMyL7x",
+  "name": "Bloody Hand",
+  "type": "prayer",
+  "_id": "ILPJq1jxZmqTLyEe",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You chant your dark dedications to the Scorpion Prince, and your hands begin to drip blood, marking you as Khaine’s chosen. Your hands drip the blood of the murdered, splashing on your foes in combat and haunting them with the screams of Khaine’s victims. Anyone that wishes to attack you in melee must first pass a <strong>Challenging (+0) Cool Test</strong>. If they fail, they waste their Action this round, staring at the blood in horror. Furthermore, those in combat with you will sulfer a -10 penalty to Weapon Skill and Agility Tests, as they instinctively <span class=\"s1\">try </span><span class=\"s2\">to </span>avoid the terrible ichor. If you do not kill at least one target in Khaine’s name by the end of this Miracle you will suffer +1 @Condition[Bleeding]<em> </em>Condition and +1 Sin Point.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Khaine"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.ILPJq1jxZmqTLyEe"
+    }
+  },
+  "_key": "!items!ILPJq1jxZmqTLyEe"
+}

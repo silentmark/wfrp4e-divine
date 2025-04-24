@@ -1,0 +1,95 @@
+{
+  "name": "High Eagle",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.2LYfPZ8t4n3Ii7g8]{Shieldmaiden of Myrmidia}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shieldmaiden of Myrmidia"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Lore (Warfare)",
+      "Melee (Basic)",
+      "Pray",
+      "Perception",
+      "Melee (Polarm)",
+      "Charm",
+      "Intimidate",
+      "Language (Battle)",
+      "Leadership",
+      "Melee (Parry)",
+      "Ranged (Throwing)",
+      "Entertain (Speeches)",
+      "Intuition",
+      "Language (Tilean or Estalian)",
+      "Research",
+      "Lore (Any)",
+      "Navigation"
+    ],
+    "talents": [
+      "Fearless (Soldiers)",
+      "Furious Assault",
+      "Inspiring",
+      "War Leader"
+    ],
+    "trappings": [
+      "Map",
+      "Mortar Board",
+      "Religious Relic",
+      "Symbol of Rank"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "5Qs9IwqHXaBPww88",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.fh8wLS09b6zZCMIO"
+    }
+  },
+  "_id": "fh8wLS09b6zZCMIO",
+  "sort": 450000,
+  "_key": "!items!fh8wLS09b6zZCMIO"
+}

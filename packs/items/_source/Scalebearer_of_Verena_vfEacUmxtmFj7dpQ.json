@@ -1,0 +1,88 @@
+{
+  "name": "Scalebearer of Verena",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/lawyer-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.IaieZ2C3k5U4RtjO]{Scalebearer of Verena}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Scalebearer of Verena"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic or Fencing)",
+      "Pray",
+      "Melee (Any)",
+      "Intuition",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Law)",
+      "Melee (Two-handed)"
+    ],
+    "talents": [
+      "Disarm",
+      "Inspiring",
+      "Invoke (Verena)",
+      "Strike Mighty Blow"
+    ],
+    "trappings": [
+      "Breastplate",
+      "Scale",
+      "Zweihander or Bastard Sword"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "YWOTU7eNLbwy9M8B",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.vfEacUmxtmFj7dpQ"
+    }
+  },
+  "_id": "vfEacUmxtmFj7dpQ",
+  "sort": 300000,
+  "_key": "!items!vfEacUmxtmFj7dpQ"
+}

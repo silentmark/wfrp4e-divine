@@ -1,0 +1,91 @@
+{
+  "folder": "rVpz5a9L27SLA2Vr",
+  "name": "Mentee of the Arari",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BpBslga31TG8x3BZ]{Fire Dancer of Dazh}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Fire Dancer of Dazh"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Entertain (Sing)",
+      "Gossip",
+      "Lore (Astronomy)",
+      "Melee (Basic)",
+      "Perform (Dance)",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Navigation",
+      "Perform (Acrobatics)",
+      "Ranged (Throwing)",
+      "Trade (Cook)",
+      "Melee (Any)",
+      "Language (Any)",
+      "Melee (Fencing or Flail)",
+      "Perform (Juggling)",
+      "Perform (Fire Breathing)"
+    ],
+    "talents": [
+      "Catfall",
+      "Enclosed Fighter",
+      "Furious Assault",
+      "Holy Visions"
+    ],
+    "trappings": [
+      "Quality Leather Armour",
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.gqThUr8UeqJTUKNa"
+    }
+  },
+  "_id": "gqThUr8UeqJTUKNa",
+  "sort": 50000,
+  "_key": "!items!gqThUr8UeqJTUKNa"
+}

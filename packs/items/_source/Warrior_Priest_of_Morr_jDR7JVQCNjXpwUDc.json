@@ -1,0 +1,87 @@
+{
+  "name": "Warrior Priest of Morr",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.bwrxjlwziDQNqgHk]{Warrior Priest of Morr}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Morr"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intimidate",
+      "Leadership",
+      "Lore (Dreams)",
+      "Lore (Theology)",
+      "Melee (Polearm)",
+      "Pray",
+      "Augury",
+      "Charm",
+      "Entertain (Speeches)",
+      "Language (Battle)",
+      "Lore (Undead)",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Enclosed Fighter",
+      "Inspiring",
+      "Invoke (Morr)",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Great Scythe",
+      "Mail Armour and Coif"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "CldCJ39jorgRODsv",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.jDR7JVQCNjXpwUDc"
+    }
+  },
+  "_id": "jDR7JVQCNjXpwUDc",
+  "sort": 300000,
+  "_key": "!items!jDR7JVQCNjXpwUDc"
+}

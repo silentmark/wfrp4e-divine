@@ -1,0 +1,93 @@
+{
+  "name": "Black Iron Guardian",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/seaman-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PXW0QLlN2fHvYYif]{Stormguard of Manaan}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Stormguard of Manann"
+    },
+    "class": {
+      "value": "Seafarers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Swim",
+      "Row",
+      "Sail",
+      "Dodge",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Riverways)",
+      "Melee (Polearm)",
+      "Charm",
+      "Intuition",
+      "Navigation",
+      "Perception"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Holy Visions",
+      "Pure Soul",
+      "Stouthearted"
+    ],
+    "trappings": [
+      "Grappling Hook",
+      "Helmet",
+      "Mail Shirt",
+      "Quality Robes"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "aToi40HyeHDogpHT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.6FTfnJSzyllWTnP1"
+    }
+  },
+  "_id": "6FTfnJSzyllWTnP1",
+  "sort": 400000,
+  "_key": "!items!6FTfnJSzyllWTnP1"
+}

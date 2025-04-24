@@ -1,0 +1,88 @@
+{
+  "folder": "VG1zZj0QZUi4CmXi",
+  "name": "Brother of Handrich",
+  "type": "career",
+  "_id": "AdXvjiHh4bKUQwdc",
+  "img": "modules/wfrp4e-core/icons/careers/racketeer-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ATtsdfwixelAW6oY]{Brother of Handrich}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Brother of Handrich"
+    },
+    "class": {
+      "value": "Courtiers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Dodge",
+      "Evaluate",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Melee (Brawling)",
+      "Haggle",
+      "Charm",
+      "Cool",
+      "Gamble",
+      "Gossip",
+      "Lore (Taxes)",
+      "Melee (Any)"
+    ],
+    "talents": [
+      "Break and Enter",
+      "Combat Reflexes",
+      "Invoke (Handrich)",
+      "Reversal"
+    ],
+    "trappings": [
+      "Breastplate",
+      "List of Debtors",
+      "Quality Clothing"
+    ],
+    "incomeSkill": [
+      2
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.AdXvjiHh4bKUQwdc"
+    }
+  },
+  "_key": "!items!AdXvjiHh4bKUQwdc"
+}

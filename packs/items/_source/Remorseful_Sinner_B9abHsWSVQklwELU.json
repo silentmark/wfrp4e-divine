@@ -1,0 +1,66 @@
+{
+  "folder": "eIyOD71uJQQnVjN4",
+  "name": "Remorseful Sinner",
+  "type": "prayer",
+  "_id": "B9abHsWSVQklwELU",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You pray to Verena to expand the conscience of a suspected criminal, forcing them to fully comprehend the scope and harm of their actions. If your target committed a crime or has the @UUID[Compendium.wfrp4e-core.items.Item.r180vP86SlwyJc8W]{Criminal}<em> </em>Talent, your prayer leaves your target keenly aware of injustice and tyranny. Whilst under the effects of this Miracle, the target must pass a <strong>Challenging (+0) Cool Test </strong>to commit a crime or suddenly be overwhelmed with guilt. If the target fails by -4 SL or more they break down sobbing and begging for forgiveness, and gain +1 @Condition[Blinded]<em> </em>and @Condition[Stunned]<em> </em>Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Verena"
+    },
+    "range": {
+      "value": "Fellowship Bonus yards"
+    },
+    "duration": {
+      "value": "Fellowship Bonus hours",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.B9abHsWSVQklwELU"
+    }
+  },
+  "sort": 300000,
+  "_key": "!items!B9abHsWSVQklwELU"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Adjudicator",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/lawyer-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.IaieZ2C3k5U4RtjO]{Scalebearer of Verena}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Scalebearer of Verena"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic or Fencing)",
+      "Pray",
+      "Melee (Any)",
+      "Intuition",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Law)",
+      "Melee (Two-handed)",
+      "Language (Classical)",
+      "Lore (Heraldry)",
+      "Perception",
+      "Research"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Holy Visions",
+      "Pure Soul",
+      "Stouthearted"
+    ],
+    "trappings": [
+      "Court Robes",
+      "Plate Bracers and Leggings",
+      "Writing Kit"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "YWOTU7eNLbwy9M8B",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.KJj5LyeUmyVE5fe0"
+    }
+  },
+  "_id": "KJj5LyeUmyVE5fe0",
+  "sort": 400000,
+  "_key": "!items!KJj5LyeUmyVE5fe0"
+}

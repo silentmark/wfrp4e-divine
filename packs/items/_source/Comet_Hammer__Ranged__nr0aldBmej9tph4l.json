@@ -1,0 +1,217 @@
+{
+  "folder": "R44PjpifnolyePgo",
+  "name": "Comet Hammer (Ranged)",
+  "type": "weapon",
+  "_id": "nr0aldBmej9tph4l",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/cavalry-hammer.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">The origins of the Comet Hammer date as far back as the Great War against Chaos in 2304 IC. It was the main instrument of righteous punishment used by Cleric Captain Sigune Schlamme of the Order of the Fiery Heart, a former High Priestess of Sigmar. After falling in the <em>Battle of Finuval Plain </em>defending the Emperor, Magnus the Pious, Sigune was given a queen’s burial and her hammer has been passed down across Cleric Captains and Warrior Priest Captains of the Order ever since for the last two centuries.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify;\"><strong>Weapon Type: </strong>Skull-Splitter Hammer.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify;\"><strong>Ability: </strong>The hammer has the <em>Lightweight </em>Quality and was blessed by a priest of Sigmar, counting it as Magical. In the hands of a Blessed Sigmarite, the Comet Hammer may be thrown and treated as if it’s a Ranged (Throwing) weapon. The hammer has a Range of SBx3 yards, and the thrower gains a +30 bonus to Ballistic Skill Tests on such attacks with this weapon. The hammer returns to the thrower’s hand at the end of their Turn.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify;\">The wielder of the Comet Hammer may invoke its fiery power by stating ‘<em>By Sigmar’s Holy Light!</em>’ erupting the Comet Hammer into white and orange flames—holy runes illuminating across the hammer’s cheek and face. The flame grants the same amount of light as a torch; moreover, it cannot be quenched, snuffed, or otherwise put out, even if it is fully submerged in water. If the wielder hits a flammable target with the Comet Hammer, either in melee or thrown, the target suffers one @Condition[Ablaze]<em> </em>Condition. Followers of Chaos and Undead gain +SL @Condition[Ablaze]<em> </em>Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "price": {
+      "gc": 300,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "rare"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+4"
+    },
+    "reach": {
+      "value": "average"
+    },
+    "range": {
+      "value": "SBx3"
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "ranged"
+    },
+    "twohanded": {
+      "value": false
+    },
+    "ammunitionGroup": {
+      "value": "none"
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "throwing"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "magical",
+          "value": null
+        },
+        {
+          "name": "pummel",
+          "value": null
+        },
+        {
+          "name": "lightweight",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [
+    {
+      "name": "Comet Hammer",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/cavalry-hammer.png",
+      "_id": "jDzkhicy4lKSh4Ky",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Comet Hammer Throw",
+            "script": "args.fields.modifier += 30;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return args.skill?.name != \"Ranged (Throwing)\"",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!nr0aldBmej9tph4l.jDzkhicy4lKSh4Ky"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nr0aldBmej9tph4l"
+    }
+  },
+  "sort": 700000,
+  "_key": "!items!nr0aldBmej9tph4l"
+}

@@ -1,0 +1,82 @@
+{
+  "folder": "rVpz5a9L27SLA2Vr",
+  "name": "Hoofer",
+  "type": "career",
+  "_id": "YGmqwYuENyCig5Rk",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BpBslga31TG8x3BZ]{Fire Dancer of Dazh}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Fire Dancer of Dazh"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": false,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Entertain (Sing)",
+      "Gossip",
+      "Lore (Astronomy)",
+      "Melee (Basic)",
+      "Perform (Dance)",
+      "Heal",
+      "Endurance"
+    ],
+    "talents": [
+      "Ambidextrous",
+      "Bless (Dazh)",
+      "Jump Up",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Hand Weapon (Sword)",
+      "High Red Boots",
+      "Religious Symbol"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.YGmqwYuENyCig5Rk"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!YGmqwYuENyCig5Rk"
+}

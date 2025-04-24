@@ -1,0 +1,85 @@
+{
+  "name": "Novitiate of the Sword & Scale",
+  "type": "career",
+  "_id": "Way2m31xxtcqMFio",
+  "img": "modules/wfrp4e-core/icons/careers/lawyer-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.IaieZ2C3k5U4RtjO]{Scalebearer of Verena}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Scalebearer of Verena"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic or Fencing)",
+      "Pray",
+      "Melee (Any)",
+      "Intuition"
+    ],
+    "talents": [
+      "Bless (Verena)",
+      "Etiquette (Vereneans)",
+      "Read/Write",
+      "Strong-minded"
+    ],
+    "trappings": [
+      "Book (Law)",
+      "Leather Jerkin",
+      "Longsword or Rapier",
+      "Robes",
+      "Religious Symbol",
+      "The Book of Swords"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "YWOTU7eNLbwy9M8B",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.Way2m31xxtcqMFio"
+    }
+  },
+  "sort": 100000,
+  "_key": "!items!Way2m31xxtcqMFio"
+}

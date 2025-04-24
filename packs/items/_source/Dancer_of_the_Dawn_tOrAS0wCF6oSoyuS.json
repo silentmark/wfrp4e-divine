@@ -1,0 +1,92 @@
+{
+  "folder": "rVpz5a9L27SLA2Vr",
+  "name": "Dancer of the Dawn",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.BpBslga31TG8x3BZ]{Fire Dancer of Dazh}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Fire Dancer of Dazh"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Charm",
+      "Dodge",
+      "Entertain (Sing)",
+      "Gossip",
+      "Lore (Astronomy)",
+      "Melee (Basic)",
+      "Perform (Dance)",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Navigation",
+      "Perform (Acrobatics)",
+      "Ranged (Throwing)",
+      "Trade (Cook)",
+      "Melee (Any)",
+      "Language (Any)",
+      "Melee (Fencing or Flail)",
+      "Perform (Juggling)",
+      "Perform (Fire Breathing)",
+      "Leadership",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Etiquette (Kislevites)",
+      "Pure Soul",
+      "Riposte",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Troupe of Fire Dancers"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.tOrAS0wCF6oSoyuS"
+    }
+  },
+  "_id": "tOrAS0wCF6oSoyuS",
+  "sort": 100000,
+  "_key": "!items!tOrAS0wCF6oSoyuS"
+}

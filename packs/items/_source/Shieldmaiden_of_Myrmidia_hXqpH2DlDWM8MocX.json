@@ -1,0 +1,88 @@
+{
+  "name": "Shieldmaiden of Myrmidia",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.2LYfPZ8t4n3Ii7g8]{Shieldmaiden of Myrmidia}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shieldmaiden of Myrmidia"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Lore (Warfare)",
+      "Melee (Basic)",
+      "Pray",
+      "Perception",
+      "Melee (Polarm)",
+      "Charm",
+      "Intimidate",
+      "Language (Battle)",
+      "Leadership",
+      "Melee (Parry)",
+      "Ranged (Throwing)"
+    ],
+    "talents": [
+      "Enclosed Fighter",
+      "Etiquette (Soldiers)",
+      "Invoke (Myrmidia)",
+      "Shieldsman"
+    ],
+    "trappings": [
+      "Breastplate",
+      "Polished Great Shield or Polished Shield",
+      "Spear or Pike"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "5Qs9IwqHXaBPww88",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.hXqpH2DlDWM8MocX"
+    }
+  },
+  "_id": "hXqpH2DlDWM8MocX",
+  "sort": 250000,
+  "_key": "!items!hXqpH2DlDWM8MocX"
+}

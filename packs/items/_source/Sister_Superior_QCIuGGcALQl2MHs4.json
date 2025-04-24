@@ -1,0 +1,92 @@
+{
+  "folder": "KbmFqQrYaNWbwaDI",
+  "name": "Sister Superior",
+  "type": "career",
+  "_id": "QCIuGGcALQl2MHs4",
+  "img": "modules/wfrp4e-core/icons/careers/nun-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.NhB4HLg7R0TAAjGv]{Sister of Sigmar}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Sister of Sigmar"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Lore (Local)",
+      "Melee (Any)",
+      "Research",
+      "Charm",
+      "Entertain (Speeches)",
+      "Evaluate",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Two-handed)",
+      "Intuition",
+      "Leadership",
+      "Lore (Heraldry)",
+      "Perception"
+    ],
+    "talents": [
+      "Pure Soul",
+      "Resistance (Corruption)",
+      "Robust",
+      "Stouthearted"
+    ],
+    "trappings": [
+      "Plate Bracers and Leggings",
+      "Quality Robes",
+      "Subordinate Sisters of Sigmar"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.QCIuGGcALQl2MHs4"
+    }
+  },
+  "_key": "!items!QCIuGGcALQl2MHs4"
+}

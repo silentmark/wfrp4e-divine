@@ -1,0 +1,92 @@
+{
+  "name": "Rajput",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/noble-02.png",
+  "effects": [],
+  "folder": "2rm006QkMdj4lKn4",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.NuW4I2FEzLqJzxDJ"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.tFMi1oAIkxoO79M4]{Rajput}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Rajput"
+    },
+    "class": {
+      "value": "Courtiers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 5
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": false,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Lore (Animals)",
+      "Lore (Sha’er Khan)",
+      "Melee (Basic)",
+      "Perception",
+      "Perform (Dance)",
+      "Pray",
+      "Ranged (Throwing)",
+      "Animal Training (Tiger)",
+      "Entertain (Speeches)",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Play (Sitar)",
+      "Track"
+    ],
+    "talents": [
+      "Animal Affinity",
+      "Dual Wielder",
+      "Invoke (Sha’er Khan)",
+      "Shieldsman"
+    ],
+    "trappings": [
+      "Pata or Urumi Sword Whip",
+      "Mail Coat",
+      "Mirror Armour",
+      "Priest Robes and Turban",
+      "Religious Symbol",
+      "Tulwar"
+    ],
+    "incomeSkill": [
+      8
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "_id": "NuW4I2FEzLqJzxDJ",
+  "sort": 0,
+  "_key": "!items!NuW4I2FEzLqJzxDJ"
+}

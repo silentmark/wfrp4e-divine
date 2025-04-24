@@ -1,0 +1,84 @@
+{
+  "folder": "io9kxcrNMv8aLIUc",
+  "name": "Novitiate of the Trickster",
+  "type": "career",
+  "_id": "dQT1QNGHX4LMQLoQ",
+  "img": "modules/wfrp4e-core/icons/careers/thief-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.5JPywH2zV6A4bfi1]{Night Prowler of Ranald}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Night Prowler of Ranald"
+    },
+    "class": {
+      "value": "Rogues"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "b",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": true,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Evaluate",
+      "Gossip",
+      "Perception",
+      "Pray",
+      "Stealth (Urban)"
+    ],
+    "talents": [
+      "Alley Cat",
+      "Bless (Ranald)",
+      "Criminal",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Book (Midnight and the Black Cat)",
+      "Crowbar",
+      "Leather Jerkin",
+      "Religious Symbol",
+      "Sack"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.dQT1QNGHX4LMQLoQ"
+    }
+  },
+  "_key": "!items!dQT1QNGHX4LMQLoQ"
+}

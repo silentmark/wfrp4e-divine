@@ -1,0 +1,230 @@
+{
+  "name": "Meteoric Greatsword",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/zweihander.png",
+  "effects": [
+    {
+      "name": "Meteoric Greatsword",
+      "img": "modules/wfrp4e-core/icons/equipment/weapons/zweihander.png",
+      "_id": "CST27A6cMR05EQaO",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Fighting Followers of Chaos",
+            "script": "args.actor.flags.meleeDamageIncrease += 3;",
+            "trigger": "dialog",
+            "options": {
+              "hideScript": "return args.item?.system?.attackType != \"melee\"",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!039vRQ8jv5cY3P4o.CST27A6cMR05EQaO"
+    }
+  ],
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.039vRQ8jv5cY3P4o"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Forged from a hunk of skyfallen steel, there is a belief within the High Temple of Sigmar in Altdorf that this sword strikes with the force of Sigmar’s twin-tailed comet. A holy aura surrounds this blade, and its raw power can be felt from all Imperials as far as a town block away from it. It’s a subtle feeling—a tingling on the back of the neck, watering of the eyes or a tickling sensation in the palms. The more devout start having visions of the sword, and more than a few pilgrims have come snooping around near its resting place in Ubersreik in search of this artifact.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify\"><strong>Weapon Type: </strong>Zweihander.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify\"><strong>Ability: </strong>This sword has the <em>Fine </em>and <em>Unbreakable </em>Qualities since it’s forged from Meteoric Iron. The greatsword was blessed by priests of Sigmar and thus counts as Magical, and in the hands of Sigmar’s favored it gains the <em>Impact </em>Quality and increases its Damage by +3 against followers of Chaos. The blade gives off a glow of holy power. Creatures with the <em>Unstable </em>Trait engaged with the bearer lose 3 Wounds at the end of each turn.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "price": {
+      "gc": 5000,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "scarce"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": 0,
+      "shield": 0
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+5"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": ""
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": "none"
+    },
+    "currentAmmo": {
+      "value": "0"
+    },
+    "consumesAmmo": {
+      "value": true
+    },
+    "weaponGroup": {
+      "value": "twohanded"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        },
+        {
+          "name": "hack",
+          "value": null
+        },
+        {
+          "name": "impact",
+          "value": null
+        },
+        {
+          "name": "magical",
+          "value": null
+        },
+        {
+          "name": "unbreakable",
+          "value": null
+        },
+        {
+          "name": "fine",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "_id": "039vRQ8jv5cY3P4o",
+  "folder": "R44PjpifnolyePgo",
+  "sort": 100000,
+  "_key": "!items!039vRQ8jv5cY3P4o"
+}

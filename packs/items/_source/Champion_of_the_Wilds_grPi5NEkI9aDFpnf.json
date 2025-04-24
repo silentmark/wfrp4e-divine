@@ -1,0 +1,92 @@
+{
+  "folder": "WylzxREzU97KjxOB",
+  "name": "Champion of the Wilds",
+  "type": "career",
+  "_id": "grPi5NEkI9aDFpnf",
+  "img": "modules/wfrp4e-core/icons/careers/hunter-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.PGtfvf1MDin2i88f]{Horned Hunter of Taal}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Horned Hunter of Taal"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": true,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Climb",
+      "Cool",
+      "Endurance",
+      "Heal",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Outdoor Survival",
+      "Pray",
+      "Stealth (Rural)",
+      "Ranged (Bow)",
+      "Athletics",
+      "Melee (Brawling or Two-handed or Polearm)",
+      "Ranged (Throwing)",
+      "Secret Signs (Hunter)",
+      "Perception",
+      "Track",
+      "Intuition",
+      "Swim",
+      "Trade (Bowyer or Fletcher or Tanner)",
+      "Set Trap",
+      "Navigation",
+      "Lore (Beastmen)"
+    ],
+    "talents": [
+      "Deadeye Shot",
+      "Fearless (Beastmen)",
+      "Furious Assault",
+      "Holy Hatred"
+    ],
+    "trappings": [
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.grPi5NEkI9aDFpnf"
+    }
+  },
+  "_key": "!items!grPi5NEkI9aDFpnf"
+}

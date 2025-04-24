@@ -1,0 +1,66 @@
+{
+  "folder": "aGTiVKYQzZbJVmlL",
+  "name": "Dream Message",
+  "type": "prayer",
+  "_id": "TTQ8f9uWOqNbLMFZ",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You appear in the dreams of one target to deliver a message. The message may have a length of up to 25 words for your target. The receiver must be someone you have met personally, and must be asleep for the Miracle to take affect. For every +2 SL, you can add another 25 words to the message.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Morr"
+    },
+    "range": {
+      "value": "Fellowship miles"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.TTQ8f9uWOqNbLMFZ"
+    }
+  },
+  "_key": "!items!TTQ8f9uWOqNbLMFZ"
+}

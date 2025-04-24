@@ -1,0 +1,16 @@
+{
+  "name": "Sister of Sigmar",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "KbmFqQrYaNWbwaDI",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.KbmFqQrYaNWbwaDI"
+    }
+  },
+  "_key": "!folders!KbmFqQrYaNWbwaDI"
+}

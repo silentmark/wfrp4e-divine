@@ -1,0 +1,93 @@
+{
+  "name": "Bear Master",
+  "type": "career",
+  "_id": "OVTbZ9Y3wZMON5le",
+  "img": "modules/wfrp4e-core/icons/careers/wrecker-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.D5Q8ftn5ULIk8xKn]{Bear Tamer of Ursun}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Bear Tamer of Ursun"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Athletics",
+      "Consume Alcohol",
+      "Dodge",
+      "Endurance",
+      "Melee (Brawling)",
+      "Pray",
+      "Set Trap",
+      "Stealth (Rural)",
+      "Cool",
+      "Heal",
+      "Animal Care",
+      "Animal Training (Bears)",
+      "Charm Animal",
+      "Lore (Beasts)",
+      "Melee (Basic)",
+      "Ride (Bear)",
+      "Intimidate",
+      "Perform (Dance)",
+      "Outdoor Survival",
+      "Perception",
+      "Intuition",
+      "Leadership"
+    ],
+    "talents": [
+      "Carouser",
+      "Frightening",
+      "Inspiring",
+      "Pure Soul"
+    ],
+    "trappings": [
+      "Bear Barding",
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "NtcfXaIgYe66gCWj",
+  "sort": 268750,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.OVTbZ9Y3wZMON5le"
+    }
+  },
+  "_key": "!items!OVTbZ9Y3wZMON5le"
+}

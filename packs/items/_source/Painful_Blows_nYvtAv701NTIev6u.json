@@ -1,0 +1,66 @@
+{
+  "folder": "DudR1AJV8bUmWJKT",
+  "name": "Painful Blows",
+  "type": "prayer",
+  "_id": "nYvtAv701NTIev6u",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your blows are much more painful to your victims. They do no more Damage, but the agony is excruciating. Anyone you hit suffers the effects of a Minor @UUID[Compendium.wfrp4e-core.items.Item.ShiLe2LWvvwTIa4o]{Torn Muscle} (Major Torn Muscle on a Critical Hit) on the struck Hit Location until the end of next Round. This effect is not cumulative. <em>Painful Blows </em>is used on living victims, and does not affect Daemons or the Undead.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Gunndred"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.nYvtAv701NTIev6u"
+    }
+  },
+  "_key": "!items!nYvtAv701NTIev6u"
+}

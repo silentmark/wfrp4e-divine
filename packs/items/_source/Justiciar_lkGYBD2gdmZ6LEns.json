@@ -1,0 +1,93 @@
+{
+  "name": "Justiciar",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/lawyer-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.IaieZ2C3k5U4RtjO]{Scalebearer of Verena}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Scalebearer of Verena"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic or Fencing)",
+      "Pray",
+      "Melee (Any)",
+      "Intuition",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Law)",
+      "Melee (Two-handed)",
+      "Language (Classical)",
+      "Lore (Heraldry)",
+      "Perception",
+      "Research",
+      "Lore (Politics)",
+      "Lore (Warfare)"
+    ],
+    "talents": [
+      "Fearless (Criminals)",
+      "Furious Assault",
+      "Iron Will",
+      "War Leader"
+    ],
+    "trappings": [
+      "Religious Relic",
+      "Subordinate Scalebearers"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "YWOTU7eNLbwy9M8B",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.lkGYBD2gdmZ6LEns"
+    }
+  },
+  "_id": "lkGYBD2gdmZ6LEns",
+  "sort": 500000,
+  "_key": "!items!lkGYBD2gdmZ6LEns"
+}

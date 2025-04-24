@@ -1,0 +1,190 @@
+{
+  "folder": "ikRcclDdwNLgSO5o",
+  "name": "Purify the Unclean",
+  "type": "prayer",
+  "_id": "BpUv4RMJhEzZPL1i",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You shout prayers concerning Shallya’s need to rid the world of Nurgle, the Fly Lord, and his foul corruption from the world. You may only target Daemons or followers of Nurgle with this Miracle, overwhelming them with the purifying power of Shallya. The target suffers 1d10+SL wounds, ignoring Toughness Bonus and Armour Points, and must succeed a <strong>Difficult (-10) Toughness Test </strong>or gain the @Condition[Stunned] and @Condition[Ablaze]<em> </em>Conditions. Additionally, this Miracle nullifies the <em>Distracting</em>, <em>Infected</em>, <em>Infestation </em>or <em>Spellcaster (Nurgle) </em>Creature Traits for Fellowship Bonus Rounds if the target has them.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Shallya"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "Healed Wounds",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Purify the Unclean",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "jiya0ngfucaEJok2",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let damage = this.effect.sourceTest.result.damage + this.effect.sourceTest.result.additionalDamage\nthis.script.scriptMessage(await this.actor.applyBasicDamage(damage, {damageType : game.wfrp4e.config.DAMAGE_TYPE.IGNORE_ALL, suppressMsg : true}))",
+            "label": "Purify the Unclean",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": true
+            },
+            "async": false
+          },
+          {
+            "script": "this.actor.setupCharacteristic(\"t\", {fields : {difficulty: \"difficult\"}, appendTitle : \" - \" + this.effect.name}).then(async test => {\n           await test.roll();\n           if(!test.succeeded){\n               this.actor.addCondition(\"stunned\")\n               this.actor.addCondition(\"ablaze\")\n          }\n    })",
+            "label": "Conditions",
+            "trigger": "immediate",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!BpUv4RMJhEzZPL1i.jiya0ngfucaEJok2"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.BpUv4RMJhEzZPL1i"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!BpUv4RMJhEzZPL1i"
+}

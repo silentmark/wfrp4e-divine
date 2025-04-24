@@ -1,0 +1,92 @@
+{
+  "name": "Shinjin Sergeant",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/priest-03.png",
+  "effects": [],
+  "folder": "VDjpXu30Yue5kEKl",
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.SWerfGe4irZA4ezs"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.FE3d4y5wblp4KHnC]{Shinjin Monk}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Shinjin Monk"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Art (Engraving)",
+      "Athletics",
+      "Cool",
+      "Dodge",
+      "Language (Battle)",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Melee (Polearm)",
+      "Pray",
+      "Trade (Shrine Builder)",
+      "Consume Alcohol",
+      "Entertain (Speeches)",
+      "Gossip",
+      "Melee (Brawling)",
+      "Outdoor Survival",
+      "Ranged (Bow)",
+      "Endurance",
+      "Intuition",
+      "Melee (Two-handed)",
+      "Perception"
+    ],
+    "talents": [
+      "Combat Master",
+      "Holy Visions",
+      "Pure Soul",
+      "Very Strong"
+    ],
+    "trappings": [
+      "Apprentice Monk",
+      "Nagamaki"
+    ],
+    "incomeSkill": [
+      7
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "_id": "SWerfGe4irZA4ezs",
+  "sort": 100000,
+  "_key": "!items!SWerfGe4irZA4ezs"
+}

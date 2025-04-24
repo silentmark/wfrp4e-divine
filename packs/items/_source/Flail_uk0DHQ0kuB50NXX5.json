@@ -1,0 +1,16 @@
+{
+  "name": "Flail",
+  "sorting": "a",
+  "folder": "Yqtfs49honK1SDKz",
+  "type": "Item",
+  "_id": "uk0DHQ0kuB50NXX5",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.uk0DHQ0kuB50NXX5"
+    }
+  },
+  "_key": "!folders!uk0DHQ0kuB50NXX5"
+}

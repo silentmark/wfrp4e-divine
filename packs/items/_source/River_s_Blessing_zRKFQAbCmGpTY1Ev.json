@@ -1,0 +1,195 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "River's Blessing",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify\">You implore Taal as Lord of Rivers to grant you safe passage through his domain. For the duration of the miracle you gain +4 SL to all <strong>Swim</strong> Tests and your speed is your Movement rate when moving through water, rather than half. Note — this miracle has no effect in salt water.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "River's Blessing",
+      "img": "https://assets.forge-vtt.com/60b35692725bf7019fff834c/modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "nDG7tLLIqoekqn2A",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "script": "let swim = await fromUuid(\"Compendium.wfrp4e-core.items.Item.hodHqFNKAmu40ajh\")\nthis.actor.createEmbeddedDocuments(\"Item\", [swim], {fromEffect : this.effect.id})",
+            "label": "Add Swim",
+            "trigger": "addItems",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          },
+          {
+            "script": "args.fields.slBonus += 4;",
+            "label": "River's Blessing",
+            "trigger": "dialog",
+            "options": {
+              "targeter": false,
+              "defending": false,
+              "hideScript": "return args.skill?.name != \"Swim\";",
+              "activateScript": "return args.skill?.name == \"Swim\";",
+              "submissionScript": "",
+              "deleteEffect": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {},
+          "manualEffectKeys": false
+        }
+      },
+      "_key": "!items.effects!zRKFQAbCmGpTY1Ev.nDG7tLLIqoekqn2A"
+    }
+  ],
+  "flags": {
+    "scene-packer": {
+      "hash": "bda5c125295e568263d6848fe9309022708a82ed",
+      "sourceId": "Compendium.world.darto-items.Item.zRKFQAbCmGpTY1Ev",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.zRKFQAbCmGpTY1Ev"
+    }
+  },
+  "_id": "zRKFQAbCmGpTY1Ev",
+  "sort": 0,
+  "_key": "!items!zRKFQAbCmGpTY1Ev"
+}

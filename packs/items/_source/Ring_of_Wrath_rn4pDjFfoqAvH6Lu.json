@@ -1,0 +1,169 @@
+{
+  "name": "Ring of Wrath",
+  "type": "trapping",
+  "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/signet-ring.png",
+  "effects": [
+    {
+      "name": "Ring of Wrath",
+      "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/signet-ring.png",
+      "_id": "0u5FMIS7iUoj0bYy",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Ring of Wrath",
+            "script": "if (args.item.type == \"prayer\" && (args.item.damage.value || args.item.damage.dice))\n    args.item.damage.value += 3",
+            "trigger": "prePrepareItem",
+            "options": {
+              "hideScript": "return args.item.type != \"prayer\"",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!rn4pDjFfoqAvH6Lu.0u5FMIS7iUoj0bYy"
+    }
+  ],
+  "flags": {
+    "_sheetTab": "description",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.rn4pDjFfoqAvH6Lu"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"p1\" style=\"text-align: justify;\">Made from star-metal and engraved with ancient prayers of vengeance and retribution, these exceptionally rare rings are worn by powerful priests devoted to wiping out the enemies of mankind and its allies. When casting a Damaging Miracle the wearer may deal +3 bonus Damage. A Ring of Wrath must be charged with a Challenging (+0) Pray Test after every use in order to be used again.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "price": {
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "exotic"
+    },
+    "location": {
+      "value": ""
+    },
+    "trappingType": {
+      "value": "clothingAccessories"
+    },
+    "spellIngredient": {
+      "value": ""
+    },
+    "qualities": {
+      "value": []
+    },
+    "flaws": {
+      "value": []
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "equipped": {
+      "value": true
+    }
+  },
+  "_id": "rn4pDjFfoqAvH6Lu",
+  "folder": "R44PjpifnolyePgo",
+  "sort": 0,
+  "_key": "!items!rn4pDjFfoqAvH6Lu"
+}

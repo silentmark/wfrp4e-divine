@@ -1,0 +1,160 @@
+{
+  "name": "Jade Amulet",
+  "type": "trapping",
+  "img": "modules/wfrp4e-core/icons/equipment/clothing_and_accessories/amulet.png",
+  "effects": [
+    {
+      "_id": "chUWF1eRou3cQ6rX",
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "origin": null,
+      "name": "Regenerate",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/traits/trait.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": false,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Regenerate",
+            "trigger": "endRound",
+            "script": "[Script.OGX4BneaYAnV25TO]",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!o6VOoj3KUlkfLCia.chUWF1eRou3cQ6rX"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.o6VOoj3KUlkfLCia"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify;\">This amulet is a wide carving of deep-green stone in the shape of a god’s patron animal. It may be affixed to a metal breastplate, a belt buckle or worn on a necklace. It is reputed these artefacts are blessed by Arch Lectors. A Jade Amulet grants its wearer the Regenerate Creature Trait.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 0
+    },
+    "price": {
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "common"
+    },
+    "location": {
+      "value": ""
+    },
+    "trappingType": {
+      "value": "clothingAccessories"
+    },
+    "spellIngredient": {
+      "value": ""
+    },
+    "qualities": {
+      "value": []
+    },
+    "flaws": {
+      "value": []
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "_id": "o6VOoj3KUlkfLCia",
+  "folder": "R44PjpifnolyePgo",
+  "sort": 500000,
+  "_key": "!items!o6VOoj3KUlkfLCia"
+}

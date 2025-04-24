@@ -21,7 +21,7 @@
   ],
   "packs": [
     {
-      "name": "wos-actors",
+      "name": "actors",
       "label": "Actors (Warriors of Salvation)",
       "path": "/packs/actors",
       "type": "Actor",
@@ -33,7 +33,7 @@
       "flags": {}
     },
     {
-      "name": "wos-items",
+      "name": "items",
       "label": "Items (Warriors of Salvation)",
       "path": "/packs/items",
       "type": "Item",
@@ -45,7 +45,7 @@
       "flags": {}
     },
     {
-      "name": "wos-journals",
+      "name": "journals",
       "label": "Journals (Warriors of Salvation)",
       "path": "/packs/journals",
       "type": "JournalEntry",
@@ -56,7 +56,7 @@
       "flags": {}
     },
     {
-      "name": "wos-rolltables",
+      "name": "rolltables",
       "label": "Roll Tables (Warriors of Salvation)",
       "path": "/packs/rolltables",
       "type": "RollTable",

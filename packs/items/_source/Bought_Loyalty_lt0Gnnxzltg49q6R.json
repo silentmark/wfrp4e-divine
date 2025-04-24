@@ -1,0 +1,66 @@
+{
+  "folder": "3k0pT5Fz3OD2XYp9",
+  "name": "Bought Loyalty",
+  "type": "prayer",
+  "_id": "lt0Gnnxzltg49q6R",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You pray to Handrich to bless a transaction, binding all parties to their agreements. To break any deal blessed by <em>Bought Loyalty</em>, a target must first pass a <strong>Hard (-20) Willpower Test</strong>. If they fail, they must do everything in their power to ensure that they fulfil their part of the bargain. If a character does manage to break the deal, they suffer a -10 penalty to all Tests, and a non-cumulative -20 penalty to all Charm, Evaluate, and Haggle Tests, until a week after the next Marktag. You are immediately aware of anyone who breaks their deal.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify\">This Miracle is not bound by typical Miracles Limitations (<em>Core Book</em>, page 217), may be enacted as many times as you wish and does not prevent other Miracles from being used.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Handrich"
+    },
+    "range": {
+      "value": "1 yard"
+    },
+    "duration": {
+      "value": "Special",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.lt0Gnnxzltg49q6R"
+    }
+  },
+  "_key": "!items!lt0Gnnxzltg49q6R"
+}

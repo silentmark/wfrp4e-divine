@@ -1,0 +1,394 @@
+{
+  "name": "Armour of Righteous Fury",
+  "type": "armour",
+  "img": "modules/wfrp4e-core/icons/equipment/armour/plate-breastplate.png",
+  "effects": [
+    {
+      "name": "Armour of Righteous Fury",
+      "img": "modules/wfrp4e-core/icons/equipment/armour/plate-breastplate.png",
+      "_id": "cDWde1mJ9m2OqUU8",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [
+        {
+          "key": "system.characteristics.t.bonusMod",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.details.move.value",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!d7UWtAGO0t93PpXq.cDWde1mJ9m2OqUU8"
+    },
+    {
+      "_id": "UYjVw6P3QYcIYUym",
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "origin": null,
+      "name": "Plate Helm",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/equipment/armour/plate-helm.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Plate Helm",
+            "trigger": "dialog",
+            "script": "[Script.0iTLDgFHO9Rgc010]",
+            "options": {
+              "activateScript": "[Script.9RFoasDcFnYZ1txR]",
+              "hideScript": "[Script.h0DfPwUUOBjyAHMZ]",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!d7UWtAGO0t93PpXq.UYjVw6P3QYcIYUym"
+    },
+    {
+      "_id": "SxgRPetaTUJwmOi6",
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "tint": "#ffffff",
+      "transfer": true,
+      "origin": null,
+      "name": "Plate Leggings",
+      "description": "",
+      "statuses": [],
+      "img": "modules/wfrp4e-core/icons/equipment/armour/plate-leggings.png",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "document",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false
+          },
+          "testIndependent": false,
+          "equipTransfer": true,
+          "selfOnly": false,
+          "prompt": false,
+          "area": {
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": false
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Plate Leggings",
+            "trigger": "dialog",
+            "script": "[Script.xvGxwv7X0Vq3vNqb]",
+            "options": {
+              "activateScript": "[Script.AV2Kj6jgmIc45zKi]",
+              "hideScript": "[Script.l8qFKSnMpy4P7XQR]",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "sort": 0,
+      "_key": "!items.effects!d7UWtAGO0t93PpXq.SxgRPetaTUJwmOi6"
+    }
+  ],
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.d7UWtAGO0t93PpXq"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify;\">The Armour of Righteous Fury is a suit of armour (usually leather) that was often used by high ranking Witch Hunters for centuries, although its creation secrets have since been discovered and sold across the Old World. Opulent and well-known, its powers are twofold. The armour is inlaid with sigils that increase the wearer’s Toughness Bonus by +1 for the purposes of Damage reduction. In addition, it increases the wearer’s Movement Attribute by +1 and during combat you may immediately spend an Advantage to make an extra attack. Full suit required.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 8
+    },
+    "price": {
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "scarce"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": 0,
+      "shield": 0
+    },
+    "armorType": {
+      "value": "plate"
+    },
+    "penalty": {
+      "value": "-10 Perception, -10 Stealth"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "impenetrable"
+        }
+      ]
+    },
+    "flaws": {
+      "value": [
+        {
+          "name": "weakpoints"
+        }
+      ]
+    },
+    "special": {
+      "value": ""
+    },
+    "AP": {
+      "head": 5,
+      "lArm": 5,
+      "rArm": 5,
+      "lLeg": 5,
+      "rLeg": 5,
+      "body": 5
+    },
+    "APdamage": {
+      "head": 0,
+      "lArm": 0,
+      "rArm": 0,
+      "lLeg": 0,
+      "rLeg": 0,
+      "body": 0
+    },
+    "equipped": {
+      "value": true
+    }
+  },
+  "_id": "d7UWtAGO0t93PpXq",
+  "folder": "R44PjpifnolyePgo",
+  "sort": 600000,
+  "_key": "!items!d7UWtAGO0t93PpXq"
+}

@@ -1,0 +1,71 @@
+{
+  "folder": "mkVJ8tZYdnkvrT0a",
+  "name": "Beastfriend",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p style=\"text-align: justify\">With Taal's aid, you are able to converse with a single animal within range. Charm Animal tests involving this creature have an <strong>Average (+20)</strong> Difficulty. Animals are not used to conversing with men-things, so they sometimes have trouble articulating ideas. The GM should decide how much the animal knows, remembering that the worldview of the average animal is limited, at best.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Taal"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus minutes",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "423175a4e7ba09568fcebdf3fd5289c297f883e2",
+      "sourceId": "Compendium.world.darto-items.Item.UmqkhOrKTCHcB63l",
+      "defaultPermission": 2
+    },
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.UmqkhOrKTCHcB63l"
+    }
+  },
+  "_id": "UmqkhOrKTCHcB63l",
+  "sort": 300000,
+  "_key": "!items!UmqkhOrKTCHcB63l"
+}

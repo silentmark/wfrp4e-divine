@@ -1,0 +1,203 @@
+{
+  "folder": "DudR1AJV8bUmWJKT",
+  "name": "Wrangler's Fire Whip",
+  "type": "prayer",
+  "_id": "3SIcP3SSNwKwfpiS",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">You shout fiery prayers of pain and torment, with a burning hatred in your voice. If wielding a whip, it counts as Magical and any target struck receives an @Condition[Ablaze] Condition. For every subsequent Round in which they are entangled by the whip, they receive a further @Condition[Ablaze] Condition. Any living target struck must pass a <strong>Challenging (+0) Cool </strong>Test or scream in agony. If they fail the test, they lose their next Move; if failed by -3 or more SL, the target gains a @Condition[Stunned] Condition; if failed by -6 or more SL, the target gains the @Condition[Unconscious] Condition and is permanently scarred, waking up 1d10 Rounds later. Further, struck targets lose any @Condition[Bleeding] Conditions as their wounds cauterize; similarly, attacks from your whip cannot cause any @Condition[Bleeding] Conditions.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Gunndred"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Weangler's Fire Whip",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "qztwEoinzNz63lJ8",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Item",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": true,
+          "enableConditionScript": "",
+          "filter": "return args.type == \"weapon\"",
+          "prompt": true,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Weangler's Fire Whip",
+            "script": "args.item.system.qualities.value.push({name : \"magical\"})\nargs.item.system.damage.value += ` + ${parseInt(this.effect.sourceTest.result.SL)}`;\nargs.item.name += ` (${this.effect.name})`",
+            "trigger": "prepareOwned",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Ablaze",
+            "script": "await args.actor.addCondition(\"ablaze\");",
+            "trigger": "applyDamage",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          },
+          {
+            "label": "Unconscious",
+            "script": "if (args.totalWoundLoss > 0)\n{\n    let test = await args.actor.setupSkill(game.i18n.localize(\"NAME.Endurance\"), {skipTargets: true, appendTitle :  ` - ${this.effect.name}`});\n    await test.roll();\n    if (test.result.SL <= -6) args.actor.addCondition(\"unconscious\")\n    else if (test.result.SL <= -3) args.actor.addCondition(\"stunned\");\n    args.actor.hasCondition(\"bleeding\")?.delete()\n}",
+            "trigger": "applyDamage",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": false,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!3SIcP3SSNwKwfpiS.qztwEoinzNz63lJ8"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.3SIcP3SSNwKwfpiS"
+    }
+  },
+  "_key": "!items!3SIcP3SSNwKwfpiS"
+}

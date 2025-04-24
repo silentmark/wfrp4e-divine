@@ -1,0 +1,16 @@
+{
+  "name": "Crusader",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "moh0RdKHe31W0YNB",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.moh0RdKHe31W0YNB"
+    }
+  },
+  "_key": "!folders!moh0RdKHe31W0YNB"
+}

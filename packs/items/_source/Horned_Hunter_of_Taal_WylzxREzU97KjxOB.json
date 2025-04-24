@@ -1,0 +1,16 @@
+{
+  "name": "Horned Hunter of Taal",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "WylzxREzU97KjxOB",
+  "description": "",
+  "sort": 800000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.WylzxREzU97KjxOB"
+    }
+  },
+  "_key": "!folders!WylzxREzU97KjxOB"
+}

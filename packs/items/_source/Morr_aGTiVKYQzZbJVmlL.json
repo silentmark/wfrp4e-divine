@@ -1,0 +1,16 @@
+{
+  "name": "Morr",
+  "sorting": "a",
+  "folder": "jS1d1qau7gnqt8YO",
+  "type": "Item",
+  "_id": "aGTiVKYQzZbJVmlL",
+  "description": "",
+  "sort": 800000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.aGTiVKYQzZbJVmlL"
+    }
+  },
+  "_key": "!folders!aGTiVKYQzZbJVmlL"
+}

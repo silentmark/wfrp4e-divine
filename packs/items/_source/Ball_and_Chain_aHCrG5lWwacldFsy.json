@@ -1,0 +1,117 @@
+{
+  "folder": "uk0DHQ0kuB50NXX5",
+  "name": "Ball and Chain",
+  "type": "weapon",
+  "_id": "aHCrG5lWwacldFsy",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/flail.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 3
+    },
+    "price": {
+      "gc": 5,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "rare"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+6"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "flail"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        },
+        {
+          "name": "impact",
+          "value": null
+        },
+        {
+          "name": "pummel",
+          "value": null
+        },
+        {
+          "name": "wrap",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": [
+        {
+          "name": "tiring",
+          "value": null
+        }
+      ]
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.aHCrG5lWwacldFsy"
+    }
+  },
+  "_key": "!items!aHCrG5lWwacldFsy"
+}

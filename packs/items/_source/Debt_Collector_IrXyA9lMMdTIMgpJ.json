@@ -1,0 +1,82 @@
+{
+  "folder": "VG1zZj0QZUi4CmXi",
+  "name": "Debt Collector",
+  "type": "career",
+  "_id": "IrXyA9lMMdTIMgpJ",
+  "img": "modules/wfrp4e-core/icons/careers/racketeer-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ATtsdfwixelAW6oY]{Brother of Handrich}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Brother of Handrich"
+    },
+    "class": {
+      "value": "Courtiers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": false,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Dodge",
+      "Evaluate",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Melee (Brawling)",
+      "Haggle"
+    ],
+    "talents": [
+      "Bless (Handrich)",
+      "Holy Visions",
+      "Numismatics",
+      "Read/Write"
+    ],
+    "trappings": [
+      "Hand Weapon",
+      "Religious Symbol",
+      "Small Lockbox"
+    ],
+    "incomeSkill": [
+      2
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.IrXyA9lMMdTIMgpJ"
+    }
+  },
+  "_key": "!items!IrXyA9lMMdTIMgpJ"
+}

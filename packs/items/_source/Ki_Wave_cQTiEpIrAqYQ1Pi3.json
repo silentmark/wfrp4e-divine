@@ -1,0 +1,66 @@
+{
+  "folder": "dvYc5DWcbiN27IJ7",
+  "name": "Ki Wave",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>With a prayer to the Niō, you inflict the cleansing power of divine Ki upon the impure. You swing your weapon and a wave of cleansing Ki slices through the air, cutting through and inflicting agony on your foes. Anything in the area with Undead, Daemon, or Mutation Traits, any Sin or Corruption points, or any Chaos Magic, or Necromancy or Skaven Arcane Magic Talent receives 1d10 Wounds, ignoring Toughness and APs.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "The Niō"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "Fellowship Bonus yards",
+      "aoe": true,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "1d10",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.cQTiEpIrAqYQ1Pi3"
+    }
+  },
+  "_id": "cQTiEpIrAqYQ1Pi3",
+  "_key": "!items!cQTiEpIrAqYQ1Pi3"
+}

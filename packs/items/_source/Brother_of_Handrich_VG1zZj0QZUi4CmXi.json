@@ -1,0 +1,16 @@
+{
+  "name": "Brother of Handrich",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "VG1zZj0QZUi4CmXi",
+  "description": "",
+  "sort": 700000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.VG1zZj0QZUi4CmXi"
+    }
+  },
+  "_key": "!folders!VG1zZj0QZUi4CmXi"
+}

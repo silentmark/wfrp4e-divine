@@ -1,0 +1,175 @@
+{
+  "folder": "0yjfQbVOXbqUW0kC",
+  "name": "Warm Touch",
+  "type": "prayer",
+  "_id": "CSWJeP2S1qx5oYDU",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\">Laying your hand on the afflicted, you pray to Dazh to mend their flesh. You gently cauterize the target removing all @Condition[Bleeding]<em> </em>Conditions and healing 1 Wound per @Condition[Bleeding]<em> </em>removed, for a minimum of 1 Wound. Further, the wounds will not become infected. For every +2 SL you may recover +1 Wound per @Condition[Bleeding]<em> </em>Condition removed<span class=\"Apple-converted-space\">.</span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Dazh"
+    },
+    "range": {
+      "value": "Touch"
+    },
+    "duration": {
+      "value": "Instant",
+      "extendable": false
+    },
+    "target": {
+      "value": "1",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": true,
+      "label": "Extra healed Wounds",
+      "valuePerOvercast": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "value",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "Warm Touch",
+      "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+      "_id": "hcyNkq0397HKXCBj",
+      "type": "base",
+      "system": {
+        "transferData": {
+          "type": "target",
+          "originalType": "document",
+          "documentType": "Actor",
+          "avoidTest": {
+            "value": "none",
+            "opposed": false,
+            "prevention": true,
+            "reversed": false,
+            "script": "",
+            "difficulty": "",
+            "characteristic": "",
+            "skill": ""
+          },
+          "testIndependent": false,
+          "preApplyScript": "",
+          "equipTransfer": false,
+          "selfOnly": false,
+          "enableConditionScript": "",
+          "filter": "",
+          "prompt": false,
+          "area": {
+            "radius": null,
+            "templateData": {
+              "borderColor": null,
+              "fillColor": null,
+              "texture": null
+            },
+            "keep": false,
+            "aura": {
+              "transferred": false,
+              "render": true
+            },
+            "duration": "sustained"
+          },
+          "zone": {
+            "type": "zone",
+            "transferred": false,
+            "traits": {},
+            "skipImmediateOnPlacement": false,
+            "keep": false
+          }
+        },
+        "itemTargetData": {
+          "ids": [],
+          "allItems": false
+        },
+        "scriptData": [
+          {
+            "label": "Warm Touch",
+            "script": "let bleeding = args.actor.hasCondition(\"bleeding\")\nlet count = Math.max(1, bleeding?.conditionValue || 0);\nif (bleeding)\n    args.actor.removeCondition(\"bleeding\", bleeding.flags.wfrp4e.value)\n\nlet overcast = foundry.utils.getProperty(this.effect.sourceTest, \"result.overcast.usage.other.current\") || 1\nlet healed = count*overcast;\nthis.script.scriptMessage(`Recovers ${healed} Wounds`)\n\nlet wounds = duplicate(args.actor.status.wounds);\nwounds.value += healed;\n\nif (wounds.value > wounds.max)\n    wounds.value = wounds.max;\n\nargs.actor.update({\"system.status.wounds\" : wounds})",
+            "trigger": "immediate",
+            "options": {
+              "hideScript": "",
+              "activateScript": "",
+              "submissionScript": "",
+              "targeter": false,
+              "deleteEffect": true,
+              "defending": false
+            },
+            "async": false
+          }
+        ],
+        "zone": {
+          "type": "zone",
+          "traits": {},
+          "skipImmediateOnPlacement": false
+        },
+        "sourceData": {
+          "test": {}
+        },
+        "condition": {
+          "value": null,
+          "numbered": false
+        }
+      },
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "wfrp4e": {
+          "applicationData": {},
+          "scriptData": [],
+          "_legacyData": {}
+        }
+      },
+      "_key": "!items.effects!CSWJeP2S1qx5oYDU.hcyNkq0397HKXCBj"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.CSWJeP2S1qx5oYDU"
+    }
+  },
+  "sort": 0,
+  "_key": "!items!CSWJeP2S1qx5oYDU"
+}

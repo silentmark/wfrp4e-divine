@@ -1,0 +1,16 @@
+{
+  "name": "Bear Tamer of Ursun",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "NtcfXaIgYe66gCWj",
+  "description": "",
+  "sort": 1700000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.NtcfXaIgYe66gCWj"
+    }
+  },
+  "_key": "!folders!NtcfXaIgYe66gCWj"
+}

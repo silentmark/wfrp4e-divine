@@ -1,0 +1,90 @@
+{
+  "name": "Priest Sergeant of Morr",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.bwrxjlwziDQNqgHk]{Warrior Priest of Morr}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Morr"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Intimidate",
+      "Leadership",
+      "Lore (Dreams)",
+      "Lore (Theology)",
+      "Melee (Polearm)",
+      "Pray",
+      "Augury",
+      "Charm",
+      "Entertain (Speeches)",
+      "Language (Battle)",
+      "Lore (Undead)",
+      "Melee (Any)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Ride (Horse)"
+    ],
+    "talents": [
+      "Combat Aware",
+      "Holy Visions",
+      "Pure Soul",
+      "Stouthearted"
+    ],
+    "trappings": [
+      "Light Warhorse with Saddle and Tack"
+    ],
+    "incomeSkill": [
+      5
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "CldCJ39jorgRODsv",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.L6WS6Vv8kILNaJQk"
+    }
+  },
+  "_id": "L6WS6Vv8kILNaJQk",
+  "sort": 400000,
+  "_key": "!items!L6WS6Vv8kILNaJQk"
+}

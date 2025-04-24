@@ -1,0 +1,66 @@
+{
+  "folder": "aGTiVKYQzZbJVmlL",
+  "name": "Glimpse Ahead",
+  "type": "prayer",
+  "_id": "L0QLDYMqKVplDTyg",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Praying to Morr for guidance, you gain a sudden<span class=\"Apple-converted-space\"> </span>powerful insight about some future event, though the circumstances of this event are not immediately known to you. You gain +1 @UUID[Compendium.wfrp4e-core.items.Item.0LdHytqyNmg2pcAX]{Combat Aware}, +1 @UUID[Compendium.wfrp4e-core.items.Item.AcnFuDKRemLI9ey7]{Nose for Trouble} and +1 @UUID[Compendium.wfrp4e-core.items.Item.mNoCuaVbFBflfO6X]{Sixth Sense} Talents for the duration of the Miracle or until the end of your next Encounter, whichever is shorter.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Morr"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship Bonus hours",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.L0QLDYMqKVplDTyg"
+    }
+  },
+  "_key": "!items!L0QLDYMqKVplDTyg"
+}

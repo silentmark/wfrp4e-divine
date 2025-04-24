@@ -1,0 +1,89 @@
+{
+  "name": "Warrior Priest of Sigmar",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-02.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.u7NfDIZDSm3eRzXY]{Warrior Priest of Sigmar}</p><p></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Warrior Priest of Sigmar"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 2
+    },
+    "status": {
+      "tier": "s",
+      "standing": 2
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Pray",
+      "Melee (Any)",
+      "Lore (Local)",
+      "Charm",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Melee (Flail or Two-handed)",
+      "Ranged (Throwing)"
+    ],
+    "talents": [
+      "Dual Wielder",
+      "Inspiring",
+      "Invoke (Sigmar)",
+      "Seasoned Traveller"
+    ],
+    "trappings": [
+      "Metal Circlet",
+      "Plate Armour",
+      "Reckoning Great Hammer or Comet Flail with Lamp Oil",
+      "3 Throwing Hammers"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "p5sYq1WIT9RBWnGT",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.v87A8bhm4dPX7s93"
+    }
+  },
+  "_id": "v87A8bhm4dPX7s93",
+  "sort": 0,
+  "_key": "!items!v87A8bhm4dPX7s93"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Call of the WIld",
+  "type": "prayer",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p>You howl for Sha’er Khan’s aid, and he sends a minor Divine Servant in the form of a White Tiger wearing a bejeweled headdress. The tiger fights your enemies for the duration of the Miracle, before leaping into the nearby woods, cave or jungle, vanishing back to the Tiger God’s opulent jungle palace. The White Tigers have the same statistics as a @UUID[Compendium.wfrp4e-zoo.actors.Actor.XfKfMXnChHjtZMZD]{War Lion of Chrace}.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Sha’er Khan"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Fellowship Bonus Rounds",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "folder": "HbaahKZgOjRcB1wE",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.XTXHNInQsLtZQTtR"
+    }
+  },
+  "_id": "XTXHNInQsLtZQTtR",
+  "_key": "!items!XTXHNInQsLtZQTtR"
+}

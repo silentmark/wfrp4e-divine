@@ -1,0 +1,16 @@
+{
+  "name": "Night Prowler of Ranald",
+  "sorting": "m",
+  "folder": "by0rOYwLeZrDGXGF",
+  "type": "Item",
+  "_id": "io9kxcrNMv8aLIUc",
+  "description": "",
+  "sort": 1300000,
+  "color": null,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.io9kxcrNMv8aLIUc"
+    }
+  },
+  "_key": "!folders!io9kxcrNMv8aLIUc"
+}

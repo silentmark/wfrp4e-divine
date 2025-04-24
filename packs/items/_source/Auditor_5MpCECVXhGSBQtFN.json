@@ -1,0 +1,92 @@
+{
+  "folder": "VG1zZj0QZUi4CmXi",
+  "name": "Auditor",
+  "type": "career",
+  "_id": "5MpCECVXhGSBQtFN",
+  "img": "modules/wfrp4e-core/icons/careers/racketeer-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ATtsdfwixelAW6oY]{Brother of Handrich}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Brother of Handrich"
+    },
+    "class": {
+      "value": "Couriers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "g",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": false,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Dodge",
+      "Evaluate",
+      "Intimidate",
+      "Intuition",
+      "Lore (Theology)",
+      "Melee (Basic)",
+      "Perception",
+      "Pray",
+      "Melee (Brawling)",
+      "Haggle",
+      "Charm",
+      "Cool",
+      "Gamble",
+      "Gossip",
+      "Lore (Taxes)",
+      "Melee (Any)",
+      "Endurance",
+      "Leadership",
+      "Lore (Heraldry)",
+      "Melee (Fencing)"
+    ],
+    "talents": [
+      "Ambidextrous",
+      "Disarm",
+      "Dual Wielder",
+      "Nose for Trouble"
+    ],
+    "trappings": [
+      "Gang of Debt Collectors",
+      "Quality Weapon (Any)",
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      2
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 350000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.5MpCECVXhGSBQtFN"
+    }
+  },
+  "_key": "!items!5MpCECVXhGSBQtFN"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Battle Tome of Sigmar",
+  "type": "trapping",
+  "img": "modules/wfrp4e-core/icons/equipment/book_documents/book-religion.png",
+  "effects": [],
+  "flags": {
+    "_sheetTab": "details",
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.jpJOVfJqHGivDMS9"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p class=\"p1\" style=\"text-align: justify;\">The wielder of this tome may use its power to cast a single Miracle that causes Damage, including Miracles that affect weapons. The wielder does not need to make a Pray Test. The tome can only be used once every 24-hour period.</p><p class=\"p1\" style=\"text-align: justify;\">Battle Tomes are rare in the Empire, and to the frustration of priests who know better, all are inevitably called Tomes of ‘Sigmar’ or ‘Ulric’ as the two gods are known to have the highest number of Warrior Priests who make use of these artifacts.</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 1
+    },
+    "price": {
+      "gc": 0,
+      "ss": 0,
+      "bp": 0
+    },
+    "availability": {
+      "value": "common"
+    },
+    "location": {
+      "value": ""
+    },
+    "trappingType": {
+      "value": "booksAndDocuments"
+    },
+    "spellIngredient": {
+      "value": ""
+    },
+    "qualities": {
+      "value": []
+    },
+    "flaws": {
+      "value": []
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "equipped": {
+      "value": false
+    }
+  },
+  "_id": "jpJOVfJqHGivDMS9",
+  "folder": "R44PjpifnolyePgo",
+  "sort": 400000,
+  "_key": "!items!jpJOVfJqHGivDMS9"
+}

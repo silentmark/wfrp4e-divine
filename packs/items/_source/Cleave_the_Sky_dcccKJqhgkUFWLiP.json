@@ -1,0 +1,66 @@
+{
+  "folder": "kxuBNpjGYFcMTe3p",
+  "name": "Cleave the Sky",
+  "type": "prayer",
+  "_id": "dcccKJqhgkUFWLiP",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You invoke Tor to cleave the sky with his mighty war axe. Clouds roil high above, and after 1d10 rounds, either a Downpour, Rain, Snow, or Blizzard (as appropriate) begins. Consult the <em>Enemy in Shadows Companion </em>on page 33 for the weather. <em>Cleave the Sky </em>may only be attempted if the sky is already overcast. With +4 SL you may choose the weather.<span class=\"Apple-converted-space\"> </span></p><p class=\"p2\" style=\"text-align: justify;\">This Miracle is not bound by typical Miracles Limitations (<em>Core Book</em>, page 217), may be enacted as many times as you wish and does not prevent other Miracles from being used.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Tor"
+    },
+    "range": {
+      "value": "Fellowship Bonus miles"
+    },
+    "duration": {
+      "value": "Fellowship Bonus hours",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.dcccKJqhgkUFWLiP"
+    }
+  },
+  "_key": "!items!dcccKJqhgkUFWLiP"
+}

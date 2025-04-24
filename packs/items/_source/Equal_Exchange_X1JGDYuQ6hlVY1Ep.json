@@ -1,0 +1,66 @@
+{
+  "folder": "eIyOD71uJQQnVjN4",
+  "name": "Equal Exchange",
+  "type": "prayer",
+  "_id": "X1JGDYuQ6hlVY1Ep",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify;\">You pray to Verena to meet out justice to those that wrong you, punishing the unjust. Any crime committed against you during the duration, or within Fellowship Bonus minutes prior to the Miracle being cast, is immediately returned upon the criminal. If a thief stole your purse, the thief ’s purse would fall to the ground. If a conman swindles you out of money, he loses the exact same amount through tax collectors. If your target is guilty of a crime, is in the middle of criminal activity or has the <em>Criminal </em>Talent, any Damage they inflict upon you is received by them in turn. If a Thug strikes you reducing your Wounds by 4 after modifying for Toughness and Armour, they also lose 4 Wounds. This Miracle works both ways, however, and any crime you commit will be returned upon you in turn.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Verena"
+    },
+    "range": {
+      "value": "You"
+    },
+    "duration": {
+      "value": "Fellowship minutes",
+      "extendable": false
+    },
+    "target": {
+      "value": "You",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.X1JGDYuQ6hlVY1Ep"
+    }
+  },
+  "_key": "!items!X1JGDYuQ6hlVY1Ep"
+}

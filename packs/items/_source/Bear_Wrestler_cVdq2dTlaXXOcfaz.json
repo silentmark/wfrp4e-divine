@@ -1,0 +1,80 @@
+{
+  "folder": "NtcfXaIgYe66gCWj",
+  "name": "Bear Wrestler",
+  "type": "career",
+  "_id": "cVdq2dTlaXXOcfaz",
+  "img": "modules/wfrp4e-core/icons/careers/wrecker-01.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.D5Q8ftn5ULIk8xKn]{Bear Tamer of Ursun}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Bear Tamer of Ursun"
+    },
+    "class": {
+      "value": "Rangers"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 1
+    },
+    "status": {
+      "tier": "s",
+      "standing": 1
+    },
+    "characteristics": {
+      "ws": false,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Consume Alcohol",
+      "Dodge",
+      "Endurance",
+      "Melee (Brawling)",
+      "Pray",
+      "Set Trap",
+      "Stealth (Rural)",
+      "Cool",
+      "Heal"
+    ],
+    "talents": [
+      "Bless (Ursun)",
+      "Dirty Fighting",
+      "Strider (Woodlands)",
+      "Strong Back"
+    ],
+    "trappings": [
+      "Hand Weapon"
+    ],
+    "incomeSkill": [
+      4
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "sort": 237500,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.cVdq2dTlaXXOcfaz"
+    }
+  },
+  "_key": "!items!cVdq2dTlaXXOcfaz"
+}

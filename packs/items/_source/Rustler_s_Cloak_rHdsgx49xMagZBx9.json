@@ -1,0 +1,66 @@
+{
+  "folder": "DudR1AJV8bUmWJKT",
+  "name": "Rustler's Cloak",
+  "type": "prayer",
+  "_id": "rHdsgx49xMagZBx9",
+  "img": "modules/wfrp4e-core/icons/prayers/miracles.png",
+  "system": {
+    "description": {
+      "value": "<p class=\"p2\" style=\"text-align: justify\">Your prayers allow any @UUID[Compendium.wfrp4e-core.items.Item.Xk5tp3aasPNtk4zt]{Stealth (Rural)} Tests you make apply to an entire group travelling with you within Fellowship yards. The group may include both humanoids (@UUID[Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q]{Size} (Large) or smaller) and large animals, such as horses or cattle. <em>Rustler’s Cloak </em>can affect up to 10 humanoids and 20 @UUID[Compendium.wfrp4e-core.items.Item.8slW8CJ2oVTxeQ6q]{Size} (Large) animals per Fellowship Bonus. Smaller herd animals, like sheep or goats, count as half an animal for this purpose, and bigger humanoid creatures, like Ogres, count as two humanoids.<span class=\"Apple-converted-space\"> </span></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "type": {
+      "value": "miracle"
+    },
+    "god": {
+      "value": "Gunndred"
+    },
+    "range": {
+      "value": "Fellowship yards"
+    },
+    "duration": {
+      "value": "Fellowship minutes",
+      "extendable": false
+    },
+    "target": {
+      "value": "Special",
+      "aoe": false,
+      "extendableAoE": false
+    },
+    "damage": {
+      "dice": "",
+      "value": "",
+      "addSL": false
+    },
+    "overcast": {
+      "enabled": false,
+      "label": "",
+      "valuePerOvercast": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      },
+      "initial": {
+        "type": "",
+        "value": 1,
+        "SL": false,
+        "additional": "",
+        "characteristic": "",
+        "bonus": false
+      }
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.rHdsgx49xMagZBx9"
+    }
+  },
+  "_key": "!items!rHdsgx49xMagZBx9"
+}

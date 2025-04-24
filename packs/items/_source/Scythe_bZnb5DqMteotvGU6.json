@@ -1,0 +1,100 @@
+{
+  "folder": "BFTf1WhYtKMPzs9g",
+  "name": "Scythe",
+  "type": "weapon",
+  "img": "modules/wfrp4e-core/icons/equipment/weapons/hand-weapon.png",
+  "system": {
+    "description": {
+      "value": ""
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "quantity": {
+      "value": 1
+    },
+    "encumbrance": {
+      "value": 2
+    },
+    "price": {
+      "gc": 0,
+      "ss": 9,
+      "bp": 0
+    },
+    "availability": {
+      "value": "common"
+    },
+    "location": {
+      "value": ""
+    },
+    "damageToItem": {
+      "value": null,
+      "shield": null
+    },
+    "damage": {
+      "dice": "",
+      "value": "SB+4"
+    },
+    "reach": {
+      "value": "long"
+    },
+    "range": {
+      "value": ""
+    },
+    "skill": {
+      "value": ""
+    },
+    "modeOverride": {
+      "value": "melee"
+    },
+    "twohanded": {
+      "value": true
+    },
+    "ammunitionGroup": {
+      "value": ""
+    },
+    "currentAmmo": {
+      "value": ""
+    },
+    "consumesAmmo": {
+      "value": false
+    },
+    "weaponGroup": {
+      "value": "polearm"
+    },
+    "qualities": {
+      "value": [
+        {
+          "name": "damaging",
+          "value": null
+        }
+      ]
+    },
+    "flaws": {
+      "value": []
+    },
+    "special": {
+      "value": ""
+    },
+    "equipped": {
+      "value": false
+    },
+    "loaded": {
+      "value": false,
+      "repeater": false,
+      "amt": 0
+    },
+    "offhand": {
+      "value": false
+    }
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.bZnb5DqMteotvGU6"
+    }
+  },
+  "_id": "bZnb5DqMteotvGU6",
+  "sort": 0,
+  "_key": "!items!bZnb5DqMteotvGU6"
+}

@@ -1,0 +1,93 @@
+{
+  "folder": "cdFFqoNTFA5H8IWV",
+  "name": "Surgeon General",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/nun-04.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.ODuc2t27Pe7Q4uSo]{Hospitaller of Shallya}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Hospitaller of Shallya"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 4
+    },
+    "status": {
+      "tier": "s",
+      "standing": 4
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": false,
+      "ag": false,
+      "dex": false,
+      "int": true,
+      "wp": true,
+      "fel": true
+    },
+    "skills": [
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Heal",
+      "Leadership",
+      "Lore (Theology)",
+      "Melee (Any)",
+      "Pray",
+      "Charm",
+      "Gossip",
+      "Entertain (Speeches)",
+      "Intimidate",
+      "Language (Battle)",
+      "Lore (Anatomy)",
+      "Lore (Medicine)",
+      "Trade (Herbalist)",
+      "Animal Care",
+      "Intuition",
+      "Perception",
+      "Research",
+      "Consume Alcohol",
+      "Language (Any)"
+    ],
+    "talents": [
+      "Fearless (Nurgle)",
+      "Furious Assault",
+      "Holy Hatred",
+      "Resistance (Poison)"
+    ],
+    "trappings": [
+      "Love and Admiration from Commoners",
+      "Religious Relic"
+    ],
+    "incomeSkill": [
+      3
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.qdpJs3Dn25w2JAwF"
+    }
+  },
+  "_id": "qdpJs3Dn25w2JAwF",
+  "sort": 100000,
+  "_key": "!items!qdpJs3Dn25w2JAwF"
+}

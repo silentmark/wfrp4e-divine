@@ -1,0 +1,91 @@
+{
+  "name": "Thunder Champion",
+  "type": "career",
+  "img": "modules/wfrp4e-core/icons/careers/warrior-priest-03.png",
+  "system": {
+    "description": {
+      "value": "<p>@UUID[Compendium.wfrp4e-warriors-of-salvation.wos-journals.JournalEntry.VmxFqUSsa3zqDhQT.JournalEntryPage.aRsYxtv46KF4x91h]{Thunder Warrior}</p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "careergroup": {
+      "value": "Thunder Warrior"
+    },
+    "class": {
+      "value": "Warriors"
+    },
+    "current": {
+      "value": false
+    },
+    "complete": {
+      "value": false
+    },
+    "level": {
+      "value": 3
+    },
+    "status": {
+      "tier": "s",
+      "standing": 3
+    },
+    "characteristics": {
+      "ws": true,
+      "bs": false,
+      "s": true,
+      "t": true,
+      "i": true,
+      "ag": false,
+      "dex": false,
+      "int": false,
+      "wp": true,
+      "fel": false
+    },
+    "skills": [
+      "Athletics",
+      "Climb",
+      "Cool",
+      "Dodge",
+      "Endurance",
+      "Intimidate",
+      "Melee (Basic)",
+      "Pray",
+      "Outdoor Survival",
+      "Lore (Local)",
+      "Intuition",
+      "Language (Battle)",
+      "Melee (Any)",
+      "Melee (Two-handed)",
+      "Perception",
+      "Ranged (Throwing)",
+      "Consume Alcohol",
+      "Gossip",
+      "Lore (Theology)",
+      "Navigation"
+    ],
+    "talents": [
+      "Combat Master",
+      "Holy Visions",
+      "Resolute",
+      "Reversal"
+    ],
+    "trappings": [
+      "Helmet",
+      "Light Warhorse with Saddle and Tack"
+    ],
+    "incomeSkill": [
+      6
+    ],
+    "addedSkills": [],
+    "previousCareer": {}
+  },
+  "effects": [],
+  "folder": "U5zYznVLjGMfeFdf",
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.wfrp4e-warriors-of-salvation.items.UWMiLVp1HsMEELW8"
+    }
+  },
+  "_id": "UWMiLVp1HsMEELW8",
+  "sort": 0,
+  "_key": "!items!UWMiLVp1HsMEELW8"
+}
